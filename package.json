@@ -1,0 +1,12 @@
+{
+  "name": "dashboard-tracking-wilayah-blokm",
+  "version": "1.0.0",
+  "description": "Dashboard Tracking Merchant LVM & Debitur KUR/KUM Bank Mandiri Wilayah Blok M",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "author": "Bank Mandiri Region V - Micro Banking (KSM)",
+  "license": "ISC"
+}

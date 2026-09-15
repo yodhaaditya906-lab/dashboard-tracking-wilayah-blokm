@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard Tracking Merchant & Potensi KUR/KUM Wilayah Blok M - Bank Mandiri Region V</title>
+  
+  <!-- Google Fonts: Plus Jakarta Sans -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  
+  <!-- FontAwesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" referrerpolicy="no-referrer" />
+  
+  <!-- Leaflet Map CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  
+  <!-- Custom App Styles -->
+  <link rel="stylesheet" href="styles.css?v=60.0">
+</head>
+<body>
+
+  <!-- Unified Top Header -->
+  <header class="app-header">
+    <div class="brand-section">
+      <div class="mandiri-logo-badge">
+        <svg height="24" viewBox="0 0 200 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <text x="0" y="42" font-family="'Plus Jakarta Sans', sans-serif" font-weight="900" font-size="34" fill="#003D79">mandırı</text>
+          <path d="M150 12 C 160 5, 175 5, 185 12 C 175 16, 165 20, 150 12 Z" fill="#FFB700"/>
+          <path d="M155 22 C 168 14, 185 14, 195 22 C 185 26, 170 30, 155 22 Z" fill="#FFB700"/>
+        </svg>
+      </div>
+      <div class="app-title-group">
+        <h1>Dashboard Tracking Kebayoran Baru (Blok M, Blok C, Blok O)</h1>
+        <p>Micro Banking Region V • Sentra Komersial Kebayoran Baru</p>
+      </div>
+    </div>
+
+    <!-- Live Stats Ribbon -->
+    <div class="header-stats-ribbon">
+      <div class="stat-pill">
+        <i class="fa-solid fa-store"></i>
+        <div>
+          <div class="val" id="stat-total-merchant">0</div>
+          <div class="lbl">Toko Terdata</div>
+        </div>
+      </div>
+      <div class="stat-pill">
+        <i class="fa-solid fa-bullseye"></i>
+        <div>
+          <div class="val" id="stat-target-kur" style="color: #FFB700;">0</div>
+          <div class="lbl">Target KUR/KUM</div>
+        </div>
+      </div>
+      <div class="stat-pill">
+        <i class="fa-solid fa-building-columns"></i>
+        <div>
+          <div class="val" id="stat-debitur-eksisting">0</div>
+          <div class="lbl">Debitur Eksisting</div>
+        </div>
+      </div>
+
+      <button class="btn-header-action" id="btn-open-db" title="Buka Database Merchant">
+        <i class="fa-solid fa-database"></i>
+        <span>Database Profil</span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Main Application Container -->
+  <main class="main-container">
+
+    <!-- Left Filter Sidebar -->
+    <aside class="sidebar-left" id="sidebar-left">
+      
+      <!-- Filter & Search Box -->
+      <div class="filter-box">
+        <div class="filter-group">
+          <label><i class="fa-solid fa-location-dot"></i> Sub-Zonasi Kebayoran Baru</label>
+          <select class="form-select" id="filter-zone">
+            <option value="ALL">Semua Zona Utama (Blok M, C, N)</option>
+            <optgroup label="Batas Utama Zona">
+              <option value="Blok M">Zona Blok M (Melawai & Sentral)</option>
+              <option value="Blok C">Zona Blok C (Kyai Maja & Barito)</option>
+              <option value="Blok N">Zona Blok N (Dharmawangsa & Wijaya)</option>
+            </optgroup>
+          </select>
+        </div>
+
+        <div class="filter-group">
+          <label><i class="fa-solid fa-tags"></i> Kategori Industri / MCC</label>
+          <select class="form-select" id="filter-category">
+            <option value="ALL">Semua Kategori Usaha</option>
+            <option value="F&B">F&B / Kuliner / Cafe</option>
+            <option value="Retail">Retail & Perhiasan</option>
+            <option value="Kesehatan">Kesehatan & Farmasi / Optik</option>
+            <option value="Fashion">Fashion & Apparel / Craft</option>
+          </select>
+        </div>
+
+        <div class="filter-group">
+          <label><i class="fa-solid fa-magnifying-glass"></i> Cari Nama Toko / Alamat</label>
+          <input type="text" class="form-input" id="search-input" placeholder="Ketik nama merchant, misal: Bakmi GM, Fukuya...">
+        </div>
+
+        <div class="filter-group">
+          <label><i class="fa-solid fa-filter"></i> Mode Segmentasi Nasabah</label>
+          <div class="mode-switcher-grid">
+            <button class="btn-mode active" id="btn-mode-target">Target KUR</button>
+            <button class="btn-mode" id="btn-mode-debitur">Debitur</button>
+            <button class="btn-mode" id="btn-mode-all">Semua</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Merchant List Section -->
+      <div class="merchant-list-header">
+        <h3>Daftar Merchant & Potensi Kredit</h3>
+        <span class="counter-badge" id="merchant-counter">0 Merchant</span>
+      </div>
+
+      <div class="merchant-cards-wrapper" id="merchant-cards-wrapper">
+        <!-- Rendered Dynamically -->
+      </div>
+    </aside>
+
+    <!-- Sidebar Collapse Toggle Button -->
+    <button class="sidebar-toggle-btn" id="sidebar-toggle-btn" title="Ciutkan / Perluas Sidebar">
+      <i class="fa-solid fa-chevron-left" id="sidebar-toggle-icon"></i>
+    </button>
+
+    <!-- Map Center Section -->
+    <section class="map-wrapper">
+      <div id="map"></div>
+
+      <!-- Floating Right Detail Panel -->
+      <aside class="detail-panel hidden" id="detail-panel">
+        <div class="detail-header">
+          <h3 id="panel-title">Profil Merchant & Potensi Kredit</h3>
+          <button class="btn-close-detail" id="btn-close-panel" title="Tutup Panel"><i class="fa-solid fa-xmark"></i></button>
+        </div>
+        <div class="detail-content" id="panel-content">
+          <!-- Dynamic Content -->
+        </div>
+      </aside>
+    </section>
+
+  </main>
+
+  <!-- Modal Database Merchant -->
+  <div class="modal-overlay hidden" id="modal-db-overlay">
+    <div class="modal-container">
+      <div class="modal-header">
+        <h3><i class="fa-solid fa-database"></i> Database Merchant & Potensi Pembiayaan Wilayah Blok M</h3>
+        <button class="btn-close-detail" id="btn-close-db-modal" title="Tutup Modal"><i class="fa-solid fa-xmark"></i></button>
+      </div>
+      <div class="modal-toolbar">
+        <input type="text" class="form-input" id="db-search-input" placeholder="Cari dalam database..." style="max-width: 320px;">
+        <div style="display: flex; gap: 8px;">
+          <button class="btn-header-action" id="btn-export-excel-target" style="background: #059669; color: #FFFFFF;">
+            <i class="fa-solid fa-file-excel"></i> Export Target KUR
+          </button>
+          <button class="btn-header-action" id="btn-export-excel-modal">
+            <i class="fa-solid fa-download"></i> Export Semua Data
+          </button>
+        </div>
+      </div>
+      <div class="modal-body">
+        <table class="db-table">
+          <thead>
+            <tr>
+              <th>ID</th>
+              <th>Nama Usaha</th>
+              <th>Sub-Zona</th>
+              <th>Kategori</th>
+              <th>Omset Bulanan</th>
+              <th>Volume Settlement</th>
+              <th>Status Nasabah</th>
+              <th>Potensi Pembiayaan</th>
+              <th>Terminal Transaksi</th>
+            </tr>
+          </thead>
+          <tbody id="db-table-body">
+            <!-- Dynamic Database Rows -->
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer Disclaimers -->
+  <footer class="app-footer">
+    <div>
+      <span>PT Bank Mandiri (Persero) Tbk. Berizin dan Diawasi oleh <strong class="reg-badge">OJK</strong> dan <strong class="reg-badge">BI</strong>, Serta Merupakan Peserta Penjaminan <strong class="reg-badge">LPS</strong>.</span>
+    </div>
+    <div>
+      <span>Micro Banking Region V - Tracking Wilayah Blok M v3.0</span>
+    </div>
+  </footer>
+
+  <!-- PapaParse CSV Parser Engine -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.4.1/papaparse.min.js"></script>
+
+  <!-- SheetJS (XLSX) Export Engine -->
+  <script src="https://cdn.jsdelivr.net/npm/xlsx@0.18.5/dist/xlsx.full.min.js"></script>
+
+  <!-- Leaflet Map JS -->
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+
+  <!-- Project Data Scripts -->
+  <script src="blokm_zones_geojson.js?v=150.0"></script>
+  <script src="master_blokm_merchants.js?v=150.0"></script>
+
+  <!-- App Logic JS -->
+  <script src="app.js?v=150.0"></script>
+</body>
+</html>

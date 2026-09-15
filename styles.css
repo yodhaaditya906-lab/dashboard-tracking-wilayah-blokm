@@ -1,0 +1,739 @@
+/* ==========================================================================
+   BANK MANDIRI REGION V - DASHBOARD TRACKING WILAYAH BLOK M
+   Official Brand Identity & Design System (Mandiri Blue & Liquid Gold Wave)
+   ========================================================================== */
+
+:root {
+  /* Bank Mandiri Official Signature Colors */
+  --mandiri-blue: #003D79;
+  --mandiri-blue-dark: #002B49;
+  --mandiri-blue-light: #0056B3;
+  --mandiri-yellow: #FFB700;
+  --mandiri-yellow-hover: #E5A500;
+  --mandiri-yellow-light: #FFF8EA;
+
+  /* Status Colors */
+  --status-target-red: #DC2626;
+  --status-target-red-bg: #FEE2E2;
+  --status-debitur-green: #059669;
+  --status-debitur-green-bg: #D1FAE5;
+  --status-lvm-blue: #0284C7;
+  --status-lvm-blue-bg: #E0F2FE;
+
+  /* Neutral UI Tokens */
+  --neutral-dark: #0F172A;
+  --neutral-body: #334155;
+  --neutral-muted: #64748B;
+  --neutral-bg: #F8FAFC;
+  --neutral-white: #FFFFFF;
+  --border-color: #E2E8F0;
+
+  /* Layout & Typography */
+  --shadow-header: 0 4px 20px rgba(0, 43, 73, 0.15);
+  --shadow-card: 0 10px 25px rgba(0, 43, 73, 0.08);
+  --shadow-modal: 0 20px 40px rgba(0, 0, 0, 0.25);
+  --font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: var(--font-family);
+  background-color: var(--neutral-bg);
+  color: var(--neutral-body);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+/* Custom Scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0.04);
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(0, 61, 121, 0.25);
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--mandiri-blue);
+}
+
+/* ==========================================================================
+   HEADER SECTION
+   ========================================================================== */
+.app-header {
+  background: linear-gradient(135deg, var(--mandiri-blue-dark) 0%, var(--mandiri-blue) 100%);
+  color: var(--neutral-white);
+  height: 64px;
+  padding: 0 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: var(--shadow-header);
+  z-index: 1000;
+  border-bottom: 2px solid var(--mandiri-yellow);
+}
+
+.brand-section {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.mandiri-logo-badge {
+  background: #FFFFFF;
+  padding: 6px 14px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.mandiri-logo-img {
+  height: 26px;
+  object-fit: contain;
+}
+
+.app-title-group h1 {
+  font-size: 16px;
+  font-weight: 800;
+  letter-spacing: -0.01em;
+  color: #FFFFFF;
+  margin-bottom: 2px;
+}
+
+.app-title-group p {
+  font-size: 11px;
+  color: var(--mandiri-sky-blue, #93C5FD);
+  font-weight: 500;
+}
+
+/* Header Ribbon Stats */
+.header-stats-ribbon {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.stat-pill {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(8px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  padding: 6px 14px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.stat-pill i {
+  color: var(--mandiri-yellow);
+  font-size: 13px;
+}
+
+.stat-pill .val {
+  font-size: 13px;
+  font-weight: 800;
+  color: #FFFFFF;
+}
+
+.stat-pill .lbl {
+  font-size: 10.5px;
+  color: #E2E8F0;
+}
+
+.btn-header-action {
+  background: var(--mandiri-yellow);
+  color: var(--mandiri-blue-dark);
+  border: none;
+  padding: 8px 16px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: 700;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  transition: all 0.2s ease;
+  box-shadow: 0 4px 12px rgba(255, 183, 0, 0.3);
+}
+
+.btn-header-action:hover {
+  background: var(--mandiri-yellow-hover);
+  transform: translateY(-1px);
+}
+
+/* ==========================================================================
+   MAIN LAYOUT CONTAINER
+   ========================================================================== */
+.main-container {
+  flex: 1;
+  display: flex;
+  position: relative;
+  overflow: hidden;
+}
+
+/* ==========================================================================
+   LEFT SIDEBAR (FILTERS & MERCHANT CARDS)
+   ========================================================================== */
+.sidebar-left {
+  width: 400px;
+  background: #FFFFFF;
+  border-right: 1px solid var(--border-color);
+  display: flex;
+  flex-direction: column;
+  z-index: 900;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  box-shadow: 4px 0 20px rgba(0, 0, 0, 0.05);
+}
+
+.sidebar-left.collapsed {
+  margin-left: -400px;
+}
+
+.sidebar-toggle-btn {
+  position: absolute;
+  top: 16px;
+  left: 400px;
+  z-index: 950;
+  background: var(--mandiri-blue-dark);
+  color: var(--neutral-white);
+  border: 1px solid var(--mandiri-yellow);
+  width: 32px;
+  height: 36px;
+  border-radius: 0 8px 8px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  box-shadow: 4px 0 12px rgba(0, 43, 73, 0.2);
+  transition: left 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.sidebar-left.collapsed + .sidebar-toggle-btn {
+  left: 0;
+}
+
+/* Filter Controls Box */
+.filter-box {
+  padding: 18px 20px;
+  background: #F8FAFC;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.filter-group {
+  margin-bottom: 12px;
+}
+
+.filter-group:last-child {
+  margin-bottom: 0;
+}
+
+.filter-group label {
+  display: block;
+  font-size: 11px;
+  font-weight: 800;
+  color: var(--mandiri-blue);
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  margin-bottom: 6px;
+}
+
+.form-select, .form-input {
+  width: 100%;
+  padding: 9px 12px;
+  font-family: inherit;
+  font-size: 12.5px;
+  border: 1px solid #CBD5E1;
+  border-radius: 8px;
+  background: #FFFFFF;
+  color: var(--neutral-dark);
+  outline: none;
+  transition: all 0.2s ease;
+}
+
+.form-select:focus, .form-input:focus {
+  border-color: var(--mandiri-blue);
+  box-shadow: 0 0 0 3px rgba(0, 61, 121, 0.12);
+}
+
+.mode-switcher-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 6px;
+  background: #E2E8F0;
+  padding: 4px;
+  border-radius: 10px;
+}
+
+.btn-mode {
+  padding: 6px 8px;
+  font-family: inherit;
+  font-size: 11px;
+  font-weight: 700;
+  border: none;
+  border-radius: 7px;
+  background: transparent;
+  color: var(--neutral-muted);
+  cursor: pointer;
+  transition: all 0.2s ease;
+  text-align: center;
+}
+
+.btn-mode.active {
+  background: var(--mandiri-blue);
+  color: #FFFFFF;
+  box-shadow: 0 2px 6px rgba(0, 61, 121, 0.3);
+}
+
+/* Merchant List Container */
+.merchant-list-header {
+  padding: 12px 20px;
+  background: #FFFFFF;
+  border-bottom: 1px solid var(--border-color);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.merchant-list-header h3 {
+  font-size: 12.5px;
+  font-weight: 800;
+  color: var(--neutral-dark);
+}
+
+.counter-badge {
+  background: var(--mandiri-yellow-light);
+  color: #92400E;
+  border: 1px solid #FDE68A;
+  font-size: 11px;
+  font-weight: 800;
+  padding: 2px 8px;
+  border-radius: 12px;
+}
+
+.merchant-cards-wrapper {
+  flex: 1;
+  overflow-y: auto;
+  padding: 14px 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+/* Single Merchant Card */
+.merchant-card {
+  background: #FFFFFF;
+  border: 1px solid #E2E8F0;
+  border-radius: 12px;
+  padding: 14px 16px;
+  cursor: pointer;
+  transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+  position: relative;
+  overflow: hidden;
+}
+
+.merchant-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 4px;
+  height: 100%;
+  background: var(--card-accent, var(--mandiri-blue));
+}
+
+.merchant-card:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-card);
+  border-color: var(--mandiri-sky-blue);
+}
+
+.merchant-card.selected {
+  border-color: var(--mandiri-blue);
+  background: #F0F9FF;
+  box-shadow: 0 0 0 2px var(--mandiri-blue);
+}
+
+.card-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 6px;
+}
+
+.card-title {
+  font-size: 13.5px;
+  font-weight: 800;
+  color: var(--neutral-dark);
+}
+
+.tag-badge {
+  font-size: 10px;
+  font-weight: 800;
+  padding: 3px 8px;
+  border-radius: 12px;
+  text-transform: uppercase;
+}
+
+.tag-badge.target-kur {
+  background: var(--status-target-red-bg);
+  color: var(--status-target-red);
+}
+
+.tag-badge.debitur {
+  background: var(--status-debitur-green-bg);
+  color: var(--status-debitur-green);
+}
+
+.card-sub {
+  font-size: 11.5px;
+  color: var(--neutral-muted);
+  margin-bottom: 8px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.card-footer-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px dashed #E2E8F0;
+  padding-top: 8px;
+  margin-top: 6px;
+  font-size: 11px;
+}
+
+.card-footer-info .potensi {
+  font-weight: 700;
+  color: var(--mandiri-blue);
+}
+
+/* ==========================================================================
+   MAP CONTAINER & LEAFLET MAP
+   ========================================================================== */
+.map-wrapper {
+  flex: 1;
+  position: relative;
+  height: 100%;
+}
+
+#map {
+  width: 100%;
+  height: 100%;
+  min-height: 450px;
+  background: #E2E8F0;
+  z-index: 1;
+}
+
+/* Interactive Map Block Badges */
+.block-label-badge {
+  background: rgba(15, 23, 42, 0.90);
+  backdrop-filter: blur(8px);
+  color: #FFFFFF;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 11px;
+  font-weight: 800;
+  padding: 3px 8px;
+  border-radius: 20px;
+  border: 2px solid var(--badge-color, #003D79);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.35);
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  cursor: pointer;
+  white-space: nowrap;
+  transition: all 0.2s ease;
+}
+
+.block-label-badge:hover {
+  transform: scale(1.1);
+  background: var(--badge-color, #003D79);
+  color: #FFFFFF;
+}
+
+/* ==========================================================================
+   RIGHT SLIDE-OVER DETAIL PANEL
+   ========================================================================== */
+.detail-panel {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  width: 370px;
+  background: rgba(255, 255, 255, 0.96);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.9);
+  border-radius: 14px;
+  box-shadow: 0 12px 35px rgba(0,0,0,0.18);
+  z-index: 850;
+  max-height: calc(100% - 32px);
+  overflow-y: auto;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.detail-panel.hidden {
+  display: none !important;
+}
+
+.detail-header {
+  padding: 16px 20px;
+  background: var(--mandiri-blue-dark);
+  color: #FFFFFF;
+  border-radius: 13px 13px 0 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.detail-header h3 {
+  font-size: 13.5px;
+  font-weight: 800;
+}
+
+.btn-close-detail {
+  background: rgba(255, 255, 255, 0.15);
+  border: none;
+  color: #FFFFFF;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.2s ease;
+}
+
+.btn-close-detail:hover {
+  background: rgba(255, 255, 255, 0.3);
+}
+
+.detail-content {
+  padding: 18px 20px;
+}
+
+.detail-field {
+  margin-bottom: 12px;
+}
+
+.detail-field label {
+  font-size: 10.5px;
+  font-weight: 800;
+  color: var(--neutral-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  display: block;
+  margin-bottom: 3px;
+}
+
+.detail-field .val {
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--neutral-dark);
+}
+
+.detail-field .val-highlight {
+  font-size: 14px;
+  font-weight: 800;
+  color: var(--mandiri-blue);
+  background: var(--mandiri-yellow-light);
+  padding: 6px 10px;
+  border-radius: 8px;
+  border-left: 3px solid var(--mandiri-yellow);
+}
+
+.btn-whatsapp-action {
+  width: 100%;
+  background: #059669;
+  color: #FFFFFF;
+  border: none;
+  padding: 10px;
+  border-radius: 8px;
+  font-family: inherit;
+  font-size: 12.5px;
+  font-weight: 800;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  margin-top: 14px;
+  text-decoration: none;
+  box-shadow: 0 4px 12px rgba(5, 150, 105, 0.3);
+  transition: all 0.2s ease;
+}
+
+.btn-whatsapp-action:hover {
+  background: #047857;
+  transform: translateY(-1px);
+}
+
+/* ==========================================================================
+   MODAL DATABASE OVERLAY
+   ========================================================================== */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(15, 23, 42, 0.65);
+  backdrop-filter: blur(8px);
+  z-index: 2000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.modal-overlay.hidden {
+  display: none !important;
+}
+
+.modal-container {
+  background: #FFFFFF;
+  border-radius: 16px;
+  width: 90%;
+  max-width: 1100px;
+  height: 85vh;
+  display: flex;
+  flex-direction: column;
+  box-shadow: var(--shadow-modal);
+  overflow: hidden;
+}
+
+.modal-header {
+  padding: 16px 24px;
+  background: var(--mandiri-blue-dark);
+  color: #FFFFFF;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.modal-header h3 {
+  font-size: 15px;
+  font-weight: 800;
+}
+
+.modal-toolbar {
+  padding: 14px 24px;
+  background: #F8FAFC;
+  border-bottom: 1px solid var(--border-color);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+}
+
+.modal-body {
+  flex: 1;
+  overflow: auto;
+  padding: 0;
+}
+
+.db-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 12px;
+}
+
+.db-table th {
+  background: #F1F5F9;
+  color: var(--mandiri-blue);
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  padding: 12px 16px;
+  text-align: left;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  border-bottom: 2px solid #CBD5E1;
+}
+
+.db-table td {
+  padding: 12px 16px;
+  border-bottom: 1px solid #E2E8F0;
+  color: var(--neutral-body);
+}
+
+.db-table tr:hover {
+  background: #F8FAFC;
+}
+
+/* ==========================================================================
+   FOOTER
+   ========================================================================== */
+.app-footer {
+  background: #00233D;
+  color: #94A3B8;
+  padding: 8px 24px;
+  font-size: 11px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  z-index: 1000;
+}
+
+.reg-badge {
+  color: var(--mandiri-yellow);
+}
+
+/* ==========================================================================
+   SPOTLIGHT MASK & BOUNDARY TOOLTIP STYLES
+   ========================================================================== */
+.spotlight-boundary-tooltip {
+  background: rgba(255, 255, 255, 0.96) !important;
+  backdrop-filter: blur(10px) !important;
+  border: 2px solid #0056B3 !important;
+  border-radius: 24px !important;
+  padding: 6px 16px !important;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.35) !important;
+  color: #003D79 !important;
+}
+
+.spotlight-boundary-tooltip .leaflet-tooltip-pane {
+  z-index: 900;
+}
+
+.spotlight-tooltip-body {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.spotlight-tooltip-title {
+  font-size: 13.5px;
+  font-weight: 800;
+  color: #003D79;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.spotlight-tooltip-sub {
+  font-size: 11.5px;
+  font-weight: 700;
+  color: #059669;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.spotlight-active-area {
+  cursor: pointer;
+}
+
