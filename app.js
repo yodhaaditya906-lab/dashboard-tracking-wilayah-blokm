@@ -92,6 +92,24 @@ document.addEventListener('DOMContentLoaded', () => {
     return result;
   }
 
+  function formatRupiahValue(val) {
+    if (!val || val.trim() === '' || val.trim() === '-' || val.trim() === '0') {
+      return 'Rp 0';
+    }
+    let cleaned = val.trim();
+    if (cleaned.toLowerCase().startsWith('rp')) {
+      return cleaned;
+    }
+    const numOnly = cleaned.replace(/[^0-9]/g, '');
+    if (numOnly.length > 0 && /^[0-9.,\s]+$/.test(cleaned)) {
+      const parsedNum = parseInt(numOnly, 10);
+      if (!isNaN(parsedNum) && parsedNum > 0) {
+        return 'Rp ' + parsedNum.toLocaleString('id-ID');
+      }
+    }
+    return 'Rp ' + cleaned;
+  }
+
   async function fetchLiveGoogleSheetClientSide() {
     const allMerchants = [];
     let counter = 1;
@@ -116,6 +134,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const colLvm = header.findIndex(h => h.includes('lvm') || h.includes('akuisisi'));
         const colDebitur = header.findIndex(h => h.includes('debitur') || h.includes('kredit'));
         const colGolongan = header.findIndex(h => h.includes('golongan'));
+        const colOmzet = header.findIndex(h => h.includes('omzet') || h.includes('omset') || h.includes('penjualan'));
 
         for (let i = 1; i < lines.length; i++) {
           const row = parseCSVLine(lines[i]);
@@ -157,6 +176,9 @@ document.addEventListener('DOMContentLoaded', () => {
           const rawDebitur = (row[colDebitur] || '').trim();
           const golongan = colGolongan !== -1 ? (row[colGolongan] || '').trim() : '';
 
+          const rawOmzet = colOmzet !== -1 ? (row[colOmzet] || '').trim() : '';
+          const omsetBulanan = formatRupiahValue(rawOmzet);
+
           let statusLvm = 'Belum LVM';
           if (rawLvm.toLowerCase().includes('sudah') || rawLvm.toLowerCase().includes('active') || rawLvm.toLowerCase().includes('terdaftar')) {
             statusLvm = 'LVM Active';
@@ -193,7 +215,8 @@ document.addEventListener('DOMContentLoaded', () => {
             alamat: `Kawasan ${subZonaName}, Kebayoran Baru`,
             lat: lat,
             lng: lng,
-            omsetBulanan: "Rp 0",
+            omsetBulanan: omsetBulanan,
+            rawOmzetSheet: rawOmzet,
             volumeSettlement: "Rp 0",
             statusNasabah: statusNasabah,
             statusText: statusText,
@@ -201,7 +224,7 @@ document.addEventListener('DOMContentLoaded', () => {
             rawLvmSheet: rawLvm,
             potensiKredit: "Rp 0",
             terminal: statusLvm === 'LVM Active' ? "Livin' Merchant (QRIS Active)" : "Prospek LVM / EDC Mandiri",
-            keterangan: `UMKM ${subZonaName}. PIC: ${namaPic}. Telp: ${telp}. Sheet Status: ${rawLvm || 'Belum'}.`
+            keterangan: `UMKM ${subZonaName}. PIC: ${namaPic}. Telp: ${telp}. Sheet Status: ${rawLvm || 'Belum'}. Omset: ${omsetBulanan}.`
           });
         }
       } catch (e) {
