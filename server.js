@@ -11,7 +11,7 @@ const DOC_ID = '1GFk3Vkst77GPqNE5YzFmedWfEWJJvOi-jdZIy7QVGCU';
 const tabsConfig = [
   { name: 'M Bloc Space', defaultZone: 'Blok M', subZona: 'M Bloc Space', defaultCat: 'Retail & Creative' },
   { name: 'Blok M Square', defaultZone: 'Blok M', subZona: 'Blok M Square', defaultCat: 'Perdagangan & Services' },
-  { name: 'Gultik/Non-Gultik', defaultZone: 'Blok M', subZona: 'Gultik / Non-Gultik', defaultCat: 'F&B / Kuliner' }
+  { name: 'Gultik/Non-Gultik', defaultZone: 'Blok C', subZona: 'Gultik Bulungan & Non-Gultik', defaultCat: 'F&B / Kuliner' }
 ];
 
 function fetchTabCSV(tabName) {

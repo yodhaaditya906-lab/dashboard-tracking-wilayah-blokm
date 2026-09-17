@@ -70,7 +70,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const TABS_CONFIG = [
     { name: 'M Bloc Space', defaultZone: 'Blok M', subZona: 'M Bloc Space', defaultCat: 'Retail & Creative' },
     { name: 'Blok M Square', defaultZone: 'Blok M', subZona: 'Blok M Square', defaultCat: 'Perdagangan & Services' },
-    { name: 'Gultik/Non-Gultik', defaultZone: 'Blok M', subZona: 'Gultik / Non-Gultik', defaultCat: 'F&B / Kuliner' }
+    { name: 'Gultik/Non-Gultik', defaultZone: 'Blok C', subZona: 'Gultik Bulungan & Non-Gultik', defaultCat: 'F&B / Kuliner' }
   ];
 
   function parseCSVLine(line) {
@@ -589,25 +589,57 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Filter Logic
     const filtered = allMerchants.filter(m => {
-      // Zone Filter
+      // Smart Zone & Sub-Zone Filtering
       if (currentZoneFilter !== 'ALL') {
-        const matchMain = (m.zonaUtama === currentZoneFilter);
-        const matchSub = (m.subZona === currentZoneFilter);
-        if (!matchMain && !matchSub) return false;
+        const z = currentZoneFilter.toLowerCase().trim();
+        const main = (m.zonaUtama || '').toLowerCase();
+        const sub = (m.subZona || '').toLowerCase();
+        const addr = (m.alamat || '').toLowerCase();
+
+        let matchesZone = false;
+        if (z === 'blok c') {
+          matchesZone = main.includes('blok c') || sub.includes('gultik') || sub.includes('non-gultik') || sub.includes('bulungan') || addr.includes('bulungan');
+        } else if (z === 'blok m') {
+          matchesZone = main.includes('blok m') || sub.includes('m bloc') || sub.includes('square');
+        } else if (z === 'blok n') {
+          matchesZone = main.includes('blok n') || sub.includes('lesehan') || sub.includes('kue subuh');
+        } else if (z === 'gultik') {
+          matchesZone = sub.includes('gultik') && !sub.includes('non-gultik');
+        } else if (z === 'non-gultik') {
+          matchesZone = sub.includes('non-gultik');
+        } else {
+          matchesZone = main.includes(z) || sub.includes(z) || addr.includes(z);
+        }
+
+        if (!matchesZone) return false;
       }
 
       // Category Filter
-      if (currentCategoryFilter !== 'ALL' && !m.kategori.toLowerCase().includes(currentCategoryFilter.toLowerCase())) return false;
+      if (currentCategoryFilter !== 'ALL') {
+        const cat = (m.kategori || '').toLowerCase();
+        const fc = currentCategoryFilter.toLowerCase().trim();
+        let matchesCat = false;
+        if (fc.includes('f&b') || fc.includes('kuliner') || fc.includes('food')) {
+          matchesCat = cat.includes('f&b') || cat.includes('kuliner') || cat.includes('cafe') || cat.includes('resto') || cat.includes('makanan') || cat.includes('minuman');
+        } else if (fc.includes('retail')) {
+          matchesCat = cat.includes('retail') || cat.includes('perhiasan') || cat.includes('toko') || cat.includes('creative');
+        } else if (fc.includes('kesehatan')) {
+          matchesCat = cat.includes('kesehatan') || cat.includes('farmasi') || cat.includes('optik');
+        } else if (fc.includes('fashion')) {
+          matchesCat = cat.includes('fashion') || cat.includes('pakaian') || cat.includes('apparel') || cat.includes('craft');
+        } else {
+          matchesCat = cat.includes(fc);
+        }
+
+        if (!matchesCat) return false;
+      }
 
       // LVM Status Filter
       if (currentLvmFilter !== 'ALL') {
         const lvm = (m.statusLvm || 'Belum LVM').toLowerCase();
-        const filterLvm = currentLvmFilter.toLowerCase();
-        if (filterLvm.includes('active') || filterLvm.includes('sudah')) {
-          if (!lvm.includes('active') && !lvm.includes('sudah')) return false;
-        } else if (filterLvm.includes('belum')) {
-          if (lvm.includes('active') || lvm.includes('sudah')) return false;
-        }
+        const isLvm = lvm.includes('active') || lvm.includes('sudah');
+        if (currentLvmFilter === 'LVM Active' && !isLvm) return false;
+        if (currentLvmFilter === 'Belum LVM' && isLvm) return false;
       }
 
       // Mode Segment Filter
@@ -616,11 +648,13 @@ document.addEventListener('DOMContentLoaded', () => {
 
       // Search Query
       if (searchQuery.trim() !== '') {
-        const q = searchQuery.toLowerCase();
-        const matchName = m.namaUsaha.toLowerCase().includes(q);
-        const matchAddr = m.alamat.toLowerCase().includes(q);
-        const matchCat = m.kategori.toLowerCase().includes(q);
-        if (!matchName && !matchAddr && !matchCat) return false;
+        const q = searchQuery.toLowerCase().trim();
+        const matchName = (m.namaUsaha || '').toLowerCase().includes(q);
+        const matchAddr = (m.alamat || '').toLowerCase().includes(q);
+        const matchCat = (m.kategori || '').toLowerCase().includes(q);
+        const matchSub = (m.subZona || '').toLowerCase().includes(q);
+        const matchPic = (m.namaPic || '').toLowerCase().includes(q);
+        if (!matchName && !matchAddr && !matchCat && !matchSub && !matchPic) return false;
       }
 
       return true;
