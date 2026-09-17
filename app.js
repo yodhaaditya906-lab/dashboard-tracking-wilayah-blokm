@@ -107,6 +107,9 @@ document.addEventListener('DOMContentLoaded', () => {
 
         const header = parseCSVLine(lines[0]).map(h => h.toLowerCase().trim());
         const colCoord = header.findIndex(h => h.includes('kordinat') || h.includes('koordinat'));
+        const colLat = header.findIndex(h => h.includes('latitude') || h === 'lat');
+        const colLng = header.findIndex(h => h.includes('longitude') || h === 'lng' || h === 'long');
+
         const colToko = header.findIndex(h => h.includes('toko') || h.includes('usaha'));
         const colPic = header.findIndex(h => h.includes('pemilik') || h.includes('pic'));
         const colTelp = header.findIndex(h => h.includes('telpon') || h.includes('telepon') || h.includes('hp'));
@@ -121,15 +124,31 @@ document.addEventListener('DOMContentLoaded', () => {
           const namaToko = (row[colToko] || '').trim();
           if (!namaToko || namaToko.toLowerCase().includes('nama toko')) continue;
 
-          const rawCoord = (row[colCoord] || '').trim();
-          let lat = -6.2445;
-          let lng = 106.7990;
-          if (rawCoord.includes(',')) {
-            const parts = rawCoord.split(',').map(p => parseFloat(p.trim()));
-            if (parts.length >= 2 && !isNaN(parts[0]) && !isNaN(parts[1])) {
-              lat = parts[0];
-              lng = parts[1];
+          let lat = NaN;
+          let lng = NaN;
+
+          // 1. Separate lat & lng columns (Tab 3: Gultik/Non-Gultik)
+          if (colLat !== -1 && colLng !== -1 && row[colLat] && row[colLng]) {
+            lat = parseFloat(row[colLat].trim());
+            lng = parseFloat(row[colLng].trim());
+          }
+
+          // 2. Combined coordinate column (Tab 1 & 2)
+          if ((isNaN(lat) || isNaN(lng)) && colCoord !== -1 && row[colCoord]) {
+            const rawCoord = row[colCoord].trim();
+            if (rawCoord.includes(',')) {
+              const parts = rawCoord.split(',').map(p => parseFloat(p.trim()));
+              if (parts.length >= 2 && !isNaN(parts[0]) && !isNaN(parts[1])) {
+                lat = parts[0];
+                lng = parts[1];
+              }
             }
+          }
+
+          // 3. Fallback
+          if (isNaN(lat) || isNaN(lng)) {
+            lat = cfg.defaultZone === 'Blok C' ? -6.2418 : -6.2445;
+            lng = cfg.defaultZone === 'Blok C' ? 106.7960 : 106.7990;
           }
 
           const namaPic = (row[colPic] || '').trim() || '-';
