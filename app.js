@@ -66,12 +66,156 @@ document.addEventListener('DOMContentLoaded', () => {
 
   const btnSyncSheet = document.getElementById('btn-sync-sheet');
 
-  // Live Auto-Sync Engine from Google Sheet CSV API
+  const DOC_ID = '1GFk3Vkst77GPqNE5YzFmedWfEWJJvOi-jdZIy7QVGCU';
+  const TABS_CONFIG = [
+    { name: 'M Bloc Space', defaultZone: 'Blok M', subZona: 'M Bloc Space', defaultCat: 'Retail & Creative' },
+    { name: 'Blok M Square', defaultZone: 'Blok M', subZona: 'Blok M Square', defaultCat: 'Perdagangan & Services' },
+    { name: 'Gultik/Non-Gultik', defaultZone: 'Blok M', subZona: 'Gultik / Non-Gultik', defaultCat: 'F&B / Kuliner' }
+  ];
+
+  function parseCSVLine(line) {
+    const result = [];
+    let current = '';
+    let inQuotes = false;
+    for (let i = 0; i < line.length; i++) {
+      const char = line[i];
+      if (char === '"') {
+        inQuotes = !inQuotes;
+      } else if (char === ',' && !inQuotes) {
+        result.push(current.trim().replace(/^"|"$/g, ''));
+        current = '';
+      } else {
+        current += char;
+      }
+    }
+    result.push(current.trim().replace(/^"|"$/g, ''));
+    return result;
+  }
+
+  async function fetchLiveGoogleSheetClientSide() {
+    const allMerchants = [];
+    let counter = 1;
+
+    for (const cfg of TABS_CONFIG) {
+      try {
+        const url = `https://docs.google.com/spreadsheets/d/${DOC_ID}/gviz/tq?tqx=out:csv&sheet=${encodeURIComponent(cfg.name)}&t=${Date.now()}`;
+        const resp = await fetch(url, { cache: 'no-store' });
+        if (!resp.ok) continue;
+        const csvData = await resp.text();
+        const lines = csvData.split(/\r?\n/).filter(l => l.trim().length > 0);
+        if (lines.length < 2) continue;
+
+        const header = parseCSVLine(lines[0]).map(h => h.toLowerCase().trim());
+        const colCoord = header.findIndex(h => h.includes('kordinat') || h.includes('koordinat'));
+        const colToko = header.findIndex(h => h.includes('toko') || h.includes('usaha'));
+        const colPic = header.findIndex(h => h.includes('pemilik') || h.includes('pic'));
+        const colTelp = header.findIndex(h => h.includes('telpon') || h.includes('telepon') || h.includes('hp'));
+        const colLvm = header.findIndex(h => h.includes('lvm') || h.includes('akuisisi'));
+        const colDebitur = header.findIndex(h => h.includes('debitur') || h.includes('kredit'));
+        const colGolongan = header.findIndex(h => h.includes('golongan'));
+
+        for (let i = 1; i < lines.length; i++) {
+          const row = parseCSVLine(lines[i]);
+          if (!row || row.length < 3) continue;
+
+          const namaToko = (row[colToko] || '').trim();
+          if (!namaToko || namaToko.toLowerCase().includes('nama toko')) continue;
+
+          const rawCoord = (row[colCoord] || '').trim();
+          let lat = -6.2445;
+          let lng = 106.7990;
+          if (rawCoord.includes(',')) {
+            const parts = rawCoord.split(',').map(p => parseFloat(p.trim()));
+            if (parts.length >= 2 && !isNaN(parts[0]) && !isNaN(parts[1])) {
+              lat = parts[0];
+              lng = parts[1];
+            }
+          }
+
+          const namaPic = (row[colPic] || '').trim() || '-';
+          const telp = (row[colTelp] || '').trim() || '-';
+          const rawLvm = (row[colLvm] || '').trim();
+          const rawDebitur = (row[colDebitur] || '').trim();
+          const golongan = colGolongan !== -1 ? (row[colGolongan] || '').trim() : '';
+
+          let statusLvm = 'Belum LVM';
+          if (rawLvm.toLowerCase().includes('sudah') || rawLvm.toLowerCase().includes('active') || rawLvm.toLowerCase().includes('terdaftar')) {
+            statusLvm = 'LVM Active';
+          }
+
+          let statusNasabah = 'TARGET_KUR';
+          let statusText = 'Target Cross-Selling KUR';
+          if (rawDebitur.toLowerCase().includes('eksisting') || rawDebitur.toLowerCase().includes('sudah kredit') || rawDebitur.toLowerCase().includes('debitur')) {
+            statusNasabah = 'DEBITUR_EKSISTING';
+            statusText = 'Debitur Eksisting Mandiri';
+          }
+
+          let subZonaName = cfg.subZona;
+          if (golongan) {
+            subZonaName = `Gultik (${golongan})`;
+          }
+
+          let kategori = cfg.defaultCat;
+          if (namaToko.toLowerCase().includes('kopi') || namaToko.toLowerCase().includes('bakso') || namaToko.toLowerCase().includes('mie') || namaToko.toLowerCase().includes('resto') || namaToko.toLowerCase().includes('warung') || namaToko.toLowerCase().includes('cafe') || namaToko.toLowerCase().includes('gultik')) {
+            kategori = 'F&B / Kuliner';
+          }
+
+          const idStr = `MB-${String(counter).padStart(3, '0')}`;
+          counter++;
+
+          allMerchants.push({
+            id: idStr,
+            namaUsaha: namaToko,
+            namaPic: namaPic,
+            telepon: telp,
+            kategori: kategori,
+            zonaUtama: cfg.defaultZone,
+            subZona: subZonaName,
+            alamat: `Kawasan ${subZonaName}, Kebayoran Baru`,
+            lat: lat,
+            lng: lng,
+            omsetBulanan: "Rp 0",
+            volumeSettlement: "Rp 0",
+            statusNasabah: statusNasabah,
+            statusText: statusText,
+            statusLvm: statusLvm,
+            rawLvmSheet: rawLvm,
+            potensiKredit: "Rp 0",
+            terminal: statusLvm === 'LVM Active' ? "Livin' Merchant (QRIS Active)" : "Prospek LVM / EDC Mandiri",
+            keterangan: `UMKM ${subZonaName}. PIC: ${namaPic}. Telp: ${telp}. Sheet Status: ${rawLvm || 'Belum'}.`
+          });
+        }
+      } catch (e) {
+        console.warn(`Client fetch error for tab ${cfg.name}:`, e);
+      }
+    }
+
+    return allMerchants;
+  }
+
+  // Live Auto-Sync Engine from Google Sheet CSV API (Client-side & Server fallback)
   async function syncSheetDataLive(isManual = false) {
     const syncIcon = document.getElementById('sync-icon');
     if (syncIcon) syncIcon.classList.add('fa-spin');
 
     try {
+      // Direct client-side fetch from Google Sheet (works on GitHub Pages & static hosts!)
+      const liveMerchants = await fetchLiveGoogleSheetClientSide();
+      if (liveMerchants && liveMerchants.length > 0) {
+        window.MASTER_BLOKM_MERCHANTS = liveMerchants;
+        updateRibbonStats();
+        renderMapLayersAndList();
+        if (modalDbOverlay && !modalDbOverlay.classList.contains('hidden')) {
+          renderDatabaseTable();
+        }
+        if (isManual) {
+          const lvmCount = liveMerchants.filter(m => m.statusLvm === 'LVM Active').length;
+          alert(`✅ Live Sync Berhasil!\n\nSeluruh data terbaru dari 3 tab Google Sheet telah disinkronkan.\nTotal: ${liveMerchants.length} merchant (${lvmCount} LVM Active).`);
+        }
+        return;
+      }
+
+      // Server fallback if client fetch fails
       const resp = await fetch('/api/sync-sheet');
       const data = await resp.json();
       if (data && data.success && Array.isArray(data.merchants)) {

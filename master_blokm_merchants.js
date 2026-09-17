@@ -398,11 +398,11 @@ window.MASTER_BLOKM_MERCHANTS = [
     "volumeSettlement": "Rp 0",
     "statusNasabah": "TARGET_KUR",
     "statusText": "Target Cross-Selling KUR",
-    "statusLvm": "LVM Active",
-    "rawLvmSheet": "Sudah Diakuisisi",
+    "statusLvm": "Belum LVM",
+    "rawLvmSheet": "Belum Diakuisisi",
     "potensiKredit": "Rp 0",
-    "terminal": "Livin' Merchant (QRIS Active)",
-    "keterangan": "UMKM M Bloc Space. PIC: -. Telp: -. Sheet Status: Sudah Diakuisisi."
+    "terminal": "Prospek LVM / EDC Mandiri",
+    "keterangan": "UMKM M Bloc Space. PIC: -. Telp: -. Sheet Status: Belum Diakuisisi."
   },
   {
     "id": "MB-020",
