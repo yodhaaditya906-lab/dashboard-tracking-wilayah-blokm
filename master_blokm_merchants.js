@@ -17,6 +17,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "lat": -6.2421249,
     "lng": 106.7987044,
     "omsetBulanan": "Rp 0",
+    "rawOmzetSheet": "",
     "volumeSettlement": "Rp 0",
     "statusNasabah": "TARGET_KUR",
     "statusText": "Target Cross-Selling KUR",
@@ -24,7 +25,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "rawLvmSheet": "Belum Diakuisisi",
     "potensiKredit": "Rp 0",
     "terminal": "Prospek LVM / EDC Mandiri",
-    "keterangan": "UMKM M Bloc Space. PIC: -. Telp: -. Sheet Status: Belum Diakuisisi."
+    "keterangan": "UMKM M Bloc Space. PIC: -. Telp: -. Sheet Status: Belum Diakuisisi. Omset: Rp 0."
   },
   {
     "id": "MB-002",
@@ -38,6 +39,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "lat": -6.2420903,
     "lng": 106.798636,
     "omsetBulanan": "Rp 0",
+    "rawOmzetSheet": "",
     "volumeSettlement": "Rp 0",
     "statusNasabah": "TARGET_KUR",
     "statusText": "Target Cross-Selling KUR",
@@ -45,7 +47,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "rawLvmSheet": "Belum Diakuisisi",
     "potensiKredit": "Rp 0",
     "terminal": "Prospek LVM / EDC Mandiri",
-    "keterangan": "UMKM M Bloc Space. PIC: -. Telp: -. Sheet Status: Belum Diakuisisi."
+    "keterangan": "UMKM M Bloc Space. PIC: -. Telp: -. Sheet Status: Belum Diakuisisi. Omset: Rp 0."
   },
   {
     "id": "MB-003",
@@ -59,6 +61,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "lat": -6.2420303,
     "lng": 106.7986118,
     "omsetBulanan": "Rp 0",
+    "rawOmzetSheet": "",
     "volumeSettlement": "Rp 0",
     "statusNasabah": "TARGET_KUR",
     "statusText": "Target Cross-Selling KUR",
@@ -66,7 +69,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "rawLvmSheet": "Belum Diakuisisi",
     "potensiKredit": "Rp 0",
     "terminal": "Prospek LVM / EDC Mandiri",
-    "keterangan": "UMKM M Bloc Space. PIC: -. Telp: -. Sheet Status: Belum Diakuisisi."
+    "keterangan": "UMKM M Bloc Space. PIC: -. Telp: -. Sheet Status: Belum Diakuisisi. Omset: Rp 0."
   },
   {
     "id": "MB-004",
@@ -80,6 +83,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "lat": -6.2420303,
     "lng": 106.7986118,
     "omsetBulanan": "Rp 0",
+    "rawOmzetSheet": "",
     "volumeSettlement": "Rp 0",
     "statusNasabah": "TARGET_KUR",
     "statusText": "Target Cross-Selling KUR",
@@ -87,7 +91,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "rawLvmSheet": "Belum Diakuisisi",
     "potensiKredit": "Rp 0",
     "terminal": "Prospek LVM / EDC Mandiri",
-    "keterangan": "UMKM M Bloc Space. PIC: -. Telp: -. Sheet Status: Belum Diakuisisi."
+    "keterangan": "UMKM M Bloc Space. PIC: -. Telp: -. Sheet Status: Belum Diakuisisi. Omset: Rp 0."
   },
   {
     "id": "MB-005",
@@ -101,6 +105,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "lat": -6.2419916,
     "lng": 106.7986024,
     "omsetBulanan": "Rp 0",
+    "rawOmzetSheet": "",
     "volumeSettlement": "Rp 0",
     "statusNasabah": "TARGET_KUR",
     "statusText": "Target Cross-Selling KUR",
@@ -108,7 +113,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "rawLvmSheet": "Belum Diakuisisi",
     "potensiKredit": "Rp 0",
     "terminal": "Prospek LVM / EDC Mandiri",
-    "keterangan": "UMKM M Bloc Space. PIC: -. Telp: -. Sheet Status: Belum Diakuisisi."
+    "keterangan": "UMKM M Bloc Space. PIC: -. Telp: -. Sheet Status: Belum Diakuisisi. Omset: Rp 0."
   },
   {
     "id": "MB-006",
@@ -122,6 +127,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "lat": -6.2419469,
     "lng": 106.7986118,
     "omsetBulanan": "Rp 0",
+    "rawOmzetSheet": "",
     "volumeSettlement": "Rp 0",
     "statusNasabah": "TARGET_KUR",
     "statusText": "Target Cross-Selling KUR",
@@ -129,7 +135,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "rawLvmSheet": "Belum Diakuisisi",
     "potensiKredit": "Rp 0",
     "terminal": "Prospek LVM / EDC Mandiri",
-    "keterangan": "UMKM M Bloc Space. PIC: -. Telp: -. Sheet Status: Belum Diakuisisi."
+    "keterangan": "UMKM M Bloc Space. PIC: -. Telp: -. Sheet Status: Belum Diakuisisi. Omset: Rp 0."
   },
   {
     "id": "MB-007",
@@ -143,6 +149,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "lat": -6.2418336,
     "lng": 106.7986219,
     "omsetBulanan": "Rp 0",
+    "rawOmzetSheet": "",
     "volumeSettlement": "Rp 0",
     "statusNasabah": "TARGET_KUR",
     "statusText": "Target Cross-Selling KUR",
@@ -150,7 +157,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "rawLvmSheet": "Sudah Diakuisisi",
     "potensiKredit": "Rp 0",
     "terminal": "Livin' Merchant (QRIS Active)",
-    "keterangan": "UMKM M Bloc Space. PIC: -. Telp: -. Sheet Status: Sudah Diakuisisi."
+    "keterangan": "UMKM M Bloc Space. PIC: -. Telp: -. Sheet Status: Sudah Diakuisisi. Omset: Rp 0."
   },
   {
     "id": "MB-008",
@@ -164,6 +171,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "lat": -6.2416356,
     "lng": 106.7985817,
     "omsetBulanan": "Rp 0",
+    "rawOmzetSheet": "",
     "volumeSettlement": "Rp 0",
     "statusNasabah": "TARGET_KUR",
     "statusText": "Target Cross-Selling KUR",
@@ -171,7 +179,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "rawLvmSheet": "Belum Diakuisisi",
     "potensiKredit": "Rp 0",
     "terminal": "Prospek LVM / EDC Mandiri",
-    "keterangan": "UMKM M Bloc Space. PIC: -. Telp: -. Sheet Status: Belum Diakuisisi."
+    "keterangan": "UMKM M Bloc Space. PIC: -. Telp: -. Sheet Status: Belum Diakuisisi. Omset: Rp 0."
   },
   {
     "id": "MB-009",
@@ -185,6 +193,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "lat": -6.2418472,
     "lng": 106.7990689,
     "omsetBulanan": "Rp 0",
+    "rawOmzetSheet": "",
     "volumeSettlement": "Rp 0",
     "statusNasabah": "TARGET_KUR",
     "statusText": "Target Cross-Selling KUR",
@@ -192,7 +201,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "rawLvmSheet": "Belum Diakuisisi",
     "potensiKredit": "Rp 0",
     "terminal": "Prospek LVM / EDC Mandiri",
-    "keterangan": "UMKM M Bloc Space. PIC: -. Telp: -. Sheet Status: Belum Diakuisisi."
+    "keterangan": "UMKM M Bloc Space. PIC: -. Telp: -. Sheet Status: Belum Diakuisisi. Omset: Rp 0."
   },
   {
     "id": "MB-010",
@@ -206,6 +215,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "lat": -6.2413317,
     "lng": 106.7985823,
     "omsetBulanan": "Rp 0",
+    "rawOmzetSheet": "",
     "volumeSettlement": "Rp 0",
     "statusNasabah": "TARGET_KUR",
     "statusText": "Target Cross-Selling KUR",
@@ -213,7 +223,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "rawLvmSheet": "Belum Diakuisisi",
     "potensiKredit": "Rp 0",
     "terminal": "Prospek LVM / EDC Mandiri",
-    "keterangan": "UMKM M Bloc Space. PIC: -. Telp: -. Sheet Status: Belum Diakuisisi."
+    "keterangan": "UMKM M Bloc Space. PIC: -. Telp: -. Sheet Status: Belum Diakuisisi. Omset: Rp 0."
   },
   {
     "id": "MB-011",
@@ -227,6 +237,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "lat": -6.2410911,
     "lng": 106.7986353,
     "omsetBulanan": "Rp 0",
+    "rawOmzetSheet": "",
     "volumeSettlement": "Rp 0",
     "statusNasabah": "TARGET_KUR",
     "statusText": "Target Cross-Selling KUR",
@@ -234,7 +245,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "rawLvmSheet": "Belum Diakuisisi",
     "potensiKredit": "Rp 0",
     "terminal": "Prospek LVM / EDC Mandiri",
-    "keterangan": "UMKM M Bloc Space. PIC: -. Telp: -. Sheet Status: Belum Diakuisisi."
+    "keterangan": "UMKM M Bloc Space. PIC: -. Telp: -. Sheet Status: Belum Diakuisisi. Omset: Rp 0."
   },
   {
     "id": "MB-012",
@@ -248,6 +259,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "lat": -6.2409357,
     "lng": 106.7986266,
     "omsetBulanan": "Rp 0",
+    "rawOmzetSheet": "",
     "volumeSettlement": "Rp 0",
     "statusNasabah": "TARGET_KUR",
     "statusText": "Target Cross-Selling KUR",
@@ -255,7 +267,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "rawLvmSheet": "Sudah Diakuisisi",
     "potensiKredit": "Rp 0",
     "terminal": "Livin' Merchant (QRIS Active)",
-    "keterangan": "UMKM M Bloc Space. PIC: -. Telp: -. Sheet Status: Sudah Diakuisisi."
+    "keterangan": "UMKM M Bloc Space. PIC: -. Telp: -. Sheet Status: Sudah Diakuisisi. Omset: Rp 0."
   },
   {
     "id": "MB-013",
@@ -269,6 +281,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "lat": -6.2408598,
     "lng": 106.7987332,
     "omsetBulanan": "Rp 0",
+    "rawOmzetSheet": "",
     "volumeSettlement": "Rp 0",
     "statusNasabah": "TARGET_KUR",
     "statusText": "Target Cross-Selling KUR",
@@ -276,7 +289,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "rawLvmSheet": "Belum Diakuisisi",
     "potensiKredit": "Rp 0",
     "terminal": "Prospek LVM / EDC Mandiri",
-    "keterangan": "UMKM M Bloc Space. PIC: -. Telp: -. Sheet Status: Belum Diakuisisi."
+    "keterangan": "UMKM M Bloc Space. PIC: -. Telp: -. Sheet Status: Belum Diakuisisi. Omset: Rp 0."
   },
   {
     "id": "MB-014",
@@ -290,6 +303,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "lat": -6.2421202,
     "lng": 106.7988736,
     "omsetBulanan": "Rp 0",
+    "rawOmzetSheet": "",
     "volumeSettlement": "Rp 0",
     "statusNasabah": "TARGET_KUR",
     "statusText": "Target Cross-Selling KUR",
@@ -297,7 +311,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "rawLvmSheet": "Belum Diakuisisi",
     "potensiKredit": "Rp 0",
     "terminal": "Prospek LVM / EDC Mandiri",
-    "keterangan": "UMKM M Bloc Space. PIC: -. Telp: -. Sheet Status: Belum Diakuisisi."
+    "keterangan": "UMKM M Bloc Space. PIC: -. Telp: -. Sheet Status: Belum Diakuisisi. Omset: Rp 0."
   },
   {
     "id": "MB-015",
@@ -311,6 +325,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "lat": -6.242088,
     "lng": 106.7989702,
     "omsetBulanan": "Rp 0",
+    "rawOmzetSheet": "",
     "volumeSettlement": "Rp 0",
     "statusNasabah": "TARGET_KUR",
     "statusText": "Target Cross-Selling KUR",
@@ -318,7 +333,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "rawLvmSheet": "Belum Diakuisisi",
     "potensiKredit": "Rp 0",
     "terminal": "Prospek LVM / EDC Mandiri",
-    "keterangan": "UMKM M Bloc Space. PIC: -. Telp: -. Sheet Status: Belum Diakuisisi."
+    "keterangan": "UMKM M Bloc Space. PIC: -. Telp: -. Sheet Status: Belum Diakuisisi. Omset: Rp 0."
   },
   {
     "id": "MB-016",
@@ -332,6 +347,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "lat": -6.2421214,
     "lng": 106.7991546,
     "omsetBulanan": "Rp 0",
+    "rawOmzetSheet": "",
     "volumeSettlement": "Rp 0",
     "statusNasabah": "TARGET_KUR",
     "statusText": "Target Cross-Selling KUR",
@@ -339,7 +355,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "rawLvmSheet": "Belum Diakuisisi",
     "potensiKredit": "Rp 0",
     "terminal": "Prospek LVM / EDC Mandiri",
-    "keterangan": "UMKM M Bloc Space. PIC: -. Telp: -. Sheet Status: Belum Diakuisisi."
+    "keterangan": "UMKM M Bloc Space. PIC: -. Telp: -. Sheet Status: Belum Diakuisisi. Omset: Rp 0."
   },
   {
     "id": "MB-017",
@@ -353,6 +369,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "lat": -6.2414735,
     "lng": 106.7988755,
     "omsetBulanan": "Rp 0",
+    "rawOmzetSheet": "",
     "volumeSettlement": "Rp 0",
     "statusNasabah": "TARGET_KUR",
     "statusText": "Target Cross-Selling KUR",
@@ -360,7 +377,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "rawLvmSheet": "Belum Diakuisisi",
     "potensiKredit": "Rp 0",
     "terminal": "Prospek LVM / EDC Mandiri",
-    "keterangan": "UMKM M Bloc Space. PIC: -. Telp: -. Sheet Status: Belum Diakuisisi."
+    "keterangan": "UMKM M Bloc Space. PIC: -. Telp: -. Sheet Status: Belum Diakuisisi. Omset: Rp 0."
   },
   {
     "id": "MB-018",
@@ -374,6 +391,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "lat": -6.2412814,
     "lng": 106.7988819,
     "omsetBulanan": "Rp 0",
+    "rawOmzetSheet": "",
     "volumeSettlement": "Rp 0",
     "statusNasabah": "TARGET_KUR",
     "statusText": "Target Cross-Selling KUR",
@@ -381,7 +399,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "rawLvmSheet": "Belum Diakuisisi",
     "potensiKredit": "Rp 0",
     "terminal": "Prospek LVM / EDC Mandiri",
-    "keterangan": "UMKM M Bloc Space. PIC: -. Telp: -. Sheet Status: Belum Diakuisisi."
+    "keterangan": "UMKM M Bloc Space. PIC: -. Telp: -. Sheet Status: Belum Diakuisisi. Omset: Rp 0."
   },
   {
     "id": "MB-019",
@@ -395,6 +413,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "lat": -6.2412814,
     "lng": 106.7988819,
     "omsetBulanan": "Rp 0",
+    "rawOmzetSheet": "",
     "volumeSettlement": "Rp 0",
     "statusNasabah": "TARGET_KUR",
     "statusText": "Target Cross-Selling KUR",
@@ -402,7 +421,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "rawLvmSheet": "Belum Diakuisisi",
     "potensiKredit": "Rp 0",
     "terminal": "Prospek LVM / EDC Mandiri",
-    "keterangan": "UMKM M Bloc Space. PIC: -. Telp: -. Sheet Status: Belum Diakuisisi."
+    "keterangan": "UMKM M Bloc Space. PIC: -. Telp: -. Sheet Status: Belum Diakuisisi. Omset: Rp 0."
   },
   {
     "id": "MB-020",
@@ -416,6 +435,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "lat": -6.2445845,
     "lng": 106.800512,
     "omsetBulanan": "Rp 0",
+    "rawOmzetSheet": "",
     "volumeSettlement": "Rp 0",
     "statusNasabah": "TARGET_KUR",
     "statusText": "Target Cross-Selling KUR",
@@ -423,7 +443,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "rawLvmSheet": "Sudah Diakuisisi",
     "potensiKredit": "Rp 0",
     "terminal": "Livin' Merchant (QRIS Active)",
-    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 8211664375. Sheet Status: Sudah Diakuisisi."
+    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 8211664375. Sheet Status: Sudah Diakuisisi. Omset: Rp 0."
   },
   {
     "id": "MB-021",
@@ -437,6 +457,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "lat": -6.2445845,
     "lng": 106.800513,
     "omsetBulanan": "Rp 0",
+    "rawOmzetSheet": "",
     "volumeSettlement": "Rp 0",
     "statusNasabah": "TARGET_KUR",
     "statusText": "Target Cross-Selling KUR",
@@ -444,7 +465,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "rawLvmSheet": "Belum Diakuisisi",
     "potensiKredit": "Rp 0",
     "terminal": "Prospek LVM / EDC Mandiri",
-    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 81311295126. Sheet Status: Belum Diakuisisi."
+    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 81311295126. Sheet Status: Belum Diakuisisi. Omset: Rp 0."
   },
   {
     "id": "MB-022",
@@ -458,6 +479,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "lat": -6.2445845,
     "lng": 106.800514,
     "omsetBulanan": "Rp 0",
+    "rawOmzetSheet": "",
     "volumeSettlement": "Rp 0",
     "statusNasabah": "DEBITUR_EKSISTING",
     "statusText": "Debitur Eksisting Mandiri",
@@ -465,7 +487,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "rawLvmSheet": "Sudah Diakuisisi",
     "potensiKredit": "Rp 0",
     "terminal": "Livin' Merchant (QRIS Active)",
-    "keterangan": "UMKM Blok M Square. PIC: -. Telp: -. Sheet Status: Sudah Diakuisisi."
+    "keterangan": "UMKM Blok M Square. PIC: -. Telp: -. Sheet Status: Sudah Diakuisisi. Omset: Rp 0."
   },
   {
     "id": "MB-023",
@@ -479,6 +501,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "lat": -6.2445845,
     "lng": 106.800515,
     "omsetBulanan": "Rp 0",
+    "rawOmzetSheet": "",
     "volumeSettlement": "Rp 0",
     "statusNasabah": "TARGET_KUR",
     "statusText": "Target Cross-Selling KUR",
@@ -486,7 +509,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "rawLvmSheet": "Belum Diakuisisi",
     "potensiKredit": "Rp 0",
     "terminal": "Prospek LVM / EDC Mandiri",
-    "keterangan": "UMKM Blok M Square. PIC: -. Telp: -. Sheet Status: Belum Diakuisisi."
+    "keterangan": "UMKM Blok M Square. PIC: -. Telp: -. Sheet Status: Belum Diakuisisi. Omset: Rp 0."
   },
   {
     "id": "MB-024",
@@ -500,6 +523,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "lat": -6.2445845,
     "lng": 106.800516,
     "omsetBulanan": "Rp 0",
+    "rawOmzetSheet": "",
     "volumeSettlement": "Rp 0",
     "statusNasabah": "TARGET_KUR",
     "statusText": "Target Cross-Selling KUR",
@@ -507,7 +531,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "rawLvmSheet": "Belum Diakuisisi",
     "potensiKredit": "Rp 0",
     "terminal": "Prospek LVM / EDC Mandiri",
-    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 89653507870. Sheet Status: Belum Diakuisisi."
+    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 89653507870. Sheet Status: Belum Diakuisisi. Omset: Rp 0."
   },
   {
     "id": "MB-025",
@@ -521,6 +545,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "lat": -6.2445845,
     "lng": 106.800517,
     "omsetBulanan": "Rp 0",
+    "rawOmzetSheet": "",
     "volumeSettlement": "Rp 0",
     "statusNasabah": "TARGET_KUR",
     "statusText": "Target Cross-Selling KUR",
@@ -528,7 +553,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "rawLvmSheet": "Belum Diakuisisi",
     "potensiKredit": "Rp 0",
     "terminal": "Prospek LVM / EDC Mandiri",
-    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 81934386550. Sheet Status: Belum Diakuisisi."
+    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 81934386550. Sheet Status: Belum Diakuisisi. Omset: Rp 0."
   },
   {
     "id": "MB-026",
@@ -542,6 +567,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "lat": -6.2445845,
     "lng": 106.800518,
     "omsetBulanan": "Rp 0",
+    "rawOmzetSheet": "",
     "volumeSettlement": "Rp 0",
     "statusNasabah": "TARGET_KUR",
     "statusText": "Target Cross-Selling KUR",
@@ -549,7 +575,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "rawLvmSheet": "Belum Diakuisisi",
     "potensiKredit": "Rp 0",
     "terminal": "Prospek LVM / EDC Mandiri",
-    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 81232405061. Sheet Status: Belum Diakuisisi."
+    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 81232405061. Sheet Status: Belum Diakuisisi. Omset: Rp 0."
   },
   {
     "id": "MB-027",
@@ -563,6 +589,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "lat": -6.2445845,
     "lng": 106.800519,
     "omsetBulanan": "Rp 0",
+    "rawOmzetSheet": "",
     "volumeSettlement": "Rp 0",
     "statusNasabah": "TARGET_KUR",
     "statusText": "Target Cross-Selling KUR",
@@ -570,7 +597,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "rawLvmSheet": "Belum Diakuisisi",
     "potensiKredit": "Rp 0",
     "terminal": "Prospek LVM / EDC Mandiri",
-    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 0. Sheet Status: Belum Diakuisisi."
+    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 0. Sheet Status: Belum Diakuisisi. Omset: Rp 0."
   },
   {
     "id": "MB-028",
@@ -584,6 +611,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "lat": -6.2445845,
     "lng": 106.80052,
     "omsetBulanan": "Rp 0",
+    "rawOmzetSheet": "",
     "volumeSettlement": "Rp 0",
     "statusNasabah": "TARGET_KUR",
     "statusText": "Target Cross-Selling KUR",
@@ -591,7 +619,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "rawLvmSheet": "Belum Diakuisisi",
     "potensiKredit": "Rp 0",
     "terminal": "Prospek LVM / EDC Mandiri",
-    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 0. Sheet Status: Belum Diakuisisi."
+    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 0. Sheet Status: Belum Diakuisisi. Omset: Rp 0."
   },
   {
     "id": "MB-029",
@@ -605,6 +633,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "lat": -6.2445845,
     "lng": 106.800521,
     "omsetBulanan": "Rp 0",
+    "rawOmzetSheet": "",
     "volumeSettlement": "Rp 0",
     "statusNasabah": "TARGET_KUR",
     "statusText": "Target Cross-Selling KUR",
@@ -612,7 +641,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "rawLvmSheet": "Belum Diakuisisi",
     "potensiKredit": "Rp 0",
     "terminal": "Prospek LVM / EDC Mandiri",
-    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 0. Sheet Status: Belum Diakuisisi."
+    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 0. Sheet Status: Belum Diakuisisi. Omset: Rp 0."
   },
   {
     "id": "MB-030",
@@ -626,6 +655,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "lat": -6.2445845,
     "lng": 106.800522,
     "omsetBulanan": "Rp 0",
+    "rawOmzetSheet": "",
     "volumeSettlement": "Rp 0",
     "statusNasabah": "TARGET_KUR",
     "statusText": "Target Cross-Selling KUR",
@@ -633,7 +663,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "rawLvmSheet": "Belum Diakuisisi",
     "potensiKredit": "Rp 0",
     "terminal": "Prospek LVM / EDC Mandiri",
-    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 0. Sheet Status: Belum Diakuisisi."
+    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 0. Sheet Status: Belum Diakuisisi. Omset: Rp 0."
   },
   {
     "id": "MB-031",
@@ -647,6 +677,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "lat": -6.2445845,
     "lng": 106.800523,
     "omsetBulanan": "Rp 0",
+    "rawOmzetSheet": "",
     "volumeSettlement": "Rp 0",
     "statusNasabah": "TARGET_KUR",
     "statusText": "Target Cross-Selling KUR",
@@ -654,7 +685,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "rawLvmSheet": "Belum Diakuisisi",
     "potensiKredit": "Rp 0",
     "terminal": "Prospek LVM / EDC Mandiri",
-    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 0. Sheet Status: Belum Diakuisisi."
+    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 0. Sheet Status: Belum Diakuisisi. Omset: Rp 0."
   },
   {
     "id": "MB-032",
@@ -668,6 +699,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "lat": -6.2445845,
     "lng": 106.800524,
     "omsetBulanan": "Rp 0",
+    "rawOmzetSheet": "",
     "volumeSettlement": "Rp 0",
     "statusNasabah": "TARGET_KUR",
     "statusText": "Target Cross-Selling KUR",
@@ -675,7 +707,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "rawLvmSheet": "Belum Diakuisisi",
     "potensiKredit": "Rp 0",
     "terminal": "Prospek LVM / EDC Mandiri",
-    "keterangan": "UMKM Blok M Square. PIC: -. Telp: -. Sheet Status: Belum Diakuisisi."
+    "keterangan": "UMKM Blok M Square. PIC: -. Telp: -. Sheet Status: Belum Diakuisisi. Omset: Rp 0."
   },
   {
     "id": "MB-033",
@@ -689,6 +721,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "lat": -6.2445845,
     "lng": 106.800525,
     "omsetBulanan": "Rp 0",
+    "rawOmzetSheet": "",
     "volumeSettlement": "Rp 0",
     "statusNasabah": "TARGET_KUR",
     "statusText": "Target Cross-Selling KUR",
@@ -696,7 +729,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "rawLvmSheet": "Sudah Diakuisisi",
     "potensiKredit": "Rp 0",
     "terminal": "Livin' Merchant (QRIS Active)",
-    "keterangan": "UMKM Blok M Square. PIC: -. Telp: -. Sheet Status: Sudah Diakuisisi."
+    "keterangan": "UMKM Blok M Square. PIC: -. Telp: -. Sheet Status: Sudah Diakuisisi. Omset: Rp 0."
   },
   {
     "id": "MB-034",
@@ -710,6 +743,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "lat": -6.2445845,
     "lng": 106.800526,
     "omsetBulanan": "Rp 0",
+    "rawOmzetSheet": "",
     "volumeSettlement": "Rp 0",
     "statusNasabah": "TARGET_KUR",
     "statusText": "Target Cross-Selling KUR",
@@ -717,7 +751,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "rawLvmSheet": "Sudah Diakuisisi",
     "potensiKredit": "Rp 0",
     "terminal": "Livin' Merchant (QRIS Active)",
-    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 0. Sheet Status: Sudah Diakuisisi."
+    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 0. Sheet Status: Sudah Diakuisisi. Omset: Rp 0."
   },
   {
     "id": "MB-035",
@@ -731,6 +765,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "lat": -6.2445845,
     "lng": 106.800527,
     "omsetBulanan": "Rp 0",
+    "rawOmzetSheet": "",
     "volumeSettlement": "Rp 0",
     "statusNasabah": "TARGET_KUR",
     "statusText": "Target Cross-Selling KUR",
@@ -738,7 +773,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "rawLvmSheet": "Belum Diakuisisi",
     "potensiKredit": "Rp 0",
     "terminal": "Prospek LVM / EDC Mandiri",
-    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 87881943863. Sheet Status: Belum Diakuisisi."
+    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 87881943863. Sheet Status: Belum Diakuisisi. Omset: Rp 0."
   },
   {
     "id": "MB-036",
@@ -752,6 +787,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "lat": -6.2445845,
     "lng": 106.800528,
     "omsetBulanan": "Rp 0",
+    "rawOmzetSheet": "",
     "volumeSettlement": "Rp 0",
     "statusNasabah": "TARGET_KUR",
     "statusText": "Target Cross-Selling KUR",
@@ -759,7 +795,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "rawLvmSheet": "Belum Diakuisisi",
     "potensiKredit": "Rp 0",
     "terminal": "Prospek LVM / EDC Mandiri",
-    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 82350711118. Sheet Status: Belum Diakuisisi."
+    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 82350711118. Sheet Status: Belum Diakuisisi. Omset: Rp 0."
   },
   {
     "id": "MB-037",
@@ -773,6 +809,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "lat": -6.2445845,
     "lng": 106.800529,
     "omsetBulanan": "Rp 0",
+    "rawOmzetSheet": "",
     "volumeSettlement": "Rp 0",
     "statusNasabah": "TARGET_KUR",
     "statusText": "Target Cross-Selling KUR",
@@ -780,7 +817,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "rawLvmSheet": "Belum Diakuisisi",
     "potensiKredit": "Rp 0",
     "terminal": "Prospek LVM / EDC Mandiri",
-    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 8170182828. Sheet Status: Belum Diakuisisi."
+    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 8170182828. Sheet Status: Belum Diakuisisi. Omset: Rp 0."
   },
   {
     "id": "MB-038",
@@ -794,6 +831,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "lat": -6.2445845,
     "lng": 106.80053,
     "omsetBulanan": "Rp 0",
+    "rawOmzetSheet": "",
     "volumeSettlement": "Rp 0",
     "statusNasabah": "TARGET_KUR",
     "statusText": "Target Cross-Selling KUR",
@@ -801,7 +839,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "rawLvmSheet": "Sudah Diakuisisi",
     "potensiKredit": "Rp 0",
     "terminal": "Livin' Merchant (QRIS Active)",
-    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 0. Sheet Status: Sudah Diakuisisi."
+    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 0. Sheet Status: Sudah Diakuisisi. Omset: Rp 0."
   },
   {
     "id": "MB-039",
@@ -815,6 +853,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "lat": -6.2445845,
     "lng": 106.800531,
     "omsetBulanan": "Rp 0",
+    "rawOmzetSheet": "",
     "volumeSettlement": "Rp 0",
     "statusNasabah": "TARGET_KUR",
     "statusText": "Target Cross-Selling KUR",
@@ -822,7 +861,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "rawLvmSheet": "Sudah Diakuisisi",
     "potensiKredit": "Rp 0",
     "terminal": "Livin' Merchant (QRIS Active)",
-    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 8558988000. Sheet Status: Sudah Diakuisisi."
+    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 8558988000. Sheet Status: Sudah Diakuisisi. Omset: Rp 0."
   },
   {
     "id": "MB-040",
@@ -836,6 +875,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "lat": -6.2445845,
     "lng": 106.800532,
     "omsetBulanan": "Rp 0",
+    "rawOmzetSheet": "",
     "volumeSettlement": "Rp 0",
     "statusNasabah": "TARGET_KUR",
     "statusText": "Target Cross-Selling KUR",
@@ -843,7 +883,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "rawLvmSheet": "Belum Diakuisisi",
     "potensiKredit": "Rp 0",
     "terminal": "Prospek LVM / EDC Mandiri",
-    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 21000000. Sheet Status: Belum Diakuisisi."
+    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 21000000. Sheet Status: Belum Diakuisisi. Omset: Rp 0."
   },
   {
     "id": "MB-041",
@@ -857,6 +897,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "lat": -6.2445845,
     "lng": 106.800533,
     "omsetBulanan": "Rp 0",
+    "rawOmzetSheet": "",
     "volumeSettlement": "Rp 0",
     "statusNasabah": "TARGET_KUR",
     "statusText": "Target Cross-Selling KUR",
@@ -864,7 +905,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "rawLvmSheet": "Belum Diakuisisi",
     "potensiKredit": "Rp 0",
     "terminal": "Prospek LVM / EDC Mandiri",
-    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 0. Sheet Status: Belum Diakuisisi."
+    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 0. Sheet Status: Belum Diakuisisi. Omset: Rp 0."
   },
   {
     "id": "MB-042",
@@ -878,6 +919,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "lat": -6.2445845,
     "lng": 106.800534,
     "omsetBulanan": "Rp 0",
+    "rawOmzetSheet": "",
     "volumeSettlement": "Rp 0",
     "statusNasabah": "TARGET_KUR",
     "statusText": "Target Cross-Selling KUR",
@@ -885,7 +927,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "rawLvmSheet": "Belum Diakuisisi",
     "potensiKredit": "Rp 0",
     "terminal": "Prospek LVM / EDC Mandiri",
-    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 81765456078. Sheet Status: Belum Diakuisisi."
+    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 81765456078. Sheet Status: Belum Diakuisisi. Omset: Rp 0."
   },
   {
     "id": "MB-043",
@@ -899,6 +941,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "lat": -6.2445845,
     "lng": 106.800535,
     "omsetBulanan": "Rp 0",
+    "rawOmzetSheet": "",
     "volumeSettlement": "Rp 0",
     "statusNasabah": "TARGET_KUR",
     "statusText": "Target Cross-Selling KUR",
@@ -906,7 +949,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "rawLvmSheet": "Sudah Diakuisisi",
     "potensiKredit": "Rp 0",
     "terminal": "Livin' Merchant (QRIS Active)",
-    "keterangan": "UMKM Blok M Square. PIC: -. Telp: -. Sheet Status: Sudah Diakuisisi."
+    "keterangan": "UMKM Blok M Square. PIC: -. Telp: -. Sheet Status: Sudah Diakuisisi. Omset: Rp 0."
   },
   {
     "id": "MB-044",
@@ -920,6 +963,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "lat": -6.2445845,
     "lng": 106.800536,
     "omsetBulanan": "Rp 0",
+    "rawOmzetSheet": "",
     "volumeSettlement": "Rp 0",
     "statusNasabah": "TARGET_KUR",
     "statusText": "Target Cross-Selling KUR",
@@ -927,7 +971,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "rawLvmSheet": "Sudah Diakuisisi",
     "potensiKredit": "Rp 0",
     "terminal": "Livin' Merchant (QRIS Active)",
-    "keterangan": "UMKM Blok M Square. PIC: -. Telp: -. Sheet Status: Sudah Diakuisisi."
+    "keterangan": "UMKM Blok M Square. PIC: -. Telp: -. Sheet Status: Sudah Diakuisisi. Omset: Rp 0."
   },
   {
     "id": "MB-045",
@@ -941,6 +985,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "lat": -6.2445845,
     "lng": 106.800537,
     "omsetBulanan": "Rp 0",
+    "rawOmzetSheet": "",
     "volumeSettlement": "Rp 0",
     "statusNasabah": "TARGET_KUR",
     "statusText": "Target Cross-Selling KUR",
@@ -948,7 +993,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "rawLvmSheet": "Belum Diakuisisi",
     "potensiKredit": "Rp 0",
     "terminal": "Prospek LVM / EDC Mandiri",
-    "keterangan": "UMKM Blok M Square. PIC: -. Telp: -. Sheet Status: Belum Diakuisisi."
+    "keterangan": "UMKM Blok M Square. PIC: -. Telp: -. Sheet Status: Belum Diakuisisi. Omset: Rp 0."
   },
   {
     "id": "MB-046",
@@ -962,6 +1007,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "lat": -6.2445845,
     "lng": 106.800538,
     "omsetBulanan": "Rp 0",
+    "rawOmzetSheet": "",
     "volumeSettlement": "Rp 0",
     "statusNasabah": "TARGET_KUR",
     "statusText": "Target Cross-Selling KUR",
@@ -969,7 +1015,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "rawLvmSheet": "Belum Diakuisisi",
     "potensiKredit": "Rp 0",
     "terminal": "Prospek LVM / EDC Mandiri",
-    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 0. Sheet Status: Belum Diakuisisi."
+    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 0. Sheet Status: Belum Diakuisisi. Omset: Rp 0."
   },
   {
     "id": "MB-047",
@@ -983,6 +1029,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "lat": -6.2445845,
     "lng": 106.800539,
     "omsetBulanan": "Rp 0",
+    "rawOmzetSheet": "",
     "volumeSettlement": "Rp 0",
     "statusNasabah": "TARGET_KUR",
     "statusText": "Target Cross-Selling KUR",
@@ -990,7 +1037,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "rawLvmSheet": "Belum Diakuisisi",
     "potensiKredit": "Rp 0",
     "terminal": "Prospek LVM / EDC Mandiri",
-    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 0. Sheet Status: Belum Diakuisisi."
+    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 0. Sheet Status: Belum Diakuisisi. Omset: Rp 0."
   },
   {
     "id": "MB-048",
@@ -1004,6 +1051,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "lat": -6.2445845,
     "lng": 106.80054,
     "omsetBulanan": "Rp 0",
+    "rawOmzetSheet": "",
     "volumeSettlement": "Rp 0",
     "statusNasabah": "TARGET_KUR",
     "statusText": "Target Cross-Selling KUR",
@@ -1011,7 +1059,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "rawLvmSheet": "Belum Diakuisisi",
     "potensiKredit": "Rp 0",
     "terminal": "Prospek LVM / EDC Mandiri",
-    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 0. Sheet Status: Belum Diakuisisi."
+    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 0. Sheet Status: Belum Diakuisisi. Omset: Rp 0."
   },
   {
     "id": "MB-049",
@@ -1025,6 +1073,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "lat": -6.2445845,
     "lng": 106.800541,
     "omsetBulanan": "Rp 0",
+    "rawOmzetSheet": "",
     "volumeSettlement": "Rp 0",
     "statusNasabah": "TARGET_KUR",
     "statusText": "Target Cross-Selling KUR",
@@ -1032,7 +1081,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "rawLvmSheet": "Belum Diakuisisi",
     "potensiKredit": "Rp 0",
     "terminal": "Prospek LVM / EDC Mandiri",
-    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 89601217065. Sheet Status: Belum Diakuisisi."
+    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 89601217065. Sheet Status: Belum Diakuisisi. Omset: Rp 0."
   },
   {
     "id": "MB-050",
@@ -1046,6 +1095,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "lat": -6.2445845,
     "lng": 106.800542,
     "omsetBulanan": "Rp 0",
+    "rawOmzetSheet": "",
     "volumeSettlement": "Rp 0",
     "statusNasabah": "TARGET_KUR",
     "statusText": "Target Cross-Selling KUR",
@@ -1053,7 +1103,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "rawLvmSheet": "Belum Diakuisisi",
     "potensiKredit": "Rp 0",
     "terminal": "Prospek LVM / EDC Mandiri",
-    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 83175262927. Sheet Status: Belum Diakuisisi."
+    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 83175262927. Sheet Status: Belum Diakuisisi. Omset: Rp 0."
   },
   {
     "id": "MB-051",
@@ -1067,6 +1117,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "lat": -6.2445845,
     "lng": 106.800543,
     "omsetBulanan": "Rp 0",
+    "rawOmzetSheet": "",
     "volumeSettlement": "Rp 0",
     "statusNasabah": "TARGET_KUR",
     "statusText": "Target Cross-Selling KUR",
@@ -1074,7 +1125,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "rawLvmSheet": "Sudah Diakuisisi",
     "potensiKredit": "Rp 0",
     "terminal": "Livin' Merchant (QRIS Active)",
-    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 89528736151. Sheet Status: Sudah Diakuisisi."
+    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 89528736151. Sheet Status: Sudah Diakuisisi. Omset: Rp 0."
   },
   {
     "id": "MB-052",
@@ -1088,6 +1139,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "lat": -6.2445845,
     "lng": 106.800544,
     "omsetBulanan": "Rp 0",
+    "rawOmzetSheet": "",
     "volumeSettlement": "Rp 0",
     "statusNasabah": "TARGET_KUR",
     "statusText": "Target Cross-Selling KUR",
@@ -1095,7 +1147,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "rawLvmSheet": "Sudah Diakuisisi",
     "potensiKredit": "Rp 0",
     "terminal": "Livin' Merchant (QRIS Active)",
-    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 817880341. Sheet Status: Sudah Diakuisisi."
+    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 817880341. Sheet Status: Sudah Diakuisisi. Omset: Rp 0."
   },
   {
     "id": "MB-053",
@@ -1109,6 +1161,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "lat": -6.2445845,
     "lng": 106.800545,
     "omsetBulanan": "Rp 0",
+    "rawOmzetSheet": "",
     "volumeSettlement": "Rp 0",
     "statusNasabah": "TARGET_KUR",
     "statusText": "Target Cross-Selling KUR",
@@ -1116,7 +1169,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "rawLvmSheet": "Belum Diakuisisi",
     "potensiKredit": "Rp 0",
     "terminal": "Prospek LVM / EDC Mandiri",
-    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 813. Sheet Status: Belum Diakuisisi."
+    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 813. Sheet Status: Belum Diakuisisi. Omset: Rp 0."
   },
   {
     "id": "MB-054",
@@ -1130,6 +1183,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "lat": -6.2445845,
     "lng": 106.800546,
     "omsetBulanan": "Rp 0",
+    "rawOmzetSheet": "",
     "volumeSettlement": "Rp 0",
     "statusNasabah": "TARGET_KUR",
     "statusText": "Target Cross-Selling KUR",
@@ -1137,7 +1191,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "rawLvmSheet": "Belum Diakuisisi",
     "potensiKredit": "Rp 0",
     "terminal": "Prospek LVM / EDC Mandiri",
-    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 81288790306. Sheet Status: Belum Diakuisisi."
+    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 81288790306. Sheet Status: Belum Diakuisisi. Omset: Rp 0."
   },
   {
     "id": "MB-055",
@@ -1151,6 +1205,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "lat": -6.2445845,
     "lng": 106.800547,
     "omsetBulanan": "Rp 0",
+    "rawOmzetSheet": "",
     "volumeSettlement": "Rp 0",
     "statusNasabah": "TARGET_KUR",
     "statusText": "Target Cross-Selling KUR",
@@ -1158,7 +1213,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "rawLvmSheet": "Belum Diakuisisi",
     "potensiKredit": "Rp 0",
     "terminal": "Prospek LVM / EDC Mandiri",
-    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 0. Sheet Status: Belum Diakuisisi."
+    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 0. Sheet Status: Belum Diakuisisi. Omset: Rp 0."
   },
   {
     "id": "MB-056",
@@ -1172,6 +1227,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "lat": -6.2445845,
     "lng": 106.800548,
     "omsetBulanan": "Rp 0",
+    "rawOmzetSheet": "",
     "volumeSettlement": "Rp 0",
     "statusNasabah": "TARGET_KUR",
     "statusText": "Target Cross-Selling KUR",
@@ -1179,7 +1235,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "rawLvmSheet": "Belum Diakuisisi",
     "potensiKredit": "Rp 0",
     "terminal": "Prospek LVM / EDC Mandiri",
-    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 81510302345. Sheet Status: Belum Diakuisisi."
+    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 81510302345. Sheet Status: Belum Diakuisisi. Omset: Rp 0."
   },
   {
     "id": "MB-057",
@@ -1193,6 +1249,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "lat": -6.2445845,
     "lng": 106.800549,
     "omsetBulanan": "Rp 0",
+    "rawOmzetSheet": "",
     "volumeSettlement": "Rp 0",
     "statusNasabah": "TARGET_KUR",
     "statusText": "Target Cross-Selling KUR",
@@ -1200,7 +1257,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "rawLvmSheet": "Belum Diakuisisi",
     "potensiKredit": "Rp 0",
     "terminal": "Prospek LVM / EDC Mandiri",
-    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 87728523635. Sheet Status: Belum Diakuisisi."
+    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 87728523635. Sheet Status: Belum Diakuisisi. Omset: Rp 0."
   },
   {
     "id": "MB-058",
@@ -1214,6 +1271,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "lat": -6.2445845,
     "lng": 106.80055,
     "omsetBulanan": "Rp 0",
+    "rawOmzetSheet": "",
     "volumeSettlement": "Rp 0",
     "statusNasabah": "TARGET_KUR",
     "statusText": "Target Cross-Selling KUR",
@@ -1221,7 +1279,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "rawLvmSheet": "Belum Diakuisisi",
     "potensiKredit": "Rp 0",
     "terminal": "Prospek LVM / EDC Mandiri",
-    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 81318106805. Sheet Status: Belum Diakuisisi."
+    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 81318106805. Sheet Status: Belum Diakuisisi. Omset: Rp 0."
   },
   {
     "id": "MB-059",
@@ -1235,6 +1293,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "lat": -6.2445845,
     "lng": 106.800551,
     "omsetBulanan": "Rp 0",
+    "rawOmzetSheet": "",
     "volumeSettlement": "Rp 0",
     "statusNasabah": "TARGET_KUR",
     "statusText": "Target Cross-Selling KUR",
@@ -1242,7 +1301,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "rawLvmSheet": "Belum Diakuisisi",
     "potensiKredit": "Rp 0",
     "terminal": "Prospek LVM / EDC Mandiri",
-    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 21. Sheet Status: Belum Diakuisisi."
+    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 21. Sheet Status: Belum Diakuisisi. Omset: Rp 0."
   },
   {
     "id": "MB-060",
@@ -1256,6 +1315,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "lat": -6.2445845,
     "lng": 106.800552,
     "omsetBulanan": "Rp 0",
+    "rawOmzetSheet": "",
     "volumeSettlement": "Rp 0",
     "statusNasabah": "TARGET_KUR",
     "statusText": "Target Cross-Selling KUR",
@@ -1263,7 +1323,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "rawLvmSheet": "Belum Diakuisisi",
     "potensiKredit": "Rp 0",
     "terminal": "Prospek LVM / EDC Mandiri",
-    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 81934386550. Sheet Status: Belum Diakuisisi."
+    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 81934386550. Sheet Status: Belum Diakuisisi. Omset: Rp 0."
   },
   {
     "id": "MB-061",
@@ -1277,6 +1337,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "lat": -6.2445845,
     "lng": 106.800553,
     "omsetBulanan": "Rp 0",
+    "rawOmzetSheet": "",
     "volumeSettlement": "Rp 0",
     "statusNasabah": "TARGET_KUR",
     "statusText": "Target Cross-Selling KUR",
@@ -1284,7 +1345,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "rawLvmSheet": "Belum Diakuisisi",
     "potensiKredit": "Rp 0",
     "terminal": "Prospek LVM / EDC Mandiri",
-    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 0. Sheet Status: Belum Diakuisisi."
+    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 0. Sheet Status: Belum Diakuisisi. Omset: Rp 0."
   },
   {
     "id": "MB-062",
@@ -1298,6 +1359,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "lat": -6.2445845,
     "lng": 106.800554,
     "omsetBulanan": "Rp 0",
+    "rawOmzetSheet": "",
     "volumeSettlement": "Rp 0",
     "statusNasabah": "TARGET_KUR",
     "statusText": "Target Cross-Selling KUR",
@@ -1305,7 +1367,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "rawLvmSheet": "Sudah Diakuisisi",
     "potensiKredit": "Rp 0",
     "terminal": "Livin' Merchant (QRIS Active)",
-    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 0. Sheet Status: Sudah Diakuisisi."
+    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 0. Sheet Status: Sudah Diakuisisi. Omset: Rp 0."
   },
   {
     "id": "MB-063",
@@ -1319,6 +1381,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "lat": -6.2445845,
     "lng": 106.800555,
     "omsetBulanan": "Rp 0",
+    "rawOmzetSheet": "",
     "volumeSettlement": "Rp 0",
     "statusNasabah": "TARGET_KUR",
     "statusText": "Target Cross-Selling KUR",
@@ -1326,7 +1389,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "rawLvmSheet": "Sudah Diakuisisi",
     "potensiKredit": "Rp 0",
     "terminal": "Livin' Merchant (QRIS Active)",
-    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 83140419273. Sheet Status: Sudah Diakuisisi."
+    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 83140419273. Sheet Status: Sudah Diakuisisi. Omset: Rp 0."
   },
   {
     "id": "MB-064",
@@ -1340,6 +1403,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "lat": -6.2445845,
     "lng": 106.800556,
     "omsetBulanan": "Rp 0",
+    "rawOmzetSheet": "",
     "volumeSettlement": "Rp 0",
     "statusNasabah": "TARGET_KUR",
     "statusText": "Target Cross-Selling KUR",
@@ -1347,7 +1411,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "rawLvmSheet": "Sudah Diakuisisi",
     "potensiKredit": "Rp 0",
     "terminal": "Livin' Merchant (QRIS Active)",
-    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 85287425943. Sheet Status: Sudah Diakuisisi."
+    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 85287425943. Sheet Status: Sudah Diakuisisi. Omset: Rp 0."
   },
   {
     "id": "MB-065",
@@ -1361,6 +1425,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "lat": -6.2445845,
     "lng": 106.800557,
     "omsetBulanan": "Rp 0",
+    "rawOmzetSheet": "",
     "volumeSettlement": "Rp 0",
     "statusNasabah": "TARGET_KUR",
     "statusText": "Target Cross-Selling KUR",
@@ -1368,7 +1433,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "rawLvmSheet": "Sudah Diakuisisi",
     "potensiKredit": "Rp 0",
     "terminal": "Livin' Merchant (QRIS Active)",
-    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 82249744830. Sheet Status: Sudah Diakuisisi."
+    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 82249744830. Sheet Status: Sudah Diakuisisi. Omset: Rp 0."
   },
   {
     "id": "MB-066",
@@ -1382,6 +1447,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "lat": -6.2445845,
     "lng": 106.800558,
     "omsetBulanan": "Rp 0",
+    "rawOmzetSheet": "",
     "volumeSettlement": "Rp 0",
     "statusNasabah": "TARGET_KUR",
     "statusText": "Target Cross-Selling KUR",
@@ -1389,7 +1455,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "rawLvmSheet": "Sudah Diakuisisi",
     "potensiKredit": "Rp 0",
     "terminal": "Livin' Merchant (QRIS Active)",
-    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 88222446363. Sheet Status: Sudah Diakuisisi."
+    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 88222446363. Sheet Status: Sudah Diakuisisi. Omset: Rp 0."
   },
   {
     "id": "MB-067",
@@ -1403,6 +1469,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "lat": -6.2445845,
     "lng": 106.800559,
     "omsetBulanan": "Rp 0",
+    "rawOmzetSheet": "",
     "volumeSettlement": "Rp 0",
     "statusNasabah": "TARGET_KUR",
     "statusText": "Target Cross-Selling KUR",
@@ -1410,7 +1477,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "rawLvmSheet": "Sudah Diakuisisi",
     "potensiKredit": "Rp 0",
     "terminal": "Livin' Merchant (QRIS Active)",
-    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 81318548021. Sheet Status: Sudah Diakuisisi."
+    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 81318548021. Sheet Status: Sudah Diakuisisi. Omset: Rp 0."
   },
   {
     "id": "MB-068",
@@ -1424,6 +1491,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "lat": -6.2445845,
     "lng": 106.80056,
     "omsetBulanan": "Rp 0",
+    "rawOmzetSheet": "",
     "volumeSettlement": "Rp 0",
     "statusNasabah": "TARGET_KUR",
     "statusText": "Target Cross-Selling KUR",
@@ -1431,7 +1499,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "rawLvmSheet": "Sudah Diakuisisi",
     "potensiKredit": "Rp 0",
     "terminal": "Livin' Merchant (QRIS Active)",
-    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 0. Sheet Status: Sudah Diakuisisi."
+    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 0. Sheet Status: Sudah Diakuisisi. Omset: Rp 0."
   },
   {
     "id": "MB-069",
@@ -1445,6 +1513,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "lat": -6.2445845,
     "lng": 106.800561,
     "omsetBulanan": "Rp 0",
+    "rawOmzetSheet": "",
     "volumeSettlement": "Rp 0",
     "statusNasabah": "TARGET_KUR",
     "statusText": "Target Cross-Selling KUR",
@@ -1452,7 +1521,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "rawLvmSheet": "Sudah Diakuisisi",
     "potensiKredit": "Rp 0",
     "terminal": "Livin' Merchant (QRIS Active)",
-    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 0. Sheet Status: Sudah Diakuisisi."
+    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 0. Sheet Status: Sudah Diakuisisi. Omset: Rp 0."
   },
   {
     "id": "MB-070",
@@ -1466,6 +1535,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "lat": -6.2445845,
     "lng": 106.800562,
     "omsetBulanan": "Rp 0",
+    "rawOmzetSheet": "",
     "volumeSettlement": "Rp 0",
     "statusNasabah": "TARGET_KUR",
     "statusText": "Target Cross-Selling KUR",
@@ -1473,7 +1543,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "rawLvmSheet": "Belum Diakuisisi",
     "potensiKredit": "Rp 0",
     "terminal": "Prospek LVM / EDC Mandiri",
-    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 0. Sheet Status: Belum Diakuisisi."
+    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 0. Sheet Status: Belum Diakuisisi. Omset: Rp 0."
   },
   {
     "id": "MB-071",
@@ -1487,6 +1557,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "lat": -6.2445845,
     "lng": 106.800563,
     "omsetBulanan": "Rp 0",
+    "rawOmzetSheet": "",
     "volumeSettlement": "Rp 0",
     "statusNasabah": "TARGET_KUR",
     "statusText": "Target Cross-Selling KUR",
@@ -1494,7 +1565,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "rawLvmSheet": "Sudah Diakuisisi",
     "potensiKredit": "Rp 0",
     "terminal": "Livin' Merchant (QRIS Active)",
-    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 85810281782. Sheet Status: Sudah Diakuisisi."
+    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 85810281782. Sheet Status: Sudah Diakuisisi. Omset: Rp 0."
   },
   {
     "id": "MB-072",
@@ -1508,6 +1579,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "lat": -6.2445845,
     "lng": 106.800564,
     "omsetBulanan": "Rp 0",
+    "rawOmzetSheet": "",
     "volumeSettlement": "Rp 0",
     "statusNasabah": "TARGET_KUR",
     "statusText": "Target Cross-Selling KUR",
@@ -1515,7 +1587,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "rawLvmSheet": "Belum Diakuisisi",
     "potensiKredit": "Rp 0",
     "terminal": "Prospek LVM / EDC Mandiri",
-    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 0. Sheet Status: Belum Diakuisisi."
+    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 0. Sheet Status: Belum Diakuisisi. Omset: Rp 0."
   },
   {
     "id": "MB-073",
@@ -1529,6 +1601,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "lat": -6.2445845,
     "lng": 106.800565,
     "omsetBulanan": "Rp 0",
+    "rawOmzetSheet": "",
     "volumeSettlement": "Rp 0",
     "statusNasabah": "TARGET_KUR",
     "statusText": "Target Cross-Selling KUR",
@@ -1536,7 +1609,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "rawLvmSheet": "Belum Diakuisisi",
     "potensiKredit": "Rp 0",
     "terminal": "Prospek LVM / EDC Mandiri",
-    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 89653507879. Sheet Status: Belum Diakuisisi."
+    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 89653507879. Sheet Status: Belum Diakuisisi. Omset: Rp 0."
   },
   {
     "id": "MB-074",
@@ -1550,6 +1623,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "lat": -6.2445845,
     "lng": 106.800566,
     "omsetBulanan": "Rp 0",
+    "rawOmzetSheet": "",
     "volumeSettlement": "Rp 0",
     "statusNasabah": "TARGET_KUR",
     "statusText": "Target Cross-Selling KUR",
@@ -1557,7 +1631,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "rawLvmSheet": "Belum Diakuisisi",
     "potensiKredit": "Rp 0",
     "terminal": "Prospek LVM / EDC Mandiri",
-    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 85709611530. Sheet Status: Belum Diakuisisi."
+    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 85709611530. Sheet Status: Belum Diakuisisi. Omset: Rp 0."
   },
   {
     "id": "MB-075",
@@ -1571,6 +1645,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "lat": -6.2445845,
     "lng": 106.800567,
     "omsetBulanan": "Rp 0",
+    "rawOmzetSheet": "",
     "volumeSettlement": "Rp 0",
     "statusNasabah": "TARGET_KUR",
     "statusText": "Target Cross-Selling KUR",
@@ -1578,7 +1653,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "rawLvmSheet": "Belum Diakuisisi",
     "potensiKredit": "Rp 0",
     "terminal": "Prospek LVM / EDC Mandiri",
-    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 8179299877. Sheet Status: Belum Diakuisisi."
+    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 8179299877. Sheet Status: Belum Diakuisisi. Omset: Rp 0."
   },
   {
     "id": "MB-076",
@@ -1592,6 +1667,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "lat": -6.2445845,
     "lng": 106.800568,
     "omsetBulanan": "Rp 0",
+    "rawOmzetSheet": "",
     "volumeSettlement": "Rp 0",
     "statusNasabah": "TARGET_KUR",
     "statusText": "Target Cross-Selling KUR",
@@ -1599,7 +1675,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "rawLvmSheet": "Belum Diakuisisi",
     "potensiKredit": "Rp 0",
     "terminal": "Prospek LVM / EDC Mandiri",
-    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 85881955135. Sheet Status: Belum Diakuisisi."
+    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 85881955135. Sheet Status: Belum Diakuisisi. Omset: Rp 0."
   },
   {
     "id": "MB-077",
@@ -1613,6 +1689,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "lat": -6.2445845,
     "lng": 106.800569,
     "omsetBulanan": "Rp 0",
+    "rawOmzetSheet": "",
     "volumeSettlement": "Rp 0",
     "statusNasabah": "TARGET_KUR",
     "statusText": "Target Cross-Selling KUR",
@@ -1620,7 +1697,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "rawLvmSheet": "Belum Diakuisisi",
     "potensiKredit": "Rp 0",
     "terminal": "Prospek LVM / EDC Mandiri",
-    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 81934386550. Sheet Status: Belum Diakuisisi."
+    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 81934386550. Sheet Status: Belum Diakuisisi. Omset: Rp 0."
   },
   {
     "id": "MB-078",
@@ -1634,6 +1711,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "lat": -6.2445845,
     "lng": 106.80057,
     "omsetBulanan": "Rp 0",
+    "rawOmzetSheet": "",
     "volumeSettlement": "Rp 0",
     "statusNasabah": "TARGET_KUR",
     "statusText": "Target Cross-Selling KUR",
@@ -1641,7 +1719,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "rawLvmSheet": "Belum Diakuisisi",
     "potensiKredit": "Rp 0",
     "terminal": "Prospek LVM / EDC Mandiri",
-    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 0. Sheet Status: Belum Diakuisisi."
+    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 0. Sheet Status: Belum Diakuisisi. Omset: Rp 0."
   },
   {
     "id": "MB-079",
@@ -1655,6 +1733,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "lat": -6.2445845,
     "lng": 106.800571,
     "omsetBulanan": "Rp 0",
+    "rawOmzetSheet": "",
     "volumeSettlement": "Rp 0",
     "statusNasabah": "TARGET_KUR",
     "statusText": "Target Cross-Selling KUR",
@@ -1662,7 +1741,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "rawLvmSheet": "Belum Diakuisisi",
     "potensiKredit": "Rp 0",
     "terminal": "Prospek LVM / EDC Mandiri",
-    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 8128654179. Sheet Status: Belum Diakuisisi."
+    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 8128654179. Sheet Status: Belum Diakuisisi. Omset: Rp 0."
   },
   {
     "id": "MB-080",
@@ -1676,6 +1755,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "lat": -6.2445845,
     "lng": 106.800572,
     "omsetBulanan": "Rp 0",
+    "rawOmzetSheet": "",
     "volumeSettlement": "Rp 0",
     "statusNasabah": "TARGET_KUR",
     "statusText": "Target Cross-Selling KUR",
@@ -1683,7 +1763,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "rawLvmSheet": "Sudah Diakuisisi",
     "potensiKredit": "Rp 0",
     "terminal": "Livin' Merchant (QRIS Active)",
-    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 0. Sheet Status: Sudah Diakuisisi."
+    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 0. Sheet Status: Sudah Diakuisisi. Omset: Rp 0."
   },
   {
     "id": "MB-081",
@@ -1697,6 +1777,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "lat": -6.2445845,
     "lng": 106.800573,
     "omsetBulanan": "Rp 0",
+    "rawOmzetSheet": "",
     "volumeSettlement": "Rp 0",
     "statusNasabah": "TARGET_KUR",
     "statusText": "Target Cross-Selling KUR",
@@ -1704,7 +1785,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "rawLvmSheet": "Belum Diakuisisi",
     "potensiKredit": "Rp 0",
     "terminal": "Prospek LVM / EDC Mandiri",
-    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 87841878919. Sheet Status: Belum Diakuisisi."
+    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 87841878919. Sheet Status: Belum Diakuisisi. Omset: Rp 0."
   },
   {
     "id": "MB-082",
@@ -1718,6 +1799,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "lat": -6.2445845,
     "lng": 106.800574,
     "omsetBulanan": "Rp 0",
+    "rawOmzetSheet": "",
     "volumeSettlement": "Rp 0",
     "statusNasabah": "TARGET_KUR",
     "statusText": "Target Cross-Selling KUR",
@@ -1725,7 +1807,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "rawLvmSheet": "Sudah Diakuisisi",
     "potensiKredit": "Rp 0",
     "terminal": "Livin' Merchant (QRIS Active)",
-    "keterangan": "UMKM Blok M Square. PIC: -. Telp: -. Sheet Status: Sudah Diakuisisi."
+    "keterangan": "UMKM Blok M Square. PIC: -. Telp: -. Sheet Status: Sudah Diakuisisi. Omset: Rp 0."
   },
   {
     "id": "MB-083",
@@ -1739,6 +1821,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "lat": -6.2445845,
     "lng": 106.800575,
     "omsetBulanan": "Rp 0",
+    "rawOmzetSheet": "",
     "volumeSettlement": "Rp 0",
     "statusNasabah": "TARGET_KUR",
     "statusText": "Target Cross-Selling KUR",
@@ -1746,7 +1829,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "rawLvmSheet": "Sudah Diakuisisi",
     "potensiKredit": "Rp 0",
     "terminal": "Livin' Merchant (QRIS Active)",
-    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 0. Sheet Status: Sudah Diakuisisi."
+    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 0. Sheet Status: Sudah Diakuisisi. Omset: Rp 0."
   },
   {
     "id": "MB-084",
@@ -1760,6 +1843,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "lat": -6.2445845,
     "lng": 106.800576,
     "omsetBulanan": "Rp 0",
+    "rawOmzetSheet": "",
     "volumeSettlement": "Rp 0",
     "statusNasabah": "TARGET_KUR",
     "statusText": "Target Cross-Selling KUR",
@@ -1767,7 +1851,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "rawLvmSheet": "Sudah Diakuisisi",
     "potensiKredit": "Rp 0",
     "terminal": "Livin' Merchant (QRIS Active)",
-    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 0. Sheet Status: Sudah Diakuisisi."
+    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 0. Sheet Status: Sudah Diakuisisi. Omset: Rp 0."
   },
   {
     "id": "MB-085",
@@ -1781,6 +1865,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "lat": -6.2445845,
     "lng": 106.800577,
     "omsetBulanan": "Rp 0",
+    "rawOmzetSheet": "",
     "volumeSettlement": "Rp 0",
     "statusNasabah": "TARGET_KUR",
     "statusText": "Target Cross-Selling KUR",
@@ -1788,7 +1873,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "rawLvmSheet": "Sudah Diakuisisi",
     "potensiKredit": "Rp 0",
     "terminal": "Livin' Merchant (QRIS Active)",
-    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 0. Sheet Status: Sudah Diakuisisi."
+    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 0. Sheet Status: Sudah Diakuisisi. Omset: Rp 0."
   },
   {
     "id": "MB-086",
@@ -1802,6 +1887,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "lat": -6.2445845,
     "lng": 106.800578,
     "omsetBulanan": "Rp 0",
+    "rawOmzetSheet": "",
     "volumeSettlement": "Rp 0",
     "statusNasabah": "TARGET_KUR",
     "statusText": "Target Cross-Selling KUR",
@@ -1809,7 +1895,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "rawLvmSheet": "Belum Diakuisisi",
     "potensiKredit": "Rp 0",
     "terminal": "Prospek LVM / EDC Mandiri",
-    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 21. Sheet Status: Belum Diakuisisi."
+    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 21. Sheet Status: Belum Diakuisisi. Omset: Rp 0."
   },
   {
     "id": "MB-087",
@@ -1823,6 +1909,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "lat": -6.2445845,
     "lng": 106.800579,
     "omsetBulanan": "Rp 0",
+    "rawOmzetSheet": "",
     "volumeSettlement": "Rp 0",
     "statusNasabah": "TARGET_KUR",
     "statusText": "Target Cross-Selling KUR",
@@ -1830,7 +1917,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "rawLvmSheet": "Sudah Diakuisisi",
     "potensiKredit": "Rp 0",
     "terminal": "Livin' Merchant (QRIS Active)",
-    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 0. Sheet Status: Sudah Diakuisisi."
+    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 0. Sheet Status: Sudah Diakuisisi. Omset: Rp 0."
   },
   {
     "id": "MB-088",
@@ -1844,6 +1931,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "lat": -6.2445845,
     "lng": 106.80058,
     "omsetBulanan": "Rp 0",
+    "rawOmzetSheet": "",
     "volumeSettlement": "Rp 0",
     "statusNasabah": "TARGET_KUR",
     "statusText": "Target Cross-Selling KUR",
@@ -1851,7 +1939,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "rawLvmSheet": "Belum Diakuisisi",
     "potensiKredit": "Rp 0",
     "terminal": "Prospek LVM / EDC Mandiri",
-    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 81318106805. Sheet Status: Belum Diakuisisi."
+    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 81318106805. Sheet Status: Belum Diakuisisi. Omset: Rp 0."
   },
   {
     "id": "MB-089",
@@ -1865,6 +1953,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "lat": -6.2445845,
     "lng": 106.800581,
     "omsetBulanan": "Rp 0",
+    "rawOmzetSheet": "",
     "volumeSettlement": "Rp 0",
     "statusNasabah": "TARGET_KUR",
     "statusText": "Target Cross-Selling KUR",
@@ -1872,7 +1961,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "rawLvmSheet": "Sudah Diakuisisi",
     "potensiKredit": "Rp 0",
     "terminal": "Livin' Merchant (QRIS Active)",
-    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 0. Sheet Status: Sudah Diakuisisi."
+    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 0. Sheet Status: Sudah Diakuisisi. Omset: Rp 0."
   },
   {
     "id": "MB-090",
@@ -1886,6 +1975,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "lat": -6.2445845,
     "lng": 106.800582,
     "omsetBulanan": "Rp 0",
+    "rawOmzetSheet": "",
     "volumeSettlement": "Rp 0",
     "statusNasabah": "TARGET_KUR",
     "statusText": "Target Cross-Selling KUR",
@@ -1893,7 +1983,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "rawLvmSheet": "Sudah Diakuisisi",
     "potensiKredit": "Rp 0",
     "terminal": "Livin' Merchant (QRIS Active)",
-    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 0. Sheet Status: Sudah Diakuisisi."
+    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 0. Sheet Status: Sudah Diakuisisi. Omset: Rp 0."
   },
   {
     "id": "MB-091",
@@ -1907,6 +1997,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "lat": -6.2445845,
     "lng": 106.800583,
     "omsetBulanan": "Rp 0",
+    "rawOmzetSheet": "",
     "volumeSettlement": "Rp 0",
     "statusNasabah": "TARGET_KUR",
     "statusText": "Target Cross-Selling KUR",
@@ -1914,7 +2005,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "rawLvmSheet": "Sudah Diakuisisi",
     "potensiKredit": "Rp 0",
     "terminal": "Livin' Merchant (QRIS Active)",
-    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 0. Sheet Status: Sudah Diakuisisi."
+    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 0. Sheet Status: Sudah Diakuisisi. Omset: Rp 0."
   },
   {
     "id": "MB-092",
@@ -1928,6 +2019,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "lat": -6.2445845,
     "lng": 106.800584,
     "omsetBulanan": "Rp 0",
+    "rawOmzetSheet": "",
     "volumeSettlement": "Rp 0",
     "statusNasabah": "TARGET_KUR",
     "statusText": "Target Cross-Selling KUR",
@@ -1935,7 +2027,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "rawLvmSheet": "Sudah Diakuisisi",
     "potensiKredit": "Rp 0",
     "terminal": "Livin' Merchant (QRIS Active)",
-    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 816581779. Sheet Status: Sudah Diakuisisi."
+    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 816581779. Sheet Status: Sudah Diakuisisi. Omset: Rp 0."
   },
   {
     "id": "MB-093",
@@ -1949,6 +2041,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "lat": -6.2445845,
     "lng": 106.800585,
     "omsetBulanan": "Rp 0",
+    "rawOmzetSheet": "",
     "volumeSettlement": "Rp 0",
     "statusNasabah": "TARGET_KUR",
     "statusText": "Target Cross-Selling KUR",
@@ -1956,7 +2049,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "rawLvmSheet": "Belum Diakuisisi",
     "potensiKredit": "Rp 0",
     "terminal": "Prospek LVM / EDC Mandiri",
-    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 89521927170. Sheet Status: Belum Diakuisisi."
+    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 89521927170. Sheet Status: Belum Diakuisisi. Omset: Rp 0."
   },
   {
     "id": "MB-094",
@@ -1970,6 +2063,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "lat": -6.2445845,
     "lng": 106.800586,
     "omsetBulanan": "Rp 0",
+    "rawOmzetSheet": "",
     "volumeSettlement": "Rp 0",
     "statusNasabah": "TARGET_KUR",
     "statusText": "Target Cross-Selling KUR",
@@ -1977,7 +2071,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "rawLvmSheet": "Belum Diakuisisi",
     "potensiKredit": "Rp 0",
     "terminal": "Prospek LVM / EDC Mandiri",
-    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 8953211751184. Sheet Status: Belum Diakuisisi."
+    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 8953211751184. Sheet Status: Belum Diakuisisi. Omset: Rp 0."
   },
   {
     "id": "MB-095",
@@ -1991,6 +2085,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "lat": -6.2445845,
     "lng": 106.800587,
     "omsetBulanan": "Rp 0",
+    "rawOmzetSheet": "",
     "volumeSettlement": "Rp 0",
     "statusNasabah": "TARGET_KUR",
     "statusText": "Target Cross-Selling KUR",
@@ -1998,7 +2093,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "rawLvmSheet": "Sudah Diakuisisi",
     "potensiKredit": "Rp 0",
     "terminal": "Livin' Merchant (QRIS Active)",
-    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 8131035064. Sheet Status: Sudah Diakuisisi."
+    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 8131035064. Sheet Status: Sudah Diakuisisi. Omset: Rp 0."
   },
   {
     "id": "MB-096",
@@ -2012,6 +2107,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "lat": -6.2445845,
     "lng": 106.800588,
     "omsetBulanan": "Rp 0",
+    "rawOmzetSheet": "",
     "volumeSettlement": "Rp 0",
     "statusNasabah": "TARGET_KUR",
     "statusText": "Target Cross-Selling KUR",
@@ -2019,7 +2115,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "rawLvmSheet": "Sudah Diakuisisi",
     "potensiKredit": "Rp 0",
     "terminal": "Livin' Merchant (QRIS Active)",
-    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 85954626699. Sheet Status: Sudah Diakuisisi."
+    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 85954626699. Sheet Status: Sudah Diakuisisi. Omset: Rp 0."
   },
   {
     "id": "MB-097",
@@ -2033,6 +2129,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "lat": -6.2445845,
     "lng": 106.800589,
     "omsetBulanan": "Rp 0",
+    "rawOmzetSheet": "",
     "volumeSettlement": "Rp 0",
     "statusNasabah": "TARGET_KUR",
     "statusText": "Target Cross-Selling KUR",
@@ -2040,7 +2137,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "rawLvmSheet": "Sudah Diakuisisi",
     "potensiKredit": "Rp 0",
     "terminal": "Livin' Merchant (QRIS Active)",
-    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 85155331159. Sheet Status: Sudah Diakuisisi."
+    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 85155331159. Sheet Status: Sudah Diakuisisi. Omset: Rp 0."
   },
   {
     "id": "MB-098",
@@ -2054,6 +2151,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "lat": -6.2445845,
     "lng": 106.80059,
     "omsetBulanan": "Rp 0",
+    "rawOmzetSheet": "",
     "volumeSettlement": "Rp 0",
     "statusNasabah": "TARGET_KUR",
     "statusText": "Target Cross-Selling KUR",
@@ -2061,7 +2159,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "rawLvmSheet": "Belum Diakuisisi",
     "potensiKredit": "Rp 0",
     "terminal": "Prospek LVM / EDC Mandiri",
-    "keterangan": "UMKM Blok M Square. PIC: -. Telp: -. Sheet Status: Belum Diakuisisi."
+    "keterangan": "UMKM Blok M Square. PIC: -. Telp: -. Sheet Status: Belum Diakuisisi. Omset: Rp 0."
   },
   {
     "id": "MB-099",
@@ -2075,6 +2173,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "lat": -6.2445845,
     "lng": 106.800591,
     "omsetBulanan": "Rp 0",
+    "rawOmzetSheet": "",
     "volumeSettlement": "Rp 0",
     "statusNasabah": "TARGET_KUR",
     "statusText": "Target Cross-Selling KUR",
@@ -2082,7 +2181,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "rawLvmSheet": "Belum Diakuisisi",
     "potensiKredit": "Rp 0",
     "terminal": "Prospek LVM / EDC Mandiri",
-    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 0. Sheet Status: Belum Diakuisisi."
+    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 0. Sheet Status: Belum Diakuisisi. Omset: Rp 0."
   },
   {
     "id": "MB-100",
@@ -2096,6 +2195,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "lat": -6.2445845,
     "lng": 106.800592,
     "omsetBulanan": "Rp 0",
+    "rawOmzetSheet": "",
     "volumeSettlement": "Rp 0",
     "statusNasabah": "TARGET_KUR",
     "statusText": "Target Cross-Selling KUR",
@@ -2103,7 +2203,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "rawLvmSheet": "Sudah Diakuisisi",
     "potensiKredit": "Rp 0",
     "terminal": "Livin' Merchant (QRIS Active)",
-    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 0. Sheet Status: Sudah Diakuisisi."
+    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 0. Sheet Status: Sudah Diakuisisi. Omset: Rp 0."
   },
   {
     "id": "MB-101",
@@ -2117,6 +2217,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "lat": -6.2445845,
     "lng": 106.800593,
     "omsetBulanan": "Rp 0",
+    "rawOmzetSheet": "",
     "volumeSettlement": "Rp 0",
     "statusNasabah": "TARGET_KUR",
     "statusText": "Target Cross-Selling KUR",
@@ -2124,7 +2225,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "rawLvmSheet": "Sudah Diakuisisi",
     "potensiKredit": "Rp 0",
     "terminal": "Livin' Merchant (QRIS Active)",
-    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 81317335567. Sheet Status: Sudah Diakuisisi."
+    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 81317335567. Sheet Status: Sudah Diakuisisi. Omset: Rp 0."
   },
   {
     "id": "MB-102",
@@ -2138,6 +2239,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "lat": -6.2445845,
     "lng": 106.800594,
     "omsetBulanan": "Rp 0",
+    "rawOmzetSheet": "",
     "volumeSettlement": "Rp 0",
     "statusNasabah": "TARGET_KUR",
     "statusText": "Target Cross-Selling KUR",
@@ -2145,7 +2247,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "rawLvmSheet": "Sudah Diakuisisi",
     "potensiKredit": "Rp 0",
     "terminal": "Livin' Merchant (QRIS Active)",
-    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 812213776558. Sheet Status: Sudah Diakuisisi."
+    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 812213776558. Sheet Status: Sudah Diakuisisi. Omset: Rp 0."
   },
   {
     "id": "MB-103",
@@ -2159,6 +2261,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "lat": -6.2445845,
     "lng": 106.800595,
     "omsetBulanan": "Rp 0",
+    "rawOmzetSheet": "",
     "volumeSettlement": "Rp 0",
     "statusNasabah": "TARGET_KUR",
     "statusText": "Target Cross-Selling KUR",
@@ -2166,7 +2269,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "rawLvmSheet": "Sudah Diakuisisi",
     "potensiKredit": "Rp 0",
     "terminal": "Livin' Merchant (QRIS Active)",
-    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 85848466744. Sheet Status: Sudah Diakuisisi."
+    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 85848466744. Sheet Status: Sudah Diakuisisi. Omset: Rp 0."
   },
   {
     "id": "MB-104",
@@ -2180,6 +2283,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "lat": -6.2445845,
     "lng": 106.800596,
     "omsetBulanan": "Rp 0",
+    "rawOmzetSheet": "",
     "volumeSettlement": "Rp 0",
     "statusNasabah": "TARGET_KUR",
     "statusText": "Target Cross-Selling KUR",
@@ -2187,7 +2291,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "rawLvmSheet": "Belum Diakuisisi",
     "potensiKredit": "Rp 0",
     "terminal": "Prospek LVM / EDC Mandiri",
-    "keterangan": "UMKM Blok M Square. PIC: -. Telp: -. Sheet Status: Belum Diakuisisi."
+    "keterangan": "UMKM Blok M Square. PIC: -. Telp: -. Sheet Status: Belum Diakuisisi. Omset: Rp 0."
   },
   {
     "id": "MB-105",
@@ -2201,6 +2305,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "lat": -6.2445845,
     "lng": 106.800597,
     "omsetBulanan": "Rp 0",
+    "rawOmzetSheet": "",
     "volumeSettlement": "Rp 0",
     "statusNasabah": "TARGET_KUR",
     "statusText": "Target Cross-Selling KUR",
@@ -2208,7 +2313,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "rawLvmSheet": "Sudah Diakuisisi",
     "potensiKredit": "Rp 0",
     "terminal": "Livin' Merchant (QRIS Active)",
-    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 85691019572. Sheet Status: Sudah Diakuisisi."
+    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 85691019572. Sheet Status: Sudah Diakuisisi. Omset: Rp 0."
   },
   {
     "id": "MB-106",
@@ -2222,6 +2327,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "lat": -6.2445845,
     "lng": 106.800598,
     "omsetBulanan": "Rp 0",
+    "rawOmzetSheet": "",
     "volumeSettlement": "Rp 0",
     "statusNasabah": "TARGET_KUR",
     "statusText": "Target Cross-Selling KUR",
@@ -2229,7 +2335,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "rawLvmSheet": "Belum Diakuisisi",
     "potensiKredit": "Rp 0",
     "terminal": "Prospek LVM / EDC Mandiri",
-    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 0. Sheet Status: Belum Diakuisisi."
+    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 0. Sheet Status: Belum Diakuisisi. Omset: Rp 0."
   },
   {
     "id": "MB-107",
@@ -2243,6 +2349,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "lat": -6.2445845,
     "lng": 106.800599,
     "omsetBulanan": "Rp 0",
+    "rawOmzetSheet": "",
     "volumeSettlement": "Rp 0",
     "statusNasabah": "TARGET_KUR",
     "statusText": "Target Cross-Selling KUR",
@@ -2250,7 +2357,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "rawLvmSheet": "Sudah Diakuisisi",
     "potensiKredit": "Rp 0",
     "terminal": "Livin' Merchant (QRIS Active)",
-    "keterangan": "UMKM Blok M Square. PIC: -. Telp: -. Sheet Status: Sudah Diakuisisi."
+    "keterangan": "UMKM Blok M Square. PIC: -. Telp: -. Sheet Status: Sudah Diakuisisi. Omset: Rp 0."
   },
   {
     "id": "MB-108",
@@ -2264,6 +2371,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "lat": -6.2445845,
     "lng": 106.8006,
     "omsetBulanan": "Rp 0",
+    "rawOmzetSheet": "",
     "volumeSettlement": "Rp 0",
     "statusNasabah": "TARGET_KUR",
     "statusText": "Target Cross-Selling KUR",
@@ -2271,7 +2379,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "rawLvmSheet": "Belum Diakuisisi",
     "potensiKredit": "Rp 0",
     "terminal": "Prospek LVM / EDC Mandiri",
-    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 81539871500. Sheet Status: Belum Diakuisisi."
+    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 81539871500. Sheet Status: Belum Diakuisisi. Omset: Rp 0."
   },
   {
     "id": "MB-109",
@@ -2285,6 +2393,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "lat": -6.2445845,
     "lng": 106.800601,
     "omsetBulanan": "Rp 0",
+    "rawOmzetSheet": "",
     "volumeSettlement": "Rp 0",
     "statusNasabah": "TARGET_KUR",
     "statusText": "Target Cross-Selling KUR",
@@ -2292,7 +2401,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "rawLvmSheet": "Sudah Diakuisisi",
     "potensiKredit": "Rp 0",
     "terminal": "Livin' Merchant (QRIS Active)",
-    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 85779187282. Sheet Status: Sudah Diakuisisi."
+    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 85779187282. Sheet Status: Sudah Diakuisisi. Omset: Rp 0."
   },
   {
     "id": "MB-110",
@@ -2306,6 +2415,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "lat": -6.2445845,
     "lng": 106.800602,
     "omsetBulanan": "Rp 0",
+    "rawOmzetSheet": "",
     "volumeSettlement": "Rp 0",
     "statusNasabah": "TARGET_KUR",
     "statusText": "Target Cross-Selling KUR",
@@ -2313,7 +2423,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "rawLvmSheet": "Sudah Diakuisisi",
     "potensiKredit": "Rp 0",
     "terminal": "Livin' Merchant (QRIS Active)",
-    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 81276959805. Sheet Status: Sudah Diakuisisi."
+    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 81276959805. Sheet Status: Sudah Diakuisisi. Omset: Rp 0."
   },
   {
     "id": "MB-111",
@@ -2327,6 +2437,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "lat": -6.2445845,
     "lng": 106.800603,
     "omsetBulanan": "Rp 0",
+    "rawOmzetSheet": "",
     "volumeSettlement": "Rp 0",
     "statusNasabah": "TARGET_KUR",
     "statusText": "Target Cross-Selling KUR",
@@ -2334,7 +2445,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "rawLvmSheet": "Sudah Diakuisisi",
     "potensiKredit": "Rp 0",
     "terminal": "Livin' Merchant (QRIS Active)",
-    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 8212683121. Sheet Status: Sudah Diakuisisi."
+    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 8212683121. Sheet Status: Sudah Diakuisisi. Omset: Rp 0."
   },
   {
     "id": "MB-112",
@@ -2348,6 +2459,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "lat": -6.2445845,
     "lng": 106.800604,
     "omsetBulanan": "Rp 0",
+    "rawOmzetSheet": "",
     "volumeSettlement": "Rp 0",
     "statusNasabah": "TARGET_KUR",
     "statusText": "Target Cross-Selling KUR",
@@ -2355,7 +2467,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "rawLvmSheet": "Sudah Diakuisisi",
     "potensiKredit": "Rp 0",
     "terminal": "Livin' Merchant (QRIS Active)",
-    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 82124952910. Sheet Status: Sudah Diakuisisi."
+    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 82124952910. Sheet Status: Sudah Diakuisisi. Omset: Rp 0."
   },
   {
     "id": "MB-113",
@@ -2369,6 +2481,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "lat": -6.2445845,
     "lng": 106.800605,
     "omsetBulanan": "Rp 0",
+    "rawOmzetSheet": "",
     "volumeSettlement": "Rp 0",
     "statusNasabah": "TARGET_KUR",
     "statusText": "Target Cross-Selling KUR",
@@ -2376,7 +2489,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "rawLvmSheet": "Sudah Diakuisisi",
     "potensiKredit": "Rp 0",
     "terminal": "Livin' Merchant (QRIS Active)",
-    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 81316881452. Sheet Status: Sudah Diakuisisi."
+    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 81316881452. Sheet Status: Sudah Diakuisisi. Omset: Rp 0."
   },
   {
     "id": "MB-114",
@@ -2390,6 +2503,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "lat": -6.2445845,
     "lng": 106.800606,
     "omsetBulanan": "Rp 0",
+    "rawOmzetSheet": "",
     "volumeSettlement": "Rp 0",
     "statusNasabah": "TARGET_KUR",
     "statusText": "Target Cross-Selling KUR",
@@ -2397,7 +2511,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "rawLvmSheet": "Sudah Diakuisisi",
     "potensiKredit": "Rp 0",
     "terminal": "Livin' Merchant (QRIS Active)",
-    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 81219869264. Sheet Status: Sudah Diakuisisi."
+    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 81219869264. Sheet Status: Sudah Diakuisisi. Omset: Rp 0."
   },
   {
     "id": "MB-115",
@@ -2411,6 +2525,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "lat": -6.2445845,
     "lng": 106.800607,
     "omsetBulanan": "Rp 0",
+    "rawOmzetSheet": "",
     "volumeSettlement": "Rp 0",
     "statusNasabah": "TARGET_KUR",
     "statusText": "Target Cross-Selling KUR",
@@ -2418,7 +2533,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "rawLvmSheet": "Sudah Diakuisisi",
     "potensiKredit": "Rp 0",
     "terminal": "Livin' Merchant (QRIS Active)",
-    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 82121955514. Sheet Status: Sudah Diakuisisi."
+    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 82121955514. Sheet Status: Sudah Diakuisisi. Omset: Rp 0."
   },
   {
     "id": "MB-116",
@@ -2432,6 +2547,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "lat": -6.2445845,
     "lng": 106.800608,
     "omsetBulanan": "Rp 0",
+    "rawOmzetSheet": "",
     "volumeSettlement": "Rp 0",
     "statusNasabah": "TARGET_KUR",
     "statusText": "Target Cross-Selling KUR",
@@ -2439,7 +2555,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "rawLvmSheet": "Sudah Diakuisisi",
     "potensiKredit": "Rp 0",
     "terminal": "Livin' Merchant (QRIS Active)",
-    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 6.28E+16. Sheet Status: Sudah Diakuisisi."
+    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 6.28E+16. Sheet Status: Sudah Diakuisisi. Omset: Rp 0."
   },
   {
     "id": "MB-117",
@@ -2453,6 +2569,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "lat": -6.2445845,
     "lng": 106.800609,
     "omsetBulanan": "Rp 0",
+    "rawOmzetSheet": "",
     "volumeSettlement": "Rp 0",
     "statusNasabah": "TARGET_KUR",
     "statusText": "Target Cross-Selling KUR",
@@ -2460,7 +2577,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "rawLvmSheet": "Sudah Diakuisisi",
     "potensiKredit": "Rp 0",
     "terminal": "Livin' Merchant (QRIS Active)",
-    "keterangan": "UMKM Blok M Square. PIC: -. Telp: -. Sheet Status: Sudah Diakuisisi."
+    "keterangan": "UMKM Blok M Square. PIC: -. Telp: -. Sheet Status: Sudah Diakuisisi. Omset: Rp 0."
   },
   {
     "id": "MB-118",
@@ -2474,6 +2591,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "lat": -6.2445845,
     "lng": 106.80061,
     "omsetBulanan": "Rp 0",
+    "rawOmzetSheet": "",
     "volumeSettlement": "Rp 0",
     "statusNasabah": "TARGET_KUR",
     "statusText": "Target Cross-Selling KUR",
@@ -2481,7 +2599,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "rawLvmSheet": "Sudah Diakuisisi",
     "potensiKredit": "Rp 0",
     "terminal": "Livin' Merchant (QRIS Active)",
-    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 85930330290. Sheet Status: Sudah Diakuisisi."
+    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 85930330290. Sheet Status: Sudah Diakuisisi. Omset: Rp 0."
   },
   {
     "id": "MB-119",
@@ -2495,6 +2613,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "lat": -6.2445845,
     "lng": 106.800611,
     "omsetBulanan": "Rp 0",
+    "rawOmzetSheet": "",
     "volumeSettlement": "Rp 0",
     "statusNasabah": "TARGET_KUR",
     "statusText": "Target Cross-Selling KUR",
@@ -2502,7 +2621,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "rawLvmSheet": "Sudah Diakuisisi",
     "potensiKredit": "Rp 0",
     "terminal": "Livin' Merchant (QRIS Active)",
-    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 81293109077. Sheet Status: Sudah Diakuisisi."
+    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 81293109077. Sheet Status: Sudah Diakuisisi. Omset: Rp 0."
   },
   {
     "id": "MB-120",
@@ -2516,6 +2635,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "lat": -6.2445845,
     "lng": 106.800612,
     "omsetBulanan": "Rp 0",
+    "rawOmzetSheet": "",
     "volumeSettlement": "Rp 0",
     "statusNasabah": "TARGET_KUR",
     "statusText": "Target Cross-Selling KUR",
@@ -2523,7 +2643,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "rawLvmSheet": "Belum Diakuisisi",
     "potensiKredit": "Rp 0",
     "terminal": "Prospek LVM / EDC Mandiri",
-    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 81770956084. Sheet Status: Belum Diakuisisi."
+    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 81770956084. Sheet Status: Belum Diakuisisi. Omset: Rp 0."
   },
   {
     "id": "MB-121",
@@ -2537,6 +2657,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "lat": -6.2445845,
     "lng": 106.800613,
     "omsetBulanan": "Rp 0",
+    "rawOmzetSheet": "",
     "volumeSettlement": "Rp 0",
     "statusNasabah": "TARGET_KUR",
     "statusText": "Target Cross-Selling KUR",
@@ -2544,7 +2665,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "rawLvmSheet": "Sudah Diakuisisi",
     "potensiKredit": "Rp 0",
     "terminal": "Livin' Merchant (QRIS Active)",
-    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 81637282836. Sheet Status: Sudah Diakuisisi."
+    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 81637282836. Sheet Status: Sudah Diakuisisi. Omset: Rp 0."
   },
   {
     "id": "MB-122",
@@ -2558,6 +2679,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "lat": -6.2445845,
     "lng": 106.800614,
     "omsetBulanan": "Rp 0",
+    "rawOmzetSheet": "",
     "volumeSettlement": "Rp 0",
     "statusNasabah": "TARGET_KUR",
     "statusText": "Target Cross-Selling KUR",
@@ -2565,7 +2687,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "rawLvmSheet": "Sudah Diakuisisi",
     "potensiKredit": "Rp 0",
     "terminal": "Livin' Merchant (QRIS Active)",
-    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 82213070693. Sheet Status: Sudah Diakuisisi."
+    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 82213070693. Sheet Status: Sudah Diakuisisi. Omset: Rp 0."
   },
   {
     "id": "MB-123",
@@ -2579,6 +2701,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "lat": -6.2445845,
     "lng": 106.800615,
     "omsetBulanan": "Rp 0",
+    "rawOmzetSheet": "",
     "volumeSettlement": "Rp 0",
     "statusNasabah": "TARGET_KUR",
     "statusText": "Target Cross-Selling KUR",
@@ -2586,7 +2709,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "rawLvmSheet": "Belum Diakuisisi",
     "potensiKredit": "Rp 0",
     "terminal": "Prospek LVM / EDC Mandiri",
-    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 6.28E+17. Sheet Status: Belum Diakuisisi."
+    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 6.28E+17. Sheet Status: Belum Diakuisisi. Omset: Rp 0."
   },
   {
     "id": "MB-124",
@@ -2600,6 +2723,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "lat": -6.2445845,
     "lng": 106.800616,
     "omsetBulanan": "Rp 0",
+    "rawOmzetSheet": "",
     "volumeSettlement": "Rp 0",
     "statusNasabah": "TARGET_KUR",
     "statusText": "Target Cross-Selling KUR",
@@ -2607,7 +2731,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "rawLvmSheet": "Sudah Diakuisisi",
     "potensiKredit": "Rp 0",
     "terminal": "Livin' Merchant (QRIS Active)",
-    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 895413036325. Sheet Status: Sudah Diakuisisi."
+    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 895413036325. Sheet Status: Sudah Diakuisisi. Omset: Rp 0."
   },
   {
     "id": "MB-125",
@@ -2621,6 +2745,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "lat": -6.2445845,
     "lng": 106.800617,
     "omsetBulanan": "Rp 0",
+    "rawOmzetSheet": "",
     "volumeSettlement": "Rp 0",
     "statusNasabah": "TARGET_KUR",
     "statusText": "Target Cross-Selling KUR",
@@ -2628,7 +2753,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "rawLvmSheet": "Sudah Diakuisisi",
     "potensiKredit": "Rp 0",
     "terminal": "Livin' Merchant (QRIS Active)",
-    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 819884884. Sheet Status: Sudah Diakuisisi."
+    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 819884884. Sheet Status: Sudah Diakuisisi. Omset: Rp 0."
   },
   {
     "id": "MB-126",
@@ -2642,6 +2767,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "lat": -6.2445845,
     "lng": 106.800618,
     "omsetBulanan": "Rp 0",
+    "rawOmzetSheet": "",
     "volumeSettlement": "Rp 0",
     "statusNasabah": "TARGET_KUR",
     "statusText": "Target Cross-Selling KUR",
@@ -2649,7 +2775,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "rawLvmSheet": "Sudah Diakuisisi",
     "potensiKredit": "Rp 0",
     "terminal": "Livin' Merchant (QRIS Active)",
-    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 85894387831. Sheet Status: Sudah Diakuisisi."
+    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 85894387831. Sheet Status: Sudah Diakuisisi. Omset: Rp 0."
   },
   {
     "id": "MB-127",
@@ -2663,6 +2789,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "lat": -6.2445845,
     "lng": 106.800619,
     "omsetBulanan": "Rp 0",
+    "rawOmzetSheet": "",
     "volumeSettlement": "Rp 0",
     "statusNasabah": "TARGET_KUR",
     "statusText": "Target Cross-Selling KUR",
@@ -2670,7 +2797,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "rawLvmSheet": "Sudah Diakuisisi",
     "potensiKredit": "Rp 0",
     "terminal": "Livin' Merchant (QRIS Active)",
-    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 88806642072. Sheet Status: Sudah Diakuisisi."
+    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 88806642072. Sheet Status: Sudah Diakuisisi. Omset: Rp 0."
   },
   {
     "id": "MB-128",
@@ -2684,6 +2811,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "lat": -6.2445845,
     "lng": 106.80062,
     "omsetBulanan": "Rp 0",
+    "rawOmzetSheet": "",
     "volumeSettlement": "Rp 0",
     "statusNasabah": "TARGET_KUR",
     "statusText": "Target Cross-Selling KUR",
@@ -2691,7 +2819,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "rawLvmSheet": "Belum Diakuisisi",
     "potensiKredit": "Rp 0",
     "terminal": "Prospek LVM / EDC Mandiri",
-    "keterangan": "UMKM Blok M Square. PIC: -. Telp: -. Sheet Status: Belum Diakuisisi."
+    "keterangan": "UMKM Blok M Square. PIC: -. Telp: -. Sheet Status: Belum Diakuisisi. Omset: Rp 0."
   },
   {
     "id": "MB-129",
@@ -2705,6 +2833,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "lat": -6.2445845,
     "lng": 106.800621,
     "omsetBulanan": "Rp 0",
+    "rawOmzetSheet": "",
     "volumeSettlement": "Rp 0",
     "statusNasabah": "TARGET_KUR",
     "statusText": "Target Cross-Selling KUR",
@@ -2712,7 +2841,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "rawLvmSheet": "Belum Diakuisisi",
     "potensiKredit": "Rp 0",
     "terminal": "Prospek LVM / EDC Mandiri",
-    "keterangan": "UMKM Blok M Square. PIC: -. Telp: -. Sheet Status: Belum Diakuisisi."
+    "keterangan": "UMKM Blok M Square. PIC: -. Telp: -. Sheet Status: Belum Diakuisisi. Omset: Rp 0."
   },
   {
     "id": "MB-130",
@@ -2726,6 +2855,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "lat": -6.2445845,
     "lng": 106.800622,
     "omsetBulanan": "Rp 0",
+    "rawOmzetSheet": "",
     "volumeSettlement": "Rp 0",
     "statusNasabah": "TARGET_KUR",
     "statusText": "Target Cross-Selling KUR",
@@ -2733,7 +2863,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "rawLvmSheet": "Sudah Diakuisisi",
     "potensiKredit": "Rp 0",
     "terminal": "Livin' Merchant (QRIS Active)",
-    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 85694595238. Sheet Status: Sudah Diakuisisi."
+    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 85694595238. Sheet Status: Sudah Diakuisisi. Omset: Rp 0."
   },
   {
     "id": "MB-131",
@@ -2747,6 +2877,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "lat": -6.2445845,
     "lng": 106.800623,
     "omsetBulanan": "Rp 0",
+    "rawOmzetSheet": "",
     "volumeSettlement": "Rp 0",
     "statusNasabah": "TARGET_KUR",
     "statusText": "Target Cross-Selling KUR",
@@ -2754,7 +2885,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "rawLvmSheet": "Sudah Diakuisisi",
     "potensiKredit": "Rp 0",
     "terminal": "Livin' Merchant (QRIS Active)",
-    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 881010132218. Sheet Status: Sudah Diakuisisi."
+    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 881010132218. Sheet Status: Sudah Diakuisisi. Omset: Rp 0."
   },
   {
     "id": "MB-132",
@@ -2768,6 +2899,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "lat": -6.2445845,
     "lng": 106.800624,
     "omsetBulanan": "Rp 0",
+    "rawOmzetSheet": "",
     "volumeSettlement": "Rp 0",
     "statusNasabah": "TARGET_KUR",
     "statusText": "Target Cross-Selling KUR",
@@ -2775,7 +2907,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "rawLvmSheet": "Sudah Diakuisisi",
     "potensiKredit": "Rp 0",
     "terminal": "Livin' Merchant (QRIS Active)",
-    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 85113364446. Sheet Status: Sudah Diakuisisi."
+    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 85113364446. Sheet Status: Sudah Diakuisisi. Omset: Rp 0."
   },
   {
     "id": "MB-133",
@@ -2789,6 +2921,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "lat": -6.2445845,
     "lng": 106.800625,
     "omsetBulanan": "Rp 0",
+    "rawOmzetSheet": "",
     "volumeSettlement": "Rp 0",
     "statusNasabah": "TARGET_KUR",
     "statusText": "Target Cross-Selling KUR",
@@ -2796,7 +2929,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "rawLvmSheet": "Sudah Diakuisisi",
     "potensiKredit": "Rp 0",
     "terminal": "Livin' Merchant (QRIS Active)",
-    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 85715266965. Sheet Status: Sudah Diakuisisi."
+    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 85715266965. Sheet Status: Sudah Diakuisisi. Omset: Rp 0."
   },
   {
     "id": "MB-134",
@@ -2810,6 +2943,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "lat": -6.2445845,
     "lng": 106.800626,
     "omsetBulanan": "Rp 0",
+    "rawOmzetSheet": "",
     "volumeSettlement": "Rp 0",
     "statusNasabah": "TARGET_KUR",
     "statusText": "Target Cross-Selling KUR",
@@ -2817,7 +2951,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "rawLvmSheet": "Sudah Diakuisisi",
     "potensiKredit": "Rp 0",
     "terminal": "Livin' Merchant (QRIS Active)",
-    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 87830766755. Sheet Status: Sudah Diakuisisi."
+    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 87830766755. Sheet Status: Sudah Diakuisisi. Omset: Rp 0."
   },
   {
     "id": "MB-135",
@@ -2831,6 +2965,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "lat": -6.2445845,
     "lng": 106.800627,
     "omsetBulanan": "Rp 0",
+    "rawOmzetSheet": "",
     "volumeSettlement": "Rp 0",
     "statusNasabah": "TARGET_KUR",
     "statusText": "Target Cross-Selling KUR",
@@ -2838,7 +2973,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "rawLvmSheet": "Sudah Diakuisisi",
     "potensiKredit": "Rp 0",
     "terminal": "Livin' Merchant (QRIS Active)",
-    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 85921479336. Sheet Status: Sudah Diakuisisi."
+    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 85921479336. Sheet Status: Sudah Diakuisisi. Omset: Rp 0."
   },
   {
     "id": "MB-136",
@@ -2852,6 +2987,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "lat": -6.2445845,
     "lng": 106.800628,
     "omsetBulanan": "Rp 0",
+    "rawOmzetSheet": "",
     "volumeSettlement": "Rp 0",
     "statusNasabah": "TARGET_KUR",
     "statusText": "Target Cross-Selling KUR",
@@ -2859,7 +2995,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "rawLvmSheet": "Sudah Diakuisisi",
     "potensiKredit": "Rp 0",
     "terminal": "Livin' Merchant (QRIS Active)",
-    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 85894849721. Sheet Status: Sudah Diakuisisi."
+    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 85894849721. Sheet Status: Sudah Diakuisisi. Omset: Rp 0."
   },
   {
     "id": "MB-137",
@@ -2873,6 +3009,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "lat": -6.2445845,
     "lng": 106.800629,
     "omsetBulanan": "Rp 0",
+    "rawOmzetSheet": "",
     "volumeSettlement": "Rp 0",
     "statusNasabah": "TARGET_KUR",
     "statusText": "Target Cross-Selling KUR",
@@ -2880,7 +3017,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "rawLvmSheet": "Sudah Diakuisisi",
     "potensiKredit": "Rp 0",
     "terminal": "Livin' Merchant (QRIS Active)",
-    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 85712258722. Sheet Status: Sudah Diakuisisi."
+    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 85712258722. Sheet Status: Sudah Diakuisisi. Omset: Rp 0."
   },
   {
     "id": "MB-138",
@@ -2894,6 +3031,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "lat": -6.2445845,
     "lng": 106.80063,
     "omsetBulanan": "Rp 0",
+    "rawOmzetSheet": "",
     "volumeSettlement": "Rp 0",
     "statusNasabah": "TARGET_KUR",
     "statusText": "Target Cross-Selling KUR",
@@ -2901,7 +3039,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "rawLvmSheet": "Sudah Diakuisisi",
     "potensiKredit": "Rp 0",
     "terminal": "Livin' Merchant (QRIS Active)",
-    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 85713184586. Sheet Status: Sudah Diakuisisi."
+    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 85713184586. Sheet Status: Sudah Diakuisisi. Omset: Rp 0."
   },
   {
     "id": "MB-139",
@@ -2915,6 +3053,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "lat": -6.2445845,
     "lng": 106.800631,
     "omsetBulanan": "Rp 0",
+    "rawOmzetSheet": "",
     "volumeSettlement": "Rp 0",
     "statusNasabah": "TARGET_KUR",
     "statusText": "Target Cross-Selling KUR",
@@ -2922,7 +3061,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "rawLvmSheet": "Sudah Diakuisisi",
     "potensiKredit": "Rp 0",
     "terminal": "Livin' Merchant (QRIS Active)",
-    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 81213366098. Sheet Status: Sudah Diakuisisi."
+    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 81213366098. Sheet Status: Sudah Diakuisisi. Omset: Rp 0."
   },
   {
     "id": "MB-140",
@@ -2936,6 +3075,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "lat": -6.2445845,
     "lng": 106.800632,
     "omsetBulanan": "Rp 0",
+    "rawOmzetSheet": "",
     "volumeSettlement": "Rp 0",
     "statusNasabah": "TARGET_KUR",
     "statusText": "Target Cross-Selling KUR",
@@ -2943,7 +3083,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "rawLvmSheet": "Sudah Diakuisisi",
     "potensiKredit": "Rp 0",
     "terminal": "Livin' Merchant (QRIS Active)",
-    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 87727256667. Sheet Status: Sudah Diakuisisi."
+    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 87727256667. Sheet Status: Sudah Diakuisisi. Omset: Rp 0."
   },
   {
     "id": "MB-141",
@@ -2957,6 +3097,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "lat": -6.2445845,
     "lng": 106.800633,
     "omsetBulanan": "Rp 0",
+    "rawOmzetSheet": "",
     "volumeSettlement": "Rp 0",
     "statusNasabah": "TARGET_KUR",
     "statusText": "Target Cross-Selling KUR",
@@ -2964,7 +3105,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "rawLvmSheet": "Sudah Diakuisisi",
     "potensiKredit": "Rp 0",
     "terminal": "Livin' Merchant (QRIS Active)",
-    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 88212650851. Sheet Status: Sudah Diakuisisi."
+    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 88212650851. Sheet Status: Sudah Diakuisisi. Omset: Rp 0."
   },
   {
     "id": "MB-142",
@@ -2978,6 +3119,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "lat": -6.2445845,
     "lng": 106.800634,
     "omsetBulanan": "Rp 0",
+    "rawOmzetSheet": "",
     "volumeSettlement": "Rp 0",
     "statusNasabah": "TARGET_KUR",
     "statusText": "Target Cross-Selling KUR",
@@ -2985,7 +3127,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "rawLvmSheet": "Sudah Diakuisisi",
     "potensiKredit": "Rp 0",
     "terminal": "Livin' Merchant (QRIS Active)",
-    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 81808868803. Sheet Status: Sudah Diakuisisi."
+    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 81808868803. Sheet Status: Sudah Diakuisisi. Omset: Rp 0."
   },
   {
     "id": "MB-143",
@@ -2999,6 +3141,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "lat": -6.2445845,
     "lng": 106.800635,
     "omsetBulanan": "Rp 0",
+    "rawOmzetSheet": "",
     "volumeSettlement": "Rp 0",
     "statusNasabah": "TARGET_KUR",
     "statusText": "Target Cross-Selling KUR",
@@ -3006,7 +3149,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "rawLvmSheet": "Sudah Diakuisisi",
     "potensiKredit": "Rp 0",
     "terminal": "Livin' Merchant (QRIS Active)",
-    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 85938584519. Sheet Status: Sudah Diakuisisi."
+    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 85938584519. Sheet Status: Sudah Diakuisisi. Omset: Rp 0."
   },
   {
     "id": "MB-144",
@@ -3020,6 +3163,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "lat": -6.2445845,
     "lng": 106.800636,
     "omsetBulanan": "Rp 0",
+    "rawOmzetSheet": "",
     "volumeSettlement": "Rp 0",
     "statusNasabah": "TARGET_KUR",
     "statusText": "Target Cross-Selling KUR",
@@ -3027,7 +3171,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "rawLvmSheet": "Sudah Diakuisisi",
     "potensiKredit": "Rp 0",
     "terminal": "Livin' Merchant (QRIS Active)",
-    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 895637268379. Sheet Status: Sudah Diakuisisi."
+    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 895637268379. Sheet Status: Sudah Diakuisisi. Omset: Rp 0."
   },
   {
     "id": "MB-145",
@@ -3041,6 +3185,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "lat": -6.2445845,
     "lng": 106.800637,
     "omsetBulanan": "Rp 0",
+    "rawOmzetSheet": "",
     "volumeSettlement": "Rp 0",
     "statusNasabah": "TARGET_KUR",
     "statusText": "Target Cross-Selling KUR",
@@ -3048,7 +3193,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "rawLvmSheet": "Sudah Diakuisisi",
     "potensiKredit": "Rp 0",
     "terminal": "Livin' Merchant (QRIS Active)",
-    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 83873277879. Sheet Status: Sudah Diakuisisi."
+    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 83873277879. Sheet Status: Sudah Diakuisisi. Omset: Rp 0."
   },
   {
     "id": "MB-146",
@@ -3062,6 +3207,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "lat": -6.2445845,
     "lng": 106.800638,
     "omsetBulanan": "Rp 0",
+    "rawOmzetSheet": "",
     "volumeSettlement": "Rp 0",
     "statusNasabah": "TARGET_KUR",
     "statusText": "Target Cross-Selling KUR",
@@ -3069,7 +3215,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "rawLvmSheet": "Sudah Diakuisisi",
     "potensiKredit": "Rp 0",
     "terminal": "Livin' Merchant (QRIS Active)",
-    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 8978328733. Sheet Status: Sudah Diakuisisi."
+    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 8978328733. Sheet Status: Sudah Diakuisisi. Omset: Rp 0."
   },
   {
     "id": "MB-147",
@@ -3083,6 +3229,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "lat": -6.2445845,
     "lng": 106.800639,
     "omsetBulanan": "Rp 0",
+    "rawOmzetSheet": "",
     "volumeSettlement": "Rp 0",
     "statusNasabah": "TARGET_KUR",
     "statusText": "Target Cross-Selling KUR",
@@ -3090,7 +3237,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "rawLvmSheet": "Sudah Diakuisisi",
     "potensiKredit": "Rp 0",
     "terminal": "Livin' Merchant (QRIS Active)",
-    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 85880256588. Sheet Status: Sudah Diakuisisi."
+    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 85880256588. Sheet Status: Sudah Diakuisisi. Omset: Rp 0."
   },
   {
     "id": "MB-148",
@@ -3104,6 +3251,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "lat": -6.2445845,
     "lng": 106.80064,
     "omsetBulanan": "Rp 0",
+    "rawOmzetSheet": "",
     "volumeSettlement": "Rp 0",
     "statusNasabah": "TARGET_KUR",
     "statusText": "Target Cross-Selling KUR",
@@ -3111,7 +3259,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "rawLvmSheet": "Sudah Diakuisisi",
     "potensiKredit": "Rp 0",
     "terminal": "Livin' Merchant (QRIS Active)",
-    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 8891768846. Sheet Status: Sudah Diakuisisi."
+    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 8891768846. Sheet Status: Sudah Diakuisisi. Omset: Rp 0."
   },
   {
     "id": "MB-149",
@@ -3125,6 +3273,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "lat": -6.2445845,
     "lng": 106.800641,
     "omsetBulanan": "Rp 0",
+    "rawOmzetSheet": "",
     "volumeSettlement": "Rp 0",
     "statusNasabah": "TARGET_KUR",
     "statusText": "Target Cross-Selling KUR",
@@ -3132,7 +3281,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "rawLvmSheet": "Sudah Diakuisisi",
     "potensiKredit": "Rp 0",
     "terminal": "Livin' Merchant (QRIS Active)",
-    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 85779557918. Sheet Status: Sudah Diakuisisi."
+    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 85779557918. Sheet Status: Sudah Diakuisisi. Omset: Rp 0."
   },
   {
     "id": "MB-150",
@@ -3146,6 +3295,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "lat": -6.2445845,
     "lng": 106.800642,
     "omsetBulanan": "Rp 0",
+    "rawOmzetSheet": "",
     "volumeSettlement": "Rp 0",
     "statusNasabah": "TARGET_KUR",
     "statusText": "Target Cross-Selling KUR",
@@ -3153,7 +3303,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "rawLvmSheet": "Belum Diakuisisi",
     "potensiKredit": "Rp 0",
     "terminal": "Prospek LVM / EDC Mandiri",
-    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 8123608907. Sheet Status: Belum Diakuisisi."
+    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 8123608907. Sheet Status: Belum Diakuisisi. Omset: Rp 0."
   },
   {
     "id": "MB-151",
@@ -3167,6 +3317,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "lat": -6.2445845,
     "lng": 106.800643,
     "omsetBulanan": "Rp 0",
+    "rawOmzetSheet": "",
     "volumeSettlement": "Rp 0",
     "statusNasabah": "TARGET_KUR",
     "statusText": "Target Cross-Selling KUR",
@@ -3174,7 +3325,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "rawLvmSheet": "Belum Diakuisisi",
     "potensiKredit": "Rp 0",
     "terminal": "Prospek LVM / EDC Mandiri",
-    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 85166961966. Sheet Status: Belum Diakuisisi."
+    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 85166961966. Sheet Status: Belum Diakuisisi. Omset: Rp 0."
   },
   {
     "id": "MB-152",
@@ -3188,6 +3339,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "lat": -6.2445845,
     "lng": 106.800644,
     "omsetBulanan": "Rp 0",
+    "rawOmzetSheet": "",
     "volumeSettlement": "Rp 0",
     "statusNasabah": "TARGET_KUR",
     "statusText": "Target Cross-Selling KUR",
@@ -3195,7 +3347,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "rawLvmSheet": "Belum Diakuisisi",
     "potensiKredit": "Rp 0",
     "terminal": "Prospek LVM / EDC Mandiri",
-    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 81386975489. Sheet Status: Belum Diakuisisi."
+    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 81386975489. Sheet Status: Belum Diakuisisi. Omset: Rp 0."
   },
   {
     "id": "MB-153",
@@ -3209,6 +3361,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "lat": -6.2445845,
     "lng": 106.800645,
     "omsetBulanan": "Rp 0",
+    "rawOmzetSheet": "",
     "volumeSettlement": "Rp 0",
     "statusNasabah": "TARGET_KUR",
     "statusText": "Target Cross-Selling KUR",
@@ -3216,7 +3369,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "rawLvmSheet": "Sudah Diakuisisi",
     "potensiKredit": "Rp 0",
     "terminal": "Livin' Merchant (QRIS Active)",
-    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 81382320828. Sheet Status: Sudah Diakuisisi."
+    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 81382320828. Sheet Status: Sudah Diakuisisi. Omset: Rp 0."
   },
   {
     "id": "MB-154",
@@ -3230,6 +3383,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "lat": -6.2445845,
     "lng": 106.800646,
     "omsetBulanan": "Rp 0",
+    "rawOmzetSheet": "",
     "volumeSettlement": "Rp 0",
     "statusNasabah": "TARGET_KUR",
     "statusText": "Target Cross-Selling KUR",
@@ -3237,7 +3391,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "rawLvmSheet": "Belum Diakuisisi",
     "potensiKredit": "Rp 0",
     "terminal": "Prospek LVM / EDC Mandiri",
-    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 8123608907. Sheet Status: Belum Diakuisisi."
+    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 8123608907. Sheet Status: Belum Diakuisisi. Omset: Rp 0."
   },
   {
     "id": "MB-155",
@@ -3251,6 +3405,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "lat": -6.2445845,
     "lng": 106.800647,
     "omsetBulanan": "Rp 0",
+    "rawOmzetSheet": "",
     "volumeSettlement": "Rp 0",
     "statusNasabah": "TARGET_KUR",
     "statusText": "Target Cross-Selling KUR",
@@ -3258,7 +3413,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "rawLvmSheet": "Belum Diakuisisi",
     "potensiKredit": "Rp 0",
     "terminal": "Prospek LVM / EDC Mandiri",
-    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 85166961966. Sheet Status: Belum Diakuisisi."
+    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 85166961966. Sheet Status: Belum Diakuisisi. Omset: Rp 0."
   },
   {
     "id": "MB-156",
@@ -3272,6 +3427,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "lat": -6.2445845,
     "lng": 106.800648,
     "omsetBulanan": "Rp 0",
+    "rawOmzetSheet": "",
     "volumeSettlement": "Rp 0",
     "statusNasabah": "TARGET_KUR",
     "statusText": "Target Cross-Selling KUR",
@@ -3279,7 +3435,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "rawLvmSheet": "Belum Diakuisisi",
     "potensiKredit": "Rp 0",
     "terminal": "Prospek LVM / EDC Mandiri",
-    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 81386975489. Sheet Status: Belum Diakuisisi."
+    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 81386975489. Sheet Status: Belum Diakuisisi. Omset: Rp 0."
   },
   {
     "id": "MB-157",
@@ -3293,6 +3449,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "lat": -6.2445845,
     "lng": 106.800649,
     "omsetBulanan": "Rp 0",
+    "rawOmzetSheet": "",
     "volumeSettlement": "Rp 0",
     "statusNasabah": "TARGET_KUR",
     "statusText": "Target Cross-Selling KUR",
@@ -3300,7 +3457,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "rawLvmSheet": "Sudah Diakuisisi",
     "potensiKredit": "Rp 0",
     "terminal": "Livin' Merchant (QRIS Active)",
-    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 87795462825. Sheet Status: Sudah Diakuisisi."
+    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 87795462825. Sheet Status: Sudah Diakuisisi. Omset: Rp 0."
   },
   {
     "id": "MB-158",
@@ -3314,6 +3471,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "lat": -6.2445845,
     "lng": 106.80065,
     "omsetBulanan": "Rp 0",
+    "rawOmzetSheet": "",
     "volumeSettlement": "Rp 0",
     "statusNasabah": "TARGET_KUR",
     "statusText": "Target Cross-Selling KUR",
@@ -3321,7 +3479,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "rawLvmSheet": "Sudah Diakuisisi",
     "potensiKredit": "Rp 0",
     "terminal": "Livin' Merchant (QRIS Active)",
-    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 82121955514. Sheet Status: Sudah Diakuisisi."
+    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 82121955514. Sheet Status: Sudah Diakuisisi. Omset: Rp 0."
   },
   {
     "id": "MB-159",
@@ -3335,6 +3493,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "lat": -6.2445845,
     "lng": 106.800651,
     "omsetBulanan": "Rp 0",
+    "rawOmzetSheet": "",
     "volumeSettlement": "Rp 0",
     "statusNasabah": "TARGET_KUR",
     "statusText": "Target Cross-Selling KUR",
@@ -3342,7 +3501,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "rawLvmSheet": "Sudah Diakuisisi",
     "potensiKredit": "Rp 0",
     "terminal": "Livin' Merchant (QRIS Active)",
-    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 811127145. Sheet Status: Sudah Diakuisisi."
+    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 811127145. Sheet Status: Sudah Diakuisisi. Omset: Rp 0."
   },
   {
     "id": "MB-160",
@@ -3356,6 +3515,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "lat": -6.2445845,
     "lng": 106.800652,
     "omsetBulanan": "Rp 0",
+    "rawOmzetSheet": "",
     "volumeSettlement": "Rp 0",
     "statusNasabah": "TARGET_KUR",
     "statusText": "Target Cross-Selling KUR",
@@ -3363,7 +3523,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "rawLvmSheet": "Sudah Diakuisisi",
     "potensiKredit": "Rp 0",
     "terminal": "Livin' Merchant (QRIS Active)",
-    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 85880875196. Sheet Status: Sudah Diakuisisi."
+    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 85880875196. Sheet Status: Sudah Diakuisisi. Omset: Rp 0."
   },
   {
     "id": "MB-161",
@@ -3377,6 +3537,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "lat": -6.2445845,
     "lng": 106.800653,
     "omsetBulanan": "Rp 0",
+    "rawOmzetSheet": "",
     "volumeSettlement": "Rp 0",
     "statusNasabah": "TARGET_KUR",
     "statusText": "Target Cross-Selling KUR",
@@ -3384,7 +3545,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "rawLvmSheet": "Sudah Diakuisisi",
     "potensiKredit": "Rp 0",
     "terminal": "Livin' Merchant (QRIS Active)",
-    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 8980584356. Sheet Status: Sudah Diakuisisi."
+    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 8980584356. Sheet Status: Sudah Diakuisisi. Omset: Rp 0."
   },
   {
     "id": "MB-162",
@@ -3398,6 +3559,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "lat": -6.2445845,
     "lng": 106.800654,
     "omsetBulanan": "Rp 0",
+    "rawOmzetSheet": "",
     "volumeSettlement": "Rp 0",
     "statusNasabah": "TARGET_KUR",
     "statusText": "Target Cross-Selling KUR",
@@ -3405,7 +3567,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "rawLvmSheet": "Sudah Diakuisisi",
     "potensiKredit": "Rp 0",
     "terminal": "Livin' Merchant (QRIS Active)",
-    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 83844625302. Sheet Status: Sudah Diakuisisi."
+    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 83844625302. Sheet Status: Sudah Diakuisisi. Omset: Rp 0."
   },
   {
     "id": "MB-163",
@@ -3419,6 +3581,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "lat": -6.2445845,
     "lng": 106.800655,
     "omsetBulanan": "Rp 0",
+    "rawOmzetSheet": "",
     "volumeSettlement": "Rp 0",
     "statusNasabah": "TARGET_KUR",
     "statusText": "Target Cross-Selling KUR",
@@ -3426,7 +3589,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "rawLvmSheet": "Sudah Diakuisisi",
     "potensiKredit": "Rp 0",
     "terminal": "Livin' Merchant (QRIS Active)",
-    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 85701928366. Sheet Status: Sudah Diakuisisi."
+    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 85701928366. Sheet Status: Sudah Diakuisisi. Omset: Rp 0."
   },
   {
     "id": "MB-164",
@@ -3440,6 +3603,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "lat": -6.2445845,
     "lng": 106.800656,
     "omsetBulanan": "Rp 0",
+    "rawOmzetSheet": "",
     "volumeSettlement": "Rp 0",
     "statusNasabah": "TARGET_KUR",
     "statusText": "Target Cross-Selling KUR",
@@ -3447,7 +3611,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "rawLvmSheet": "Sudah Diakuisisi",
     "potensiKredit": "Rp 0",
     "terminal": "Livin' Merchant (QRIS Active)",
-    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 81285244747. Sheet Status: Sudah Diakuisisi."
+    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 81285244747. Sheet Status: Sudah Diakuisisi. Omset: Rp 0."
   },
   {
     "id": "MB-165",
@@ -3461,6 +3625,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "lat": -6.2445845,
     "lng": 106.800657,
     "omsetBulanan": "Rp 0",
+    "rawOmzetSheet": "",
     "volumeSettlement": "Rp 0",
     "statusNasabah": "TARGET_KUR",
     "statusText": "Target Cross-Selling KUR",
@@ -3468,7 +3633,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "rawLvmSheet": "Sudah Diakuisisi",
     "potensiKredit": "Rp 0",
     "terminal": "Livin' Merchant (QRIS Active)",
-    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 0. Sheet Status: Sudah Diakuisisi."
+    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 0. Sheet Status: Sudah Diakuisisi. Omset: Rp 0."
   },
   {
     "id": "MB-166",
@@ -3482,6 +3647,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "lat": -6.2445845,
     "lng": 106.800658,
     "omsetBulanan": "Rp 0",
+    "rawOmzetSheet": "",
     "volumeSettlement": "Rp 0",
     "statusNasabah": "TARGET_KUR",
     "statusText": "Target Cross-Selling KUR",
@@ -3489,7 +3655,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "rawLvmSheet": "Belum Diakuisisi",
     "potensiKredit": "Rp 0",
     "terminal": "Prospek LVM / EDC Mandiri",
-    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 85814738937. Sheet Status: Belum Diakuisisi."
+    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 85814738937. Sheet Status: Belum Diakuisisi. Omset: Rp 0."
   },
   {
     "id": "MB-167",
@@ -3503,6 +3669,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "lat": -6.2445845,
     "lng": 106.800659,
     "omsetBulanan": "Rp 0",
+    "rawOmzetSheet": "",
     "volumeSettlement": "Rp 0",
     "statusNasabah": "TARGET_KUR",
     "statusText": "Target Cross-Selling KUR",
@@ -3510,7 +3677,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "rawLvmSheet": "Sudah Diakuisisi",
     "potensiKredit": "Rp 0",
     "terminal": "Livin' Merchant (QRIS Active)",
-    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 0. Sheet Status: Sudah Diakuisisi."
+    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 0. Sheet Status: Sudah Diakuisisi. Omset: Rp 0."
   },
   {
     "id": "MB-168",
@@ -3524,6 +3691,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "lat": -6.2445845,
     "lng": 106.80066,
     "omsetBulanan": "Rp 0",
+    "rawOmzetSheet": "",
     "volumeSettlement": "Rp 0",
     "statusNasabah": "TARGET_KUR",
     "statusText": "Target Cross-Selling KUR",
@@ -3531,7 +3699,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "rawLvmSheet": "Belum Diakuisisi",
     "potensiKredit": "Rp 0",
     "terminal": "Prospek LVM / EDC Mandiri",
-    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 83819006755. Sheet Status: Belum Diakuisisi."
+    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 83819006755. Sheet Status: Belum Diakuisisi. Omset: Rp 0."
   },
   {
     "id": "MB-169",
@@ -3545,6 +3713,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "lat": -6.2445845,
     "lng": 106.800661,
     "omsetBulanan": "Rp 0",
+    "rawOmzetSheet": "",
     "volumeSettlement": "Rp 0",
     "statusNasabah": "TARGET_KUR",
     "statusText": "Target Cross-Selling KUR",
@@ -3552,7 +3721,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "rawLvmSheet": "Belum Diakuisisi",
     "potensiKredit": "Rp 0",
     "terminal": "Prospek LVM / EDC Mandiri",
-    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 81267778322. Sheet Status: Belum Diakuisisi."
+    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 81267778322. Sheet Status: Belum Diakuisisi. Omset: Rp 0."
   },
   {
     "id": "MB-170",
@@ -3566,6 +3735,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "lat": -6.2445845,
     "lng": 106.800662,
     "omsetBulanan": "Rp 0",
+    "rawOmzetSheet": "",
     "volumeSettlement": "Rp 0",
     "statusNasabah": "TARGET_KUR",
     "statusText": "Target Cross-Selling KUR",
@@ -3573,7 +3743,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "rawLvmSheet": "Belum Diakuisisi",
     "potensiKredit": "Rp 0",
     "terminal": "Prospek LVM / EDC Mandiri",
-    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 82167728722. Sheet Status: Belum Diakuisisi."
+    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 82167728722. Sheet Status: Belum Diakuisisi. Omset: Rp 0."
   },
   {
     "id": "MB-171",
@@ -3587,6 +3757,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "lat": -6.2445845,
     "lng": 106.800663,
     "omsetBulanan": "Rp 0",
+    "rawOmzetSheet": "",
     "volumeSettlement": "Rp 0",
     "statusNasabah": "TARGET_KUR",
     "statusText": "Target Cross-Selling KUR",
@@ -3594,7 +3765,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "rawLvmSheet": "Belum Diakuisisi",
     "potensiKredit": "Rp 0",
     "terminal": "Prospek LVM / EDC Mandiri",
-    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 89617884335. Sheet Status: Belum Diakuisisi."
+    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 89617884335. Sheet Status: Belum Diakuisisi. Omset: Rp 0."
   },
   {
     "id": "MB-172",
@@ -3608,6 +3779,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "lat": -6.2445845,
     "lng": 106.800664,
     "omsetBulanan": "Rp 0",
+    "rawOmzetSheet": "",
     "volumeSettlement": "Rp 0",
     "statusNasabah": "TARGET_KUR",
     "statusText": "Target Cross-Selling KUR",
@@ -3615,7 +3787,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "rawLvmSheet": "Belum Diakuisisi",
     "potensiKredit": "Rp 0",
     "terminal": "Prospek LVM / EDC Mandiri",
-    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 89609786888. Sheet Status: Belum Diakuisisi."
+    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 89609786888. Sheet Status: Belum Diakuisisi. Omset: Rp 0."
   },
   {
     "id": "MB-173",
@@ -3629,6 +3801,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "lat": -6.2445845,
     "lng": 106.800665,
     "omsetBulanan": "Rp 0",
+    "rawOmzetSheet": "",
     "volumeSettlement": "Rp 0",
     "statusNasabah": "TARGET_KUR",
     "statusText": "Target Cross-Selling KUR",
@@ -3636,7 +3809,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "rawLvmSheet": "Belum Diakuisisi",
     "potensiKredit": "Rp 0",
     "terminal": "Prospek LVM / EDC Mandiri",
-    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 85687664266. Sheet Status: Belum Diakuisisi."
+    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 85687664266. Sheet Status: Belum Diakuisisi. Omset: Rp 0."
   },
   {
     "id": "MB-174",
@@ -3650,6 +3823,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "lat": -6.2445845,
     "lng": 106.800666,
     "omsetBulanan": "Rp 0",
+    "rawOmzetSheet": "",
     "volumeSettlement": "Rp 0",
     "statusNasabah": "TARGET_KUR",
     "statusText": "Target Cross-Selling KUR",
@@ -3657,7 +3831,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "rawLvmSheet": "Belum Diakuisisi",
     "potensiKredit": "Rp 0",
     "terminal": "Prospek LVM / EDC Mandiri",
-    "keterangan": "UMKM Blok M Square. PIC: -. Telp: -. Sheet Status: Belum Diakuisisi."
+    "keterangan": "UMKM Blok M Square. PIC: -. Telp: -. Sheet Status: Belum Diakuisisi. Omset: Rp 0."
   },
   {
     "id": "MB-175",
@@ -3671,6 +3845,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "lat": -6.2445845,
     "lng": 106.800667,
     "omsetBulanan": "Rp 0",
+    "rawOmzetSheet": "",
     "volumeSettlement": "Rp 0",
     "statusNasabah": "TARGET_KUR",
     "statusText": "Target Cross-Selling KUR",
@@ -3678,7 +3853,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "rawLvmSheet": "Sudah Diakuisisi",
     "potensiKredit": "Rp 0",
     "terminal": "Livin' Merchant (QRIS Active)",
-    "keterangan": "UMKM Blok M Square. PIC: -. Telp: -. Sheet Status: Sudah Diakuisisi."
+    "keterangan": "UMKM Blok M Square. PIC: -. Telp: -. Sheet Status: Sudah Diakuisisi. Omset: Rp 0."
   },
   {
     "id": "MB-176",
@@ -3692,6 +3867,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "lat": -6.2445845,
     "lng": 106.800668,
     "omsetBulanan": "Rp 0",
+    "rawOmzetSheet": "",
     "volumeSettlement": "Rp 0",
     "statusNasabah": "TARGET_KUR",
     "statusText": "Target Cross-Selling KUR",
@@ -3699,7 +3875,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "rawLvmSheet": "Sudah Diakuisisi",
     "potensiKredit": "Rp 0",
     "terminal": "Livin' Merchant (QRIS Active)",
-    "keterangan": "UMKM Blok M Square. PIC: -. Telp: -. Sheet Status: Sudah Diakuisisi."
+    "keterangan": "UMKM Blok M Square. PIC: -. Telp: -. Sheet Status: Sudah Diakuisisi. Omset: Rp 0."
   },
   {
     "id": "MB-177",
@@ -3713,6 +3889,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "lat": -6.2445845,
     "lng": 106.800669,
     "omsetBulanan": "Rp 0",
+    "rawOmzetSheet": "",
     "volumeSettlement": "Rp 0",
     "statusNasabah": "TARGET_KUR",
     "statusText": "Target Cross-Selling KUR",
@@ -3720,7 +3897,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "rawLvmSheet": "Sudah Diakuisisi",
     "potensiKredit": "Rp 0",
     "terminal": "Livin' Merchant (QRIS Active)",
-    "keterangan": "UMKM Blok M Square. PIC: -. Telp: -. Sheet Status: Sudah Diakuisisi."
+    "keterangan": "UMKM Blok M Square. PIC: -. Telp: -. Sheet Status: Sudah Diakuisisi. Omset: Rp 0."
   },
   {
     "id": "MB-178",
@@ -3734,6 +3911,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "lat": -6.2445845,
     "lng": 106.80067,
     "omsetBulanan": "Rp 0",
+    "rawOmzetSheet": "",
     "volumeSettlement": "Rp 0",
     "statusNasabah": "TARGET_KUR",
     "statusText": "Target Cross-Selling KUR",
@@ -3741,7 +3919,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "rawLvmSheet": "Sudah Diakuisisi",
     "potensiKredit": "Rp 0",
     "terminal": "Livin' Merchant (QRIS Active)",
-    "keterangan": "UMKM Blok M Square. PIC: -. Telp: -. Sheet Status: Sudah Diakuisisi."
+    "keterangan": "UMKM Blok M Square. PIC: -. Telp: -. Sheet Status: Sudah Diakuisisi. Omset: Rp 0."
   },
   {
     "id": "MB-179",
@@ -3755,6 +3933,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "lat": -6.2445845,
     "lng": 106.800671,
     "omsetBulanan": "Rp 0",
+    "rawOmzetSheet": "",
     "volumeSettlement": "Rp 0",
     "statusNasabah": "TARGET_KUR",
     "statusText": "Target Cross-Selling KUR",
@@ -3762,7 +3941,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "rawLvmSheet": "Sudah Diakuisisi",
     "potensiKredit": "Rp 0",
     "terminal": "Livin' Merchant (QRIS Active)",
-    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 8985314630. Sheet Status: Sudah Diakuisisi."
+    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 8985314630. Sheet Status: Sudah Diakuisisi. Omset: Rp 0."
   },
   {
     "id": "MB-180",
@@ -3776,6 +3955,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "lat": -6.2445845,
     "lng": 106.800672,
     "omsetBulanan": "Rp 0",
+    "rawOmzetSheet": "",
     "volumeSettlement": "Rp 0",
     "statusNasabah": "TARGET_KUR",
     "statusText": "Target Cross-Selling KUR",
@@ -3783,7 +3963,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "rawLvmSheet": "Sudah Diakuisisi",
     "potensiKredit": "Rp 0",
     "terminal": "Livin' Merchant (QRIS Active)",
-    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 85211494672. Sheet Status: Sudah Diakuisisi."
+    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 85211494672. Sheet Status: Sudah Diakuisisi. Omset: Rp 0."
   },
   {
     "id": "MB-181",
@@ -3797,6 +3977,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "lat": -6.2445845,
     "lng": 106.800673,
     "omsetBulanan": "Rp 0",
+    "rawOmzetSheet": "",
     "volumeSettlement": "Rp 0",
     "statusNasabah": "TARGET_KUR",
     "statusText": "Target Cross-Selling KUR",
@@ -3804,7 +3985,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "rawLvmSheet": "Sudah Diakuisisi",
     "potensiKredit": "Rp 0",
     "terminal": "Livin' Merchant (QRIS Active)",
-    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 82234314311. Sheet Status: Sudah Diakuisisi."
+    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 82234314311. Sheet Status: Sudah Diakuisisi. Omset: Rp 0."
   },
   {
     "id": "MB-182",
@@ -3818,6 +3999,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "lat": -6.2445845,
     "lng": 106.800674,
     "omsetBulanan": "Rp 0",
+    "rawOmzetSheet": "",
     "volumeSettlement": "Rp 0",
     "statusNasabah": "TARGET_KUR",
     "statusText": "Target Cross-Selling KUR",
@@ -3825,7 +4007,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "rawLvmSheet": "Sudah Diakuisisi",
     "potensiKredit": "Rp 0",
     "terminal": "Livin' Merchant (QRIS Active)",
-    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 83871596616. Sheet Status: Sudah Diakuisisi."
+    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 83871596616. Sheet Status: Sudah Diakuisisi. Omset: Rp 0."
   },
   {
     "id": "MB-183",
@@ -3839,6 +4021,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "lat": -6.2445845,
     "lng": 106.800675,
     "omsetBulanan": "Rp 0",
+    "rawOmzetSheet": "",
     "volumeSettlement": "Rp 0",
     "statusNasabah": "TARGET_KUR",
     "statusText": "Target Cross-Selling KUR",
@@ -3846,7 +4029,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "rawLvmSheet": "Sudah Diakuisisi",
     "potensiKredit": "Rp 0",
     "terminal": "Livin' Merchant (QRIS Active)",
-    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 85711289842. Sheet Status: Sudah Diakuisisi."
+    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 85711289842. Sheet Status: Sudah Diakuisisi. Omset: Rp 0."
   },
   {
     "id": "MB-184",
@@ -3860,6 +4043,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "lat": -6.2445845,
     "lng": 106.800676,
     "omsetBulanan": "Rp 0",
+    "rawOmzetSheet": "",
     "volumeSettlement": "Rp 0",
     "statusNasabah": "TARGET_KUR",
     "statusText": "Target Cross-Selling KUR",
@@ -3867,7 +4051,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "rawLvmSheet": "Sudah Diakuisisi",
     "potensiKredit": "Rp 0",
     "terminal": "Livin' Merchant (QRIS Active)",
-    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 81295686858. Sheet Status: Sudah Diakuisisi."
+    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 81295686858. Sheet Status: Sudah Diakuisisi. Omset: Rp 0."
   },
   {
     "id": "MB-185",
@@ -3881,6 +4065,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "lat": -6.2445845,
     "lng": 106.800677,
     "omsetBulanan": "Rp 0",
+    "rawOmzetSheet": "",
     "volumeSettlement": "Rp 0",
     "statusNasabah": "TARGET_KUR",
     "statusText": "Target Cross-Selling KUR",
@@ -3888,7 +4073,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "rawLvmSheet": "Sudah Diakuisisi",
     "potensiKredit": "Rp 0",
     "terminal": "Livin' Merchant (QRIS Active)",
-    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 83153363864. Sheet Status: Sudah Diakuisisi."
+    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 83153363864. Sheet Status: Sudah Diakuisisi. Omset: Rp 0."
   },
   {
     "id": "MB-186",
@@ -3902,6 +4087,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "lat": -6.2445845,
     "lng": 106.800678,
     "omsetBulanan": "Rp 0",
+    "rawOmzetSheet": "",
     "volumeSettlement": "Rp 0",
     "statusNasabah": "TARGET_KUR",
     "statusText": "Target Cross-Selling KUR",
@@ -3909,7 +4095,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "rawLvmSheet": "Sudah Diakuisisi",
     "potensiKredit": "Rp 0",
     "terminal": "Livin' Merchant (QRIS Active)",
-    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 82234344322. Sheet Status: Sudah Diakuisisi."
+    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 82234344322. Sheet Status: Sudah Diakuisisi. Omset: Rp 0."
   },
   {
     "id": "MB-187",
@@ -3923,6 +4109,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "lat": -6.2445845,
     "lng": 106.800679,
     "omsetBulanan": "Rp 0",
+    "rawOmzetSheet": "",
     "volumeSettlement": "Rp 0",
     "statusNasabah": "TARGET_KUR",
     "statusText": "Target Cross-Selling KUR",
@@ -3930,7 +4117,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "rawLvmSheet": "Sudah Diakuisisi",
     "potensiKredit": "Rp 0",
     "terminal": "Livin' Merchant (QRIS Active)",
-    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 81295686858. Sheet Status: Sudah Diakuisisi."
+    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 81295686858. Sheet Status: Sudah Diakuisisi. Omset: Rp 0."
   },
   {
     "id": "MB-188",
@@ -3944,6 +4131,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "lat": -6.2445845,
     "lng": 106.80068,
     "omsetBulanan": "Rp 0",
+    "rawOmzetSheet": "",
     "volumeSettlement": "Rp 0",
     "statusNasabah": "TARGET_KUR",
     "statusText": "Target Cross-Selling KUR",
@@ -3951,7 +4139,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "rawLvmSheet": "Sudah Diakuisisi",
     "potensiKredit": "Rp 0",
     "terminal": "Livin' Merchant (QRIS Active)",
-    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 81574111167. Sheet Status: Sudah Diakuisisi."
+    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 81574111167. Sheet Status: Sudah Diakuisisi. Omset: Rp 0."
   },
   {
     "id": "MB-189",
@@ -3965,6 +4153,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "lat": -6.2445845,
     "lng": 106.800681,
     "omsetBulanan": "Rp 0",
+    "rawOmzetSheet": "",
     "volumeSettlement": "Rp 0",
     "statusNasabah": "TARGET_KUR",
     "statusText": "Target Cross-Selling KUR",
@@ -3972,7 +4161,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "rawLvmSheet": "Sudah Diakuisisi",
     "potensiKredit": "Rp 0",
     "terminal": "Livin' Merchant (QRIS Active)",
-    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 89670142916. Sheet Status: Sudah Diakuisisi."
+    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 89670142916. Sheet Status: Sudah Diakuisisi. Omset: Rp 0."
   },
   {
     "id": "MB-190",
@@ -3986,6 +4175,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "lat": -6.2445845,
     "lng": 106.800682,
     "omsetBulanan": "Rp 0",
+    "rawOmzetSheet": "",
     "volumeSettlement": "Rp 0",
     "statusNasabah": "TARGET_KUR",
     "statusText": "Target Cross-Selling KUR",
@@ -3993,7 +4183,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "rawLvmSheet": "Sudah Diakuisisi",
     "potensiKredit": "Rp 0",
     "terminal": "Livin' Merchant (QRIS Active)",
-    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 83121184816. Sheet Status: Sudah Diakuisisi."
+    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 83121184816. Sheet Status: Sudah Diakuisisi. Omset: Rp 0."
   },
   {
     "id": "MB-191",
@@ -4007,6 +4197,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "lat": -6.2445845,
     "lng": 106.800683,
     "omsetBulanan": "Rp 0",
+    "rawOmzetSheet": "",
     "volumeSettlement": "Rp 0",
     "statusNasabah": "TARGET_KUR",
     "statusText": "Target Cross-Selling KUR",
@@ -4014,7 +4205,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "rawLvmSheet": "Sudah Diakuisisi",
     "potensiKredit": "Rp 0",
     "terminal": "Livin' Merchant (QRIS Active)",
-    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 81276725903. Sheet Status: Sudah Diakuisisi."
+    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 81276725903. Sheet Status: Sudah Diakuisisi. Omset: Rp 0."
   },
   {
     "id": "MB-192",
@@ -4028,6 +4219,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "lat": -6.2445845,
     "lng": 106.800684,
     "omsetBulanan": "Rp 0",
+    "rawOmzetSheet": "",
     "volumeSettlement": "Rp 0",
     "statusNasabah": "TARGET_KUR",
     "statusText": "Target Cross-Selling KUR",
@@ -4035,7 +4227,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "rawLvmSheet": "Sudah Diakuisisi",
     "potensiKredit": "Rp 0",
     "terminal": "Livin' Merchant (QRIS Active)",
-    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 83874217654. Sheet Status: Sudah Diakuisisi."
+    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 83874217654. Sheet Status: Sudah Diakuisisi. Omset: Rp 0."
   },
   {
     "id": "MB-193",
@@ -4049,6 +4241,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "lat": -6.2445845,
     "lng": 106.800685,
     "omsetBulanan": "Rp 0",
+    "rawOmzetSheet": "",
     "volumeSettlement": "Rp 0",
     "statusNasabah": "TARGET_KUR",
     "statusText": "Target Cross-Selling KUR",
@@ -4056,7 +4249,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "rawLvmSheet": "Sudah Diakuisisi",
     "potensiKredit": "Rp 0",
     "terminal": "Livin' Merchant (QRIS Active)",
-    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 81297942575. Sheet Status: Sudah Diakuisisi."
+    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 81297942575. Sheet Status: Sudah Diakuisisi. Omset: Rp 0."
   },
   {
     "id": "MB-194",
@@ -4070,6 +4263,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "lat": -6.2445845,
     "lng": 106.800686,
     "omsetBulanan": "Rp 0",
+    "rawOmzetSheet": "",
     "volumeSettlement": "Rp 0",
     "statusNasabah": "TARGET_KUR",
     "statusText": "Target Cross-Selling KUR",
@@ -4077,7 +4271,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "rawLvmSheet": "Sudah Diakuisisi",
     "potensiKredit": "Rp 0",
     "terminal": "Livin' Merchant (QRIS Active)",
-    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 87885630121. Sheet Status: Sudah Diakuisisi."
+    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 87885630121. Sheet Status: Sudah Diakuisisi. Omset: Rp 0."
   },
   {
     "id": "MB-195",
@@ -4091,6 +4285,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "lat": -6.2445845,
     "lng": 106.800687,
     "omsetBulanan": "Rp 0",
+    "rawOmzetSheet": "",
     "volumeSettlement": "Rp 0",
     "statusNasabah": "TARGET_KUR",
     "statusText": "Target Cross-Selling KUR",
@@ -4098,7 +4293,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "rawLvmSheet": "Sudah Diakuisisi",
     "potensiKredit": "Rp 0",
     "terminal": "Livin' Merchant (QRIS Active)",
-    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 85966313993. Sheet Status: Sudah Diakuisisi."
+    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 85966313993. Sheet Status: Sudah Diakuisisi. Omset: Rp 0."
   },
   {
     "id": "MB-196",
@@ -4112,6 +4307,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "lat": -6.2445845,
     "lng": 106.800688,
     "omsetBulanan": "Rp 0",
+    "rawOmzetSheet": "",
     "volumeSettlement": "Rp 0",
     "statusNasabah": "TARGET_KUR",
     "statusText": "Target Cross-Selling KUR",
@@ -4119,7 +4315,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "rawLvmSheet": "Belum Diakuisisi",
     "potensiKredit": "Rp 0",
     "terminal": "Prospek LVM / EDC Mandiri",
-    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 81283830471. Sheet Status: Belum Diakuisisi."
+    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 81283830471. Sheet Status: Belum Diakuisisi. Omset: Rp 0."
   },
   {
     "id": "MB-197",
@@ -4133,6 +4329,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "lat": -6.2445845,
     "lng": 106.800689,
     "omsetBulanan": "Rp 0",
+    "rawOmzetSheet": "",
     "volumeSettlement": "Rp 0",
     "statusNasabah": "TARGET_KUR",
     "statusText": "Target Cross-Selling KUR",
@@ -4140,7 +4337,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "rawLvmSheet": "Sudah Diakuisisi",
     "potensiKredit": "Rp 0",
     "terminal": "Livin' Merchant (QRIS Active)",
-    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 85959288901. Sheet Status: Sudah Diakuisisi."
+    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 85959288901. Sheet Status: Sudah Diakuisisi. Omset: Rp 0."
   },
   {
     "id": "MB-198",
@@ -4154,6 +4351,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "lat": -6.2445845,
     "lng": 106.80069,
     "omsetBulanan": "Rp 0",
+    "rawOmzetSheet": "",
     "volumeSettlement": "Rp 0",
     "statusNasabah": "TARGET_KUR",
     "statusText": "Target Cross-Selling KUR",
@@ -4161,7 +4359,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "rawLvmSheet": "Sudah Diakuisisi",
     "potensiKredit": "Rp 0",
     "terminal": "Livin' Merchant (QRIS Active)",
-    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 89654997542. Sheet Status: Sudah Diakuisisi."
+    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 89654997542. Sheet Status: Sudah Diakuisisi. Omset: Rp 0."
   },
   {
     "id": "MB-199",
@@ -4175,6 +4373,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "lat": -6.2445845,
     "lng": 106.800691,
     "omsetBulanan": "Rp 0",
+    "rawOmzetSheet": "",
     "volumeSettlement": "Rp 0",
     "statusNasabah": "TARGET_KUR",
     "statusText": "Target Cross-Selling KUR",
@@ -4182,7 +4381,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "rawLvmSheet": "Sudah Diakuisisi",
     "potensiKredit": "Rp 0",
     "terminal": "Livin' Merchant (QRIS Active)",
-    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 81928041974. Sheet Status: Sudah Diakuisisi."
+    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 81928041974. Sheet Status: Sudah Diakuisisi. Omset: Rp 0."
   },
   {
     "id": "MB-200",
@@ -4196,6 +4395,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "lat": -6.2445845,
     "lng": 106.800692,
     "omsetBulanan": "Rp 0",
+    "rawOmzetSheet": "",
     "volumeSettlement": "Rp 0",
     "statusNasabah": "TARGET_KUR",
     "statusText": "Target Cross-Selling KUR",
@@ -4203,7 +4403,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "rawLvmSheet": "Sudah Diakuisisi",
     "potensiKredit": "Rp 0",
     "terminal": "Livin' Merchant (QRIS Active)",
-    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 8118188238. Sheet Status: Sudah Diakuisisi."
+    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 8118188238. Sheet Status: Sudah Diakuisisi. Omset: Rp 0."
   },
   {
     "id": "MB-201",
@@ -4217,6 +4417,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "lat": -6.2445845,
     "lng": 106.800693,
     "omsetBulanan": "Rp 0",
+    "rawOmzetSheet": "",
     "volumeSettlement": "Rp 0",
     "statusNasabah": "TARGET_KUR",
     "statusText": "Target Cross-Selling KUR",
@@ -4224,7 +4425,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "rawLvmSheet": "Belum Diakuisisi",
     "potensiKredit": "Rp 0",
     "terminal": "Prospek LVM / EDC Mandiri",
-    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 0. Sheet Status: Belum Diakuisisi."
+    "keterangan": "UMKM Blok M Square. PIC: -. Telp: 0. Sheet Status: Belum Diakuisisi. Omset: Rp 0."
   },
   {
     "id": "MB-202",
@@ -4238,6 +4439,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "lat": -6.2413107,
     "lng": 106.7959922,
     "omsetBulanan": "Rp 0",
+    "rawOmzetSheet": "",
     "volumeSettlement": "Rp 0",
     "statusNasabah": "TARGET_KUR",
     "statusText": "Target Cross-Selling KUR",
@@ -4245,7 +4447,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "rawLvmSheet": "Belum Diakuisisi",
     "potensiKredit": "Rp 0",
     "terminal": "Prospek LVM / EDC Mandiri",
-    "keterangan": "UMKM Gultik (Gultik). PIC: -. Telp: -. Sheet Status: Belum Diakuisisi."
+    "keterangan": "UMKM Gultik (Gultik). PIC: -. Telp: -. Sheet Status: Belum Diakuisisi. Omset: Rp 0."
   },
   {
     "id": "MB-203",
@@ -4259,6 +4461,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "lat": -6.2412959,
     "lng": 106.7957517,
     "omsetBulanan": "Rp 0",
+    "rawOmzetSheet": "",
     "volumeSettlement": "Rp 0",
     "statusNasabah": "TARGET_KUR",
     "statusText": "Target Cross-Selling KUR",
@@ -4266,7 +4469,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "rawLvmSheet": "Belum Diakuisisi",
     "potensiKredit": "Rp 0",
     "terminal": "Prospek LVM / EDC Mandiri",
-    "keterangan": "UMKM Gultik (Non-Gultik). PIC: -. Telp: -. Sheet Status: Belum Diakuisisi."
+    "keterangan": "UMKM Gultik (Non-Gultik). PIC: -. Telp: -. Sheet Status: Belum Diakuisisi. Omset: Rp 0."
   },
   {
     "id": "MB-204",
@@ -4280,6 +4483,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "lat": -6.2413193,
     "lng": 106.795859,
     "omsetBulanan": "Rp 0",
+    "rawOmzetSheet": "",
     "volumeSettlement": "Rp 0",
     "statusNasabah": "TARGET_KUR",
     "statusText": "Target Cross-Selling KUR",
@@ -4287,7 +4491,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "rawLvmSheet": "Belum Diakuisisi",
     "potensiKredit": "Rp 0",
     "terminal": "Prospek LVM / EDC Mandiri",
-    "keterangan": "UMKM Gultik (Non-Gultik). PIC: -. Telp: -. Sheet Status: Belum Diakuisisi."
+    "keterangan": "UMKM Gultik (Non-Gultik). PIC: -. Telp: -. Sheet Status: Belum Diakuisisi. Omset: Rp 0."
   },
   {
     "id": "MB-205",
@@ -4301,6 +4505,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "lat": -6.2414353,
     "lng": 106.7958596,
     "omsetBulanan": "Rp 0",
+    "rawOmzetSheet": "",
     "volumeSettlement": "Rp 0",
     "statusNasabah": "TARGET_KUR",
     "statusText": "Target Cross-Selling KUR",
@@ -4308,7 +4513,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "rawLvmSheet": "Belum Diakuisisi",
     "potensiKredit": "Rp 0",
     "terminal": "Prospek LVM / EDC Mandiri",
-    "keterangan": "UMKM Gultik (Non-Gultik). PIC: -. Telp: -. Sheet Status: Belum Diakuisisi."
+    "keterangan": "UMKM Gultik (Non-Gultik). PIC: -. Telp: -. Sheet Status: Belum Diakuisisi. Omset: Rp 0."
   },
   {
     "id": "MB-206",
@@ -4322,6 +4527,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "lat": -6.2415366,
     "lng": 106.7958657,
     "omsetBulanan": "Rp 0",
+    "rawOmzetSheet": "",
     "volumeSettlement": "Rp 0",
     "statusNasabah": "TARGET_KUR",
     "statusText": "Target Cross-Selling KUR",
@@ -4329,7 +4535,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "rawLvmSheet": "Belum Diakuisisi",
     "potensiKredit": "Rp 0",
     "terminal": "Prospek LVM / EDC Mandiri",
-    "keterangan": "UMKM Gultik (Non-Gultik). PIC: -. Telp: -. Sheet Status: Belum Diakuisisi."
+    "keterangan": "UMKM Gultik (Non-Gultik). PIC: -. Telp: -. Sheet Status: Belum Diakuisisi. Omset: Rp 0."
   },
   {
     "id": "MB-207",
@@ -4343,6 +4549,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "lat": -6.2417212,
     "lng": 106.795971,
     "omsetBulanan": "Rp 0",
+    "rawOmzetSheet": "",
     "volumeSettlement": "Rp 0",
     "statusNasabah": "TARGET_KUR",
     "statusText": "Target Cross-Selling KUR",
@@ -4350,7 +4557,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "rawLvmSheet": "Belum Diakuisisi",
     "potensiKredit": "Rp 0",
     "terminal": "Prospek LVM / EDC Mandiri",
-    "keterangan": "UMKM Gultik (Gultik). PIC: -. Telp: -. Sheet Status: Belum Diakuisisi."
+    "keterangan": "UMKM Gultik (Gultik). PIC: -. Telp: -. Sheet Status: Belum Diakuisisi. Omset: Rp 0."
   },
   {
     "id": "MB-208",
@@ -4364,6 +4571,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "lat": -6.2418372,
     "lng": 106.7961862,
     "omsetBulanan": "Rp 0",
+    "rawOmzetSheet": "",
     "volumeSettlement": "Rp 0",
     "statusNasabah": "TARGET_KUR",
     "statusText": "Target Cross-Selling KUR",
@@ -4371,7 +4579,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "rawLvmSheet": "Belum Diakuisisi",
     "potensiKredit": "Rp 0",
     "terminal": "Prospek LVM / EDC Mandiri",
-    "keterangan": "UMKM Gultik (Non-Gultik). PIC: -. Telp: -. Sheet Status: Belum Diakuisisi."
+    "keterangan": "UMKM Gultik (Non-Gultik). PIC: -. Telp: -. Sheet Status: Belum Diakuisisi. Omset: Rp 0."
   },
   {
     "id": "MB-209",
@@ -4385,6 +4593,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "lat": -6.2420445,
     "lng": 106.7960286,
     "omsetBulanan": "Rp 0",
+    "rawOmzetSheet": "",
     "volumeSettlement": "Rp 0",
     "statusNasabah": "TARGET_KUR",
     "statusText": "Target Cross-Selling KUR",
@@ -4392,7 +4601,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "rawLvmSheet": "Belum Diakuisisi",
     "potensiKredit": "Rp 0",
     "terminal": "Prospek LVM / EDC Mandiri",
-    "keterangan": "UMKM Gultik (Gultik). PIC: -. Telp: -. Sheet Status: Belum Diakuisisi."
+    "keterangan": "UMKM Gultik (Gultik). PIC: -. Telp: -. Sheet Status: Belum Diakuisisi. Omset: Rp 0."
   },
   {
     "id": "MB-210",
@@ -4406,6 +4615,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "lat": -6.2420438,
     "lng": 106.7959723,
     "omsetBulanan": "Rp 0",
+    "rawOmzetSheet": "",
     "volumeSettlement": "Rp 0",
     "statusNasabah": "TARGET_KUR",
     "statusText": "Target Cross-Selling KUR",
@@ -4413,7 +4623,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "rawLvmSheet": "Belum Diakuisisi",
     "potensiKredit": "Rp 0",
     "terminal": "Prospek LVM / EDC Mandiri",
-    "keterangan": "UMKM Gultik (Gultik). PIC: -. Telp: -. Sheet Status: Belum Diakuisisi."
+    "keterangan": "UMKM Gultik (Gultik). PIC: -. Telp: -. Sheet Status: Belum Diakuisisi. Omset: Rp 0."
   },
   {
     "id": "MB-211",
@@ -4427,6 +4637,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "lat": -6.2421549,
     "lng": 106.7960835,
     "omsetBulanan": "Rp 0",
+    "rawOmzetSheet": "",
     "volumeSettlement": "Rp 0",
     "statusNasabah": "TARGET_KUR",
     "statusText": "Target Cross-Selling KUR",
@@ -4434,7 +4645,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "rawLvmSheet": "Belum Diakuisisi",
     "potensiKredit": "Rp 0",
     "terminal": "Prospek LVM / EDC Mandiri",
-    "keterangan": "UMKM Gultik (Non-Gultik). PIC: -. Telp: -. Sheet Status: Belum Diakuisisi."
+    "keterangan": "UMKM Gultik (Non-Gultik). PIC: -. Telp: -. Sheet Status: Belum Diakuisisi. Omset: Rp 0."
   },
   {
     "id": "MB-212",
@@ -4448,6 +4659,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "lat": -6.2421456,
     "lng": 106.7961727,
     "omsetBulanan": "Rp 0",
+    "rawOmzetSheet": "",
     "volumeSettlement": "Rp 0",
     "statusNasabah": "TARGET_KUR",
     "statusText": "Target Cross-Selling KUR",
@@ -4455,7 +4667,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "rawLvmSheet": "Belum Diakuisisi",
     "potensiKredit": "Rp 0",
     "terminal": "Prospek LVM / EDC Mandiri",
-    "keterangan": "UMKM Gultik (Gultik). PIC: -. Telp: -. Sheet Status: Belum Diakuisisi."
+    "keterangan": "UMKM Gultik (Gultik). PIC: -. Telp: -. Sheet Status: Belum Diakuisisi. Omset: Rp 0."
   },
   {
     "id": "MB-213",
@@ -4469,6 +4681,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "lat": -6.2421209,
     "lng": 106.7963269,
     "omsetBulanan": "Rp 0",
+    "rawOmzetSheet": "",
     "volumeSettlement": "Rp 0",
     "statusNasabah": "TARGET_KUR",
     "statusText": "Target Cross-Selling KUR",
@@ -4476,7 +4689,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "rawLvmSheet": "Belum Diakuisisi",
     "potensiKredit": "Rp 0",
     "terminal": "Prospek LVM / EDC Mandiri",
-    "keterangan": "UMKM Gultik (Non-Gultik). PIC: -. Telp: -. Sheet Status: Belum Diakuisisi."
+    "keterangan": "UMKM Gultik (Non-Gultik). PIC: -. Telp: -. Sheet Status: Belum Diakuisisi. Omset: Rp 0."
   },
   {
     "id": "MB-214",
@@ -4490,6 +4703,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "lat": -6.2421396,
     "lng": 106.7963986,
     "omsetBulanan": "Rp 0",
+    "rawOmzetSheet": "",
     "volumeSettlement": "Rp 0",
     "statusNasabah": "TARGET_KUR",
     "statusText": "Target Cross-Selling KUR",
@@ -4497,7 +4711,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "rawLvmSheet": "Belum Diakuisisi",
     "potensiKredit": "Rp 0",
     "terminal": "Prospek LVM / EDC Mandiri",
-    "keterangan": "UMKM Gultik (Non-Gultik). PIC: -. Telp: -. Sheet Status: Belum Diakuisisi."
+    "keterangan": "UMKM Gultik (Non-Gultik). PIC: -. Telp: -. Sheet Status: Belum Diakuisisi. Omset: Rp 0."
   },
   {
     "id": "MB-215",
@@ -4511,6 +4725,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "lat": -6.2424008,
     "lng": 106.7957581,
     "omsetBulanan": "Rp 0",
+    "rawOmzetSheet": "",
     "volumeSettlement": "Rp 0",
     "statusNasabah": "TARGET_KUR",
     "statusText": "Target Cross-Selling KUR",
@@ -4518,7 +4733,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "rawLvmSheet": "Belum Diakuisisi",
     "potensiKredit": "Rp 0",
     "terminal": "Prospek LVM / EDC Mandiri",
-    "keterangan": "UMKM Gultik (Non-Gultik). PIC: -. Telp: -. Sheet Status: Belum Diakuisisi."
+    "keterangan": "UMKM Gultik (Non-Gultik). PIC: -. Telp: -. Sheet Status: Belum Diakuisisi. Omset: Rp 0."
   },
   {
     "id": "MB-216",
@@ -4532,6 +4747,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "lat": -6.2423099,
     "lng": 106.7961548,
     "omsetBulanan": "Rp 0",
+    "rawOmzetSheet": "",
     "volumeSettlement": "Rp 0",
     "statusNasabah": "TARGET_KUR",
     "statusText": "Target Cross-Selling KUR",
@@ -4539,7 +4755,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "rawLvmSheet": "Belum Diakuisisi",
     "potensiKredit": "Rp 0",
     "terminal": "Prospek LVM / EDC Mandiri",
-    "keterangan": "UMKM Gultik (Non-Gultik). PIC: -. Telp: -. Sheet Status: Belum Diakuisisi."
+    "keterangan": "UMKM Gultik (Non-Gultik). PIC: -. Telp: -. Sheet Status: Belum Diakuisisi. Omset: Rp 0."
   },
   {
     "id": "MB-217",
@@ -4553,6 +4769,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "lat": -6.2425092,
     "lng": 106.7961997,
     "omsetBulanan": "Rp 0",
+    "rawOmzetSheet": "",
     "volumeSettlement": "Rp 0",
     "statusNasabah": "TARGET_KUR",
     "statusText": "Target Cross-Selling KUR",
@@ -4560,7 +4777,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "rawLvmSheet": "Belum Diakuisisi",
     "potensiKredit": "Rp 0",
     "terminal": "Prospek LVM / EDC Mandiri",
-    "keterangan": "UMKM Gultik (Non-Gultik). PIC: -. Telp: -. Sheet Status: Belum Diakuisisi."
+    "keterangan": "UMKM Gultik (Non-Gultik). PIC: -. Telp: -. Sheet Status: Belum Diakuisisi. Omset: Rp 0."
   },
   {
     "id": "MB-218",
@@ -4574,6 +4791,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "lat": -6.2425509,
     "lng": 106.7959431,
     "omsetBulanan": "Rp 0",
+    "rawOmzetSheet": "",
     "volumeSettlement": "Rp 0",
     "statusNasabah": "TARGET_KUR",
     "statusText": "Target Cross-Selling KUR",
@@ -4581,7 +4799,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "rawLvmSheet": "Belum Diakuisisi",
     "potensiKredit": "Rp 0",
     "terminal": "Prospek LVM / EDC Mandiri",
-    "keterangan": "UMKM Gultik (Non-Gultik). PIC: -. Telp: -. Sheet Status: Belum Diakuisisi."
+    "keterangan": "UMKM Gultik (Non-Gultik). PIC: -. Telp: -. Sheet Status: Belum Diakuisisi. Omset: Rp 0."
   },
   {
     "id": "MB-219",
@@ -4595,6 +4813,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "lat": -6.2426316,
     "lng": 106.7959692,
     "omsetBulanan": "Rp 0",
+    "rawOmzetSheet": "",
     "volumeSettlement": "Rp 0",
     "statusNasabah": "TARGET_KUR",
     "statusText": "Target Cross-Selling KUR",
@@ -4602,7 +4821,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "rawLvmSheet": "Belum Diakuisisi",
     "potensiKredit": "Rp 0",
     "terminal": "Prospek LVM / EDC Mandiri",
-    "keterangan": "UMKM Gultik (Non-Gultik). PIC: -. Telp: -. Sheet Status: Belum Diakuisisi."
+    "keterangan": "UMKM Gultik (Non-Gultik). PIC: -. Telp: -. Sheet Status: Belum Diakuisisi. Omset: Rp 0."
   },
   {
     "id": "MB-220",
@@ -4616,6 +4835,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "lat": -6.2428224,
     "lng": 106.7963291,
     "omsetBulanan": "Rp 0",
+    "rawOmzetSheet": "",
     "volumeSettlement": "Rp 0",
     "statusNasabah": "TARGET_KUR",
     "statusText": "Target Cross-Selling KUR",
@@ -4623,7 +4843,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "rawLvmSheet": "Belum Diakuisisi",
     "potensiKredit": "Rp 0",
     "terminal": "Prospek LVM / EDC Mandiri",
-    "keterangan": "UMKM Gultik (Non-Gultik). PIC: -. Telp: -. Sheet Status: Belum Diakuisisi."
+    "keterangan": "UMKM Gultik (Non-Gultik). PIC: -. Telp: -. Sheet Status: Belum Diakuisisi. Omset: Rp 0."
   },
   {
     "id": "MB-221",
@@ -4637,6 +4857,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "lat": -6.2428564,
     "lng": 106.7961407,
     "omsetBulanan": "Rp 0",
+    "rawOmzetSheet": "",
     "volumeSettlement": "Rp 0",
     "statusNasabah": "TARGET_KUR",
     "statusText": "Target Cross-Selling KUR",
@@ -4644,7 +4865,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "rawLvmSheet": "Belum Diakuisisi",
     "potensiKredit": "Rp 0",
     "terminal": "Prospek LVM / EDC Mandiri",
-    "keterangan": "UMKM Gultik (Non-Gultik). PIC: -. Telp: -. Sheet Status: Belum Diakuisisi."
+    "keterangan": "UMKM Gultik (Non-Gultik). PIC: -. Telp: -. Sheet Status: Belum Diakuisisi. Omset: Rp 0."
   },
   {
     "id": "MB-222",
@@ -4658,6 +4879,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "lat": -6.2429358,
     "lng": 106.7961521,
     "omsetBulanan": "Rp 0",
+    "rawOmzetSheet": "",
     "volumeSettlement": "Rp 0",
     "statusNasabah": "TARGET_KUR",
     "statusText": "Target Cross-Selling KUR",
@@ -4665,7 +4887,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "rawLvmSheet": "Belum Diakuisisi",
     "potensiKredit": "Rp 0",
     "terminal": "Prospek LVM / EDC Mandiri",
-    "keterangan": "UMKM Gultik (Non-Gultik). PIC: -. Telp: -. Sheet Status: Belum Diakuisisi."
+    "keterangan": "UMKM Gultik (Non-Gultik). PIC: -. Telp: -. Sheet Status: Belum Diakuisisi. Omset: Rp 0."
   },
   {
     "id": "MB-223",
@@ -4679,6 +4901,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "lat": -6.2423316,
     "lng": 106.796825,
     "omsetBulanan": "Rp 0",
+    "rawOmzetSheet": "",
     "volumeSettlement": "Rp 0",
     "statusNasabah": "TARGET_KUR",
     "statusText": "Target Cross-Selling KUR",
@@ -4686,7 +4909,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "rawLvmSheet": "Belum Diakuisisi",
     "potensiKredit": "Rp 0",
     "terminal": "Prospek LVM / EDC Mandiri",
-    "keterangan": "UMKM Gultik (Non-Gultik). PIC: -. Telp: -. Sheet Status: Belum Diakuisisi."
+    "keterangan": "UMKM Gultik (Non-Gultik). PIC: -. Telp: -. Sheet Status: Belum Diakuisisi. Omset: Rp 0."
   },
   {
     "id": "MB-224",
@@ -4700,6 +4923,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "lat": -6.2429993,
     "lng": 106.7961852,
     "omsetBulanan": "Rp 0",
+    "rawOmzetSheet": "",
     "volumeSettlement": "Rp 0",
     "statusNasabah": "TARGET_KUR",
     "statusText": "Target Cross-Selling KUR",
@@ -4707,7 +4931,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "rawLvmSheet": "Belum Diakuisisi",
     "potensiKredit": "Rp 0",
     "terminal": "Prospek LVM / EDC Mandiri",
-    "keterangan": "UMKM Gultik (Non-Gultik). PIC: -. Telp: -. Sheet Status: Belum Diakuisisi."
+    "keterangan": "UMKM Gultik (Non-Gultik). PIC: -. Telp: -. Sheet Status: Belum Diakuisisi. Omset: Rp 0."
   },
   {
     "id": "MB-225",
@@ -4721,6 +4945,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "lat": -6.2429433,
     "lng": 106.796381,
     "omsetBulanan": "Rp 0",
+    "rawOmzetSheet": "",
     "volumeSettlement": "Rp 0",
     "statusNasabah": "TARGET_KUR",
     "statusText": "Target Cross-Selling KUR",
@@ -4728,7 +4953,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "rawLvmSheet": "Belum Diakuisisi",
     "potensiKredit": "Rp 0",
     "terminal": "Prospek LVM / EDC Mandiri",
-    "keterangan": "UMKM Gultik (Gultik). PIC: -. Telp: -. Sheet Status: Belum Diakuisisi."
+    "keterangan": "UMKM Gultik (Gultik). PIC: -. Telp: -. Sheet Status: Belum Diakuisisi. Omset: Rp 0."
   },
   {
     "id": "MB-226",
@@ -4742,6 +4967,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "lat": -6.2432057,
     "lng": 106.7963435,
     "omsetBulanan": "Rp 0",
+    "rawOmzetSheet": "",
     "volumeSettlement": "Rp 0",
     "statusNasabah": "TARGET_KUR",
     "statusText": "Target Cross-Selling KUR",
@@ -4749,7 +4975,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "rawLvmSheet": "Belum Diakuisisi",
     "potensiKredit": "Rp 0",
     "terminal": "Prospek LVM / EDC Mandiri",
-    "keterangan": "UMKM Gultik (Non-Gultik). PIC: -. Telp: -. Sheet Status: Belum Diakuisisi."
+    "keterangan": "UMKM Gultik (Non-Gultik). PIC: -. Telp: -. Sheet Status: Belum Diakuisisi. Omset: Rp 0."
   },
   {
     "id": "MB-227",
@@ -4763,6 +4989,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "lat": -6.2432377,
     "lng": 106.7962912,
     "omsetBulanan": "Rp 0",
+    "rawOmzetSheet": "",
     "volumeSettlement": "Rp 0",
     "statusNasabah": "TARGET_KUR",
     "statusText": "Target Cross-Selling KUR",
@@ -4770,7 +4997,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "rawLvmSheet": "Belum Diakuisisi",
     "potensiKredit": "Rp 0",
     "terminal": "Prospek LVM / EDC Mandiri",
-    "keterangan": "UMKM Gultik (Gultik). PIC: -. Telp: -. Sheet Status: Belum Diakuisisi."
+    "keterangan": "UMKM Gultik (Gultik). PIC: -. Telp: -. Sheet Status: Belum Diakuisisi. Omset: Rp 0."
   },
   {
     "id": "MB-228",
@@ -4784,6 +5011,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "lat": -6.243103,
     "lng": 106.7965017,
     "omsetBulanan": "Rp 0",
+    "rawOmzetSheet": "",
     "volumeSettlement": "Rp 0",
     "statusNasabah": "TARGET_KUR",
     "statusText": "Target Cross-Selling KUR",
@@ -4791,7 +5019,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "rawLvmSheet": "Belum Diakuisisi",
     "potensiKredit": "Rp 0",
     "terminal": "Prospek LVM / EDC Mandiri",
-    "keterangan": "UMKM Gultik (Non-Gultik). PIC: -. Telp: -. Sheet Status: Belum Diakuisisi."
+    "keterangan": "UMKM Gultik (Non-Gultik). PIC: -. Telp: -. Sheet Status: Belum Diakuisisi. Omset: Rp 0."
   },
   {
     "id": "MB-229",
@@ -4805,6 +5033,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "lat": -6.2431417,
     "lng": 106.7966559,
     "omsetBulanan": "Rp 0",
+    "rawOmzetSheet": "",
     "volumeSettlement": "Rp 0",
     "statusNasabah": "TARGET_KUR",
     "statusText": "Target Cross-Selling KUR",
@@ -4812,7 +5041,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "rawLvmSheet": "Belum Diakuisisi",
     "potensiKredit": "Rp 0",
     "terminal": "Prospek LVM / EDC Mandiri",
-    "keterangan": "UMKM Gultik (Non-Gultik). PIC: -. Telp: -. Sheet Status: Belum Diakuisisi."
+    "keterangan": "UMKM Gultik (Non-Gultik). PIC: -. Telp: -. Sheet Status: Belum Diakuisisi. Omset: Rp 0."
   },
   {
     "id": "MB-230",
@@ -4826,6 +5055,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "lat": -6.2434005,
     "lng": 106.7964326,
     "omsetBulanan": "Rp 0",
+    "rawOmzetSheet": "",
     "volumeSettlement": "Rp 0",
     "statusNasabah": "TARGET_KUR",
     "statusText": "Target Cross-Selling KUR",
@@ -4833,7 +5063,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "rawLvmSheet": "Belum Diakuisisi",
     "potensiKredit": "Rp 0",
     "terminal": "Prospek LVM / EDC Mandiri",
-    "keterangan": "UMKM Gultik (Gultik). PIC: -. Telp: -. Sheet Status: Belum Diakuisisi."
+    "keterangan": "UMKM Gultik (Gultik). PIC: -. Telp: -. Sheet Status: Belum Diakuisisi. Omset: Rp 0."
   },
   {
     "id": "MB-231",
@@ -4847,6 +5077,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "lat": -6.2433651,
     "lng": 106.7967839,
     "omsetBulanan": "Rp 0",
+    "rawOmzetSheet": "",
     "volumeSettlement": "Rp 0",
     "statusNasabah": "TARGET_KUR",
     "statusText": "Target Cross-Selling KUR",
@@ -4854,7 +5085,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "rawLvmSheet": "Belum Diakuisisi",
     "potensiKredit": "Rp 0",
     "terminal": "Prospek LVM / EDC Mandiri",
-    "keterangan": "UMKM Gultik (Non-Gultik). PIC: -. Telp: -. Sheet Status: Belum Diakuisisi."
+    "keterangan": "UMKM Gultik (Non-Gultik). PIC: -. Telp: -. Sheet Status: Belum Diakuisisi. Omset: Rp 0."
   },
   {
     "id": "MB-232",
@@ -4868,6 +5099,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "lat": -6.2433965,
     "lng": 106.7968745,
     "omsetBulanan": "Rp 0",
+    "rawOmzetSheet": "",
     "volumeSettlement": "Rp 0",
     "statusNasabah": "TARGET_KUR",
     "statusText": "Target Cross-Selling KUR",
@@ -4875,7 +5107,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "rawLvmSheet": "Belum Diakuisisi",
     "potensiKredit": "Rp 0",
     "terminal": "Prospek LVM / EDC Mandiri",
-    "keterangan": "UMKM Gultik (Non-Gultik). PIC: -. Telp: -. Sheet Status: Belum Diakuisisi."
+    "keterangan": "UMKM Gultik (Non-Gultik). PIC: -. Telp: -. Sheet Status: Belum Diakuisisi. Omset: Rp 0."
   },
   {
     "id": "MB-233",
@@ -4889,6 +5121,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "lat": -6.2433171,
     "lng": 106.797024,
     "omsetBulanan": "Rp 0",
+    "rawOmzetSheet": "",
     "volumeSettlement": "Rp 0",
     "statusNasabah": "TARGET_KUR",
     "statusText": "Target Cross-Selling KUR",
@@ -4896,7 +5129,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "rawLvmSheet": "Belum Diakuisisi",
     "potensiKredit": "Rp 0",
     "terminal": "Prospek LVM / EDC Mandiri",
-    "keterangan": "UMKM Gultik (Non-Gultik). PIC: -. Telp: -. Sheet Status: Belum Diakuisisi."
+    "keterangan": "UMKM Gultik (Non-Gultik). PIC: -. Telp: -. Sheet Status: Belum Diakuisisi. Omset: Rp 0."
   },
   {
     "id": "MB-234",
@@ -4910,6 +5143,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "lat": -6.2432598,
     "lng": 106.7969657,
     "omsetBulanan": "Rp 0",
+    "rawOmzetSheet": "",
     "volumeSettlement": "Rp 0",
     "statusNasabah": "TARGET_KUR",
     "statusText": "Target Cross-Selling KUR",
@@ -4917,7 +5151,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "rawLvmSheet": "Belum Diakuisisi",
     "potensiKredit": "Rp 0",
     "terminal": "Prospek LVM / EDC Mandiri",
-    "keterangan": "UMKM Gultik (Gultik). PIC: -. Telp: -. Sheet Status: Belum Diakuisisi."
+    "keterangan": "UMKM Gultik (Gultik). PIC: -. Telp: -. Sheet Status: Belum Diakuisisi. Omset: Rp 0."
   },
   {
     "id": "MB-235",
@@ -4931,6 +5165,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "lat": -6.2434911,
     "lng": 106.7963742,
     "omsetBulanan": "Rp 0",
+    "rawOmzetSheet": "",
     "volumeSettlement": "Rp 0",
     "statusNasabah": "TARGET_KUR",
     "statusText": "Target Cross-Selling KUR",
@@ -4938,7 +5173,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "rawLvmSheet": "Belum Diakuisisi",
     "potensiKredit": "Rp 0",
     "terminal": "Prospek LVM / EDC Mandiri",
-    "keterangan": "UMKM Gultik (Non-Gultik). PIC: -. Telp: -. Sheet Status: Belum Diakuisisi."
+    "keterangan": "UMKM Gultik (Non-Gultik). PIC: -. Telp: -. Sheet Status: Belum Diakuisisi. Omset: Rp 0."
   },
   {
     "id": "MB-236",
@@ -4952,6 +5187,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "lat": -6.2435563,
     "lng": 106.7965094,
     "omsetBulanan": "Rp 0",
+    "rawOmzetSheet": "",
     "volumeSettlement": "Rp 0",
     "statusNasabah": "TARGET_KUR",
     "statusText": "Target Cross-Selling KUR",
@@ -4959,7 +5195,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "rawLvmSheet": "Belum Diakuisisi",
     "potensiKredit": "Rp 0",
     "terminal": "Prospek LVM / EDC Mandiri",
-    "keterangan": "UMKM Gultik (Gultik). PIC: -. Telp: -. Sheet Status: Belum Diakuisisi."
+    "keterangan": "UMKM Gultik (Gultik). PIC: -. Telp: -. Sheet Status: Belum Diakuisisi. Omset: Rp 0."
   },
   {
     "id": "MB-237",
@@ -4973,6 +5209,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "lat": -6.243675,
     "lng": 106.7964923,
     "omsetBulanan": "Rp 0",
+    "rawOmzetSheet": "",
     "volumeSettlement": "Rp 0",
     "statusNasabah": "TARGET_KUR",
     "statusText": "Target Cross-Selling KUR",
@@ -4980,7 +5217,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "rawLvmSheet": "Belum Diakuisisi",
     "potensiKredit": "Rp 0",
     "terminal": "Prospek LVM / EDC Mandiri",
-    "keterangan": "UMKM Gultik (Gultik). PIC: -. Telp: -. Sheet Status: Belum Diakuisisi."
+    "keterangan": "UMKM Gultik (Gultik). PIC: -. Telp: -. Sheet Status: Belum Diakuisisi. Omset: Rp 0."
   },
   {
     "id": "MB-238",
@@ -4994,6 +5231,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "lat": -6.243695,
     "lng": 106.7967531,
     "omsetBulanan": "Rp 0",
+    "rawOmzetSheet": "",
     "volumeSettlement": "Rp 0",
     "statusNasabah": "TARGET_KUR",
     "statusText": "Target Cross-Selling KUR",
@@ -5001,7 +5239,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "rawLvmSheet": "Belum Diakuisisi",
     "potensiKredit": "Rp 0",
     "terminal": "Prospek LVM / EDC Mandiri",
-    "keterangan": "UMKM Gultik (Gultik). PIC: -. Telp: -. Sheet Status: Belum Diakuisisi."
+    "keterangan": "UMKM Gultik (Gultik). PIC: -. Telp: -. Sheet Status: Belum Diakuisisi. Omset: Rp 0."
   },
   {
     "id": "MB-239",
@@ -5015,6 +5253,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "lat": -6.243722,
     "lng": 106.7963288,
     "omsetBulanan": "Rp 0",
+    "rawOmzetSheet": "",
     "volumeSettlement": "Rp 0",
     "statusNasabah": "TARGET_KUR",
     "statusText": "Target Cross-Selling KUR",
@@ -5022,7 +5261,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "rawLvmSheet": "Belum Diakuisisi",
     "potensiKredit": "Rp 0",
     "terminal": "Prospek LVM / EDC Mandiri",
-    "keterangan": "UMKM Gultik (Non-Gultik). PIC: -. Telp: -. Sheet Status: Belum Diakuisisi."
+    "keterangan": "UMKM Gultik (Non-Gultik). PIC: -. Telp: -. Sheet Status: Belum Diakuisisi. Omset: Rp 0."
   },
   {
     "id": "MB-240",
@@ -5036,6 +5275,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "lat": -6.243886,
     "lng": 106.7963576,
     "omsetBulanan": "Rp 0",
+    "rawOmzetSheet": "",
     "volumeSettlement": "Rp 0",
     "statusNasabah": "TARGET_KUR",
     "statusText": "Target Cross-Selling KUR",
@@ -5043,7 +5283,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "rawLvmSheet": "Belum Diakuisisi",
     "potensiKredit": "Rp 0",
     "terminal": "Prospek LVM / EDC Mandiri",
-    "keterangan": "UMKM Gultik (Gultik). PIC: -. Telp: -. Sheet Status: Belum Diakuisisi."
+    "keterangan": "UMKM Gultik (Gultik). PIC: -. Telp: -. Sheet Status: Belum Diakuisisi. Omset: Rp 0."
   },
   {
     "id": "MB-241",
@@ -5057,6 +5297,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "lat": -6.2440201,
     "lng": 106.7962823,
     "omsetBulanan": "Rp 0",
+    "rawOmzetSheet": "",
     "volumeSettlement": "Rp 0",
     "statusNasabah": "TARGET_KUR",
     "statusText": "Target Cross-Selling KUR",
@@ -5064,7 +5305,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "rawLvmSheet": "Belum Diakuisisi",
     "potensiKredit": "Rp 0",
     "terminal": "Prospek LVM / EDC Mandiri",
-    "keterangan": "UMKM Gultik (Gultik). PIC: -. Telp: -. Sheet Status: Belum Diakuisisi."
+    "keterangan": "UMKM Gultik (Gultik). PIC: -. Telp: -. Sheet Status: Belum Diakuisisi. Omset: Rp 0."
   },
   {
     "id": "MB-242",
@@ -5078,6 +5319,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "lat": -6.2439334,
     "lng": 106.7966283,
     "omsetBulanan": "Rp 0",
+    "rawOmzetSheet": "",
     "volumeSettlement": "Rp 0",
     "statusNasabah": "TARGET_KUR",
     "statusText": "Target Cross-Selling KUR",
@@ -5085,7 +5327,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "rawLvmSheet": "Belum Diakuisisi",
     "potensiKredit": "Rp 0",
     "terminal": "Prospek LVM / EDC Mandiri",
-    "keterangan": "UMKM Gultik (Non-Gultik). PIC: -. Telp: -. Sheet Status: Belum Diakuisisi."
+    "keterangan": "UMKM Gultik (Non-Gultik). PIC: -. Telp: -. Sheet Status: Belum Diakuisisi. Omset: Rp 0."
   },
   {
     "id": "MB-243",
@@ -5099,6 +5341,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "lat": -6.2440107,
     "lng": 106.7966384,
     "omsetBulanan": "Rp 0",
+    "rawOmzetSheet": "",
     "volumeSettlement": "Rp 0",
     "statusNasabah": "TARGET_KUR",
     "statusText": "Target Cross-Selling KUR",
@@ -5106,7 +5349,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "rawLvmSheet": "Belum Diakuisisi",
     "potensiKredit": "Rp 0",
     "terminal": "Prospek LVM / EDC Mandiri",
-    "keterangan": "UMKM Gultik (Non-Gultik). PIC: -. Telp: -. Sheet Status: Belum Diakuisisi."
+    "keterangan": "UMKM Gultik (Non-Gultik). PIC: -. Telp: -. Sheet Status: Belum Diakuisisi. Omset: Rp 0."
   },
   {
     "id": "MB-244",
@@ -5120,6 +5363,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "lat": -6.2441484,
     "lng": 106.7962968,
     "omsetBulanan": "Rp 0",
+    "rawOmzetSheet": "",
     "volumeSettlement": "Rp 0",
     "statusNasabah": "TARGET_KUR",
     "statusText": "Target Cross-Selling KUR",
@@ -5127,7 +5371,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "rawLvmSheet": "Belum Diakuisisi",
     "potensiKredit": "Rp 0",
     "terminal": "Prospek LVM / EDC Mandiri",
-    "keterangan": "UMKM Gultik (Gultik). PIC: -. Telp: -. Sheet Status: Belum Diakuisisi."
+    "keterangan": "UMKM Gultik (Gultik). PIC: -. Telp: -. Sheet Status: Belum Diakuisisi. Omset: Rp 0."
   },
   {
     "id": "MB-245",
@@ -5141,6 +5385,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "lat": -6.2442044,
     "lng": 106.796333,
     "omsetBulanan": "Rp 0",
+    "rawOmzetSheet": "",
     "volumeSettlement": "Rp 0",
     "statusNasabah": "TARGET_KUR",
     "statusText": "Target Cross-Selling KUR",
@@ -5148,7 +5393,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "rawLvmSheet": "Belum Diakuisisi",
     "potensiKredit": "Rp 0",
     "terminal": "Prospek LVM / EDC Mandiri",
-    "keterangan": "UMKM Gultik (Non-Gultik). PIC: -. Telp: -. Sheet Status: Belum Diakuisisi."
+    "keterangan": "UMKM Gultik (Non-Gultik). PIC: -. Telp: -. Sheet Status: Belum Diakuisisi. Omset: Rp 0."
   },
   {
     "id": "MB-246",
@@ -5162,6 +5407,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "lat": -6.2442251,
     "lng": 106.7962156,
     "omsetBulanan": "Rp 0",
+    "rawOmzetSheet": "",
     "volumeSettlement": "Rp 0",
     "statusNasabah": "TARGET_KUR",
     "statusText": "Target Cross-Selling KUR",
@@ -5169,7 +5415,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "rawLvmSheet": "Belum Diakuisisi",
     "potensiKredit": "Rp 0",
     "terminal": "Prospek LVM / EDC Mandiri",
-    "keterangan": "UMKM Gultik (Gultik). PIC: -. Telp: -. Sheet Status: Belum Diakuisisi."
+    "keterangan": "UMKM Gultik (Gultik). PIC: -. Telp: -. Sheet Status: Belum Diakuisisi. Omset: Rp 0."
   },
   {
     "id": "MB-247",
@@ -5183,6 +5429,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "lat": -6.2442511,
     "lng": 106.7961721,
     "omsetBulanan": "Rp 0",
+    "rawOmzetSheet": "",
     "volumeSettlement": "Rp 0",
     "statusNasabah": "TARGET_KUR",
     "statusText": "Target Cross-Selling KUR",
@@ -5190,7 +5437,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "rawLvmSheet": "Belum Diakuisisi",
     "potensiKredit": "Rp 0",
     "terminal": "Prospek LVM / EDC Mandiri",
-    "keterangan": "UMKM Gultik (Non-Gultik). PIC: -. Telp: -. Sheet Status: Belum Diakuisisi."
+    "keterangan": "UMKM Gultik (Non-Gultik). PIC: -. Telp: -. Sheet Status: Belum Diakuisisi. Omset: Rp 0."
   },
   {
     "id": "MB-248",
@@ -5204,6 +5451,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "lat": -6.2441111,
     "lng": 106.7959984,
     "omsetBulanan": "Rp 0",
+    "rawOmzetSheet": "",
     "volumeSettlement": "Rp 0",
     "statusNasabah": "TARGET_KUR",
     "statusText": "Target Cross-Selling KUR",
@@ -5211,7 +5459,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "rawLvmSheet": "Belum Diakuisisi",
     "potensiKredit": "Rp 0",
     "terminal": "Prospek LVM / EDC Mandiri",
-    "keterangan": "UMKM Gultik (Non-Gultik). PIC: -. Telp: -. Sheet Status: Belum Diakuisisi."
+    "keterangan": "UMKM Gultik (Non-Gultik). PIC: -. Telp: -. Sheet Status: Belum Diakuisisi. Omset: Rp 0."
   },
   {
     "id": "MB-249",
@@ -5225,6 +5473,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "lat": -6.2445078,
     "lng": 106.7959591,
     "omsetBulanan": "Rp 0",
+    "rawOmzetSheet": "",
     "volumeSettlement": "Rp 0",
     "statusNasabah": "TARGET_KUR",
     "statusText": "Target Cross-Selling KUR",
@@ -5232,7 +5481,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "rawLvmSheet": "Belum Diakuisisi",
     "potensiKredit": "Rp 0",
     "terminal": "Prospek LVM / EDC Mandiri",
-    "keterangan": "UMKM Gultik (Non-Gultik). PIC: -. Telp: -. Sheet Status: Belum Diakuisisi."
+    "keterangan": "UMKM Gultik (Non-Gultik). PIC: -. Telp: -. Sheet Status: Belum Diakuisisi. Omset: Rp 0."
   },
   {
     "id": "MB-250",
@@ -5246,6 +5495,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "lat": -6.2441206,
     "lng": 106.7958384,
     "omsetBulanan": "Rp 0",
+    "rawOmzetSheet": "",
     "volumeSettlement": "Rp 0",
     "statusNasabah": "TARGET_KUR",
     "statusText": "Target Cross-Selling KUR",
@@ -5253,7 +5503,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "rawLvmSheet": "Belum Diakuisisi",
     "potensiKredit": "Rp 0",
     "terminal": "Prospek LVM / EDC Mandiri",
-    "keterangan": "UMKM Gultik (Non-Gultik). PIC: -. Telp: -. Sheet Status: Belum Diakuisisi."
+    "keterangan": "UMKM Gultik (Non-Gultik). PIC: -. Telp: -. Sheet Status: Belum Diakuisisi. Omset: Rp 0."
   },
   {
     "id": "MB-251",
@@ -5267,14 +5517,15 @@ window.MASTER_BLOKM_MERCHANTS = [
     "lat": -6.2444969,
     "lng": 106.7954221,
     "omsetBulanan": "Rp 0",
+    "rawOmzetSheet": "",
     "volumeSettlement": "Rp 0",
-    "statusNasabah": "TARGET_KUR",
-    "statusText": "Target Cross-Selling KUR",
+    "statusNasabah": "DEBITUR_EKSISTING",
+    "statusText": "Debitur Eksisting Mandiri",
     "statusLvm": "Belum LVM",
     "rawLvmSheet": "Belum Diakuisisi",
     "potensiKredit": "Rp 0",
     "terminal": "Prospek LVM / EDC Mandiri",
-    "keterangan": "UMKM Gultik (Non-Gultik). PIC: -. Telp: -. Sheet Status: Belum Diakuisisi."
+    "keterangan": "UMKM Gultik (Non-Gultik). PIC: -. Telp: -. Sheet Status: Belum Diakuisisi. Omset: Rp 0."
   },
   {
     "id": "MB-252",
@@ -5288,6 +5539,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "lat": -6.2447491,
     "lng": 106.7959397,
     "omsetBulanan": "Rp 0",
+    "rawOmzetSheet": "",
     "volumeSettlement": "Rp 0",
     "statusNasabah": "TARGET_KUR",
     "statusText": "Target Cross-Selling KUR",
@@ -5295,7 +5547,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "rawLvmSheet": "Belum Diakuisisi",
     "potensiKredit": "Rp 0",
     "terminal": "Prospek LVM / EDC Mandiri",
-    "keterangan": "UMKM Gultik (Non-Gultik). PIC: -. Telp: -. Sheet Status: Belum Diakuisisi."
+    "keterangan": "UMKM Gultik (Non-Gultik). PIC: -. Telp: -. Sheet Status: Belum Diakuisisi. Omset: Rp 0."
   },
   {
     "id": "MB-253",
@@ -5309,6 +5561,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "lat": -6.2444738,
     "lng": 106.7963984,
     "omsetBulanan": "Rp 0",
+    "rawOmzetSheet": "",
     "volumeSettlement": "Rp 0",
     "statusNasabah": "TARGET_KUR",
     "statusText": "Target Cross-Selling KUR",
@@ -5316,7 +5569,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "rawLvmSheet": "Belum Diakuisisi",
     "potensiKredit": "Rp 0",
     "terminal": "Prospek LVM / EDC Mandiri",
-    "keterangan": "UMKM Gultik (Non-Gultik). PIC: -. Telp: -. Sheet Status: Belum Diakuisisi."
+    "keterangan": "UMKM Gultik (Non-Gultik). PIC: -. Telp: -. Sheet Status: Belum Diakuisisi. Omset: Rp 0."
   },
   {
     "id": "MB-254",
@@ -5330,6 +5583,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "lat": -6.2444451,
     "lng": 106.7964306,
     "omsetBulanan": "Rp 0",
+    "rawOmzetSheet": "",
     "volumeSettlement": "Rp 0",
     "statusNasabah": "TARGET_KUR",
     "statusText": "Target Cross-Selling KUR",
@@ -5337,7 +5591,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "rawLvmSheet": "Belum Diakuisisi",
     "potensiKredit": "Rp 0",
     "terminal": "Prospek LVM / EDC Mandiri",
-    "keterangan": "UMKM Gultik (Non-Gultik). PIC: -. Telp: -. Sheet Status: Belum Diakuisisi."
+    "keterangan": "UMKM Gultik (Non-Gultik). PIC: -. Telp: -. Sheet Status: Belum Diakuisisi. Omset: Rp 0."
   },
   {
     "id": "MB-255",
@@ -5351,6 +5605,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "lat": -6.2441118,
     "lng": 106.7967129,
     "omsetBulanan": "Rp 0",
+    "rawOmzetSheet": "",
     "volumeSettlement": "Rp 0",
     "statusNasabah": "TARGET_KUR",
     "statusText": "Target Cross-Selling KUR",
@@ -5358,7 +5613,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "rawLvmSheet": "Belum Diakuisisi",
     "potensiKredit": "Rp 0",
     "terminal": "Prospek LVM / EDC Mandiri",
-    "keterangan": "UMKM Gultik (Gultik). PIC: -. Telp: -. Sheet Status: Belum Diakuisisi."
+    "keterangan": "UMKM Gultik (Gultik). PIC: -. Telp: -. Sheet Status: Belum Diakuisisi. Omset: Rp 0."
   },
   {
     "id": "MB-256",
@@ -5372,6 +5627,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "lat": -6.2440818,
     "lng": 106.7968684,
     "omsetBulanan": "Rp 0",
+    "rawOmzetSheet": "",
     "volumeSettlement": "Rp 0",
     "statusNasabah": "TARGET_KUR",
     "statusText": "Target Cross-Selling KUR",
@@ -5379,7 +5635,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "rawLvmSheet": "Belum Diakuisisi",
     "potensiKredit": "Rp 0",
     "terminal": "Prospek LVM / EDC Mandiri",
-    "keterangan": "UMKM Gultik (Non-Gultik). PIC: -. Telp: -. Sheet Status: Belum Diakuisisi."
+    "keterangan": "UMKM Gultik (Non-Gultik). PIC: -. Telp: -. Sheet Status: Belum Diakuisisi. Omset: Rp 0."
   },
   {
     "id": "MB-257",
@@ -5393,6 +5649,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "lat": -6.2440421,
     "lng": 106.7968414,
     "omsetBulanan": "Rp 0",
+    "rawOmzetSheet": "",
     "volumeSettlement": "Rp 0",
     "statusNasabah": "TARGET_KUR",
     "statusText": "Target Cross-Selling KUR",
@@ -5400,7 +5657,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "rawLvmSheet": "Belum Diakuisisi",
     "potensiKredit": "Rp 0",
     "terminal": "Prospek LVM / EDC Mandiri",
-    "keterangan": "UMKM Gultik (Non-Gultik). PIC: -. Telp: -. Sheet Status: Belum Diakuisisi."
+    "keterangan": "UMKM Gultik (Non-Gultik). PIC: -. Telp: -. Sheet Status: Belum Diakuisisi. Omset: Rp 0."
   },
   {
     "id": "MB-258",
@@ -5414,6 +5671,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "lat": -6.2438772,
     "lng": 106.7971105,
     "omsetBulanan": "Rp 0",
+    "rawOmzetSheet": "",
     "volumeSettlement": "Rp 0",
     "statusNasabah": "TARGET_KUR",
     "statusText": "Target Cross-Selling KUR",
@@ -5421,7 +5679,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "rawLvmSheet": "Belum Diakuisisi",
     "potensiKredit": "Rp 0",
     "terminal": "Prospek LVM / EDC Mandiri",
-    "keterangan": "UMKM Gultik (Gultik). PIC: -. Telp: -. Sheet Status: Belum Diakuisisi."
+    "keterangan": "UMKM Gultik (Gultik). PIC: -. Telp: -. Sheet Status: Belum Diakuisisi. Omset: Rp 0."
   },
   {
     "id": "MB-259",
@@ -5435,13 +5693,14 @@ window.MASTER_BLOKM_MERCHANTS = [
     "lat": -6.2439888,
     "lng": 106.7970902,
     "omsetBulanan": "Rp 0",
+    "rawOmzetSheet": "",
     "volumeSettlement": "Rp 0",
     "statusNasabah": "TARGET_KUR",
     "statusText": "Target Cross-Selling KUR",
-    "statusLvm": "Belum LVM",
-    "rawLvmSheet": "Belum Diakuisisi",
+    "statusLvm": "LVM Active",
+    "rawLvmSheet": "Sudah Diakuisisi",
     "potensiKredit": "Rp 0",
-    "terminal": "Prospek LVM / EDC Mandiri",
-    "keterangan": "UMKM Gultik (Non-Gultik). PIC: -. Telp: -. Sheet Status: Belum Diakuisisi."
+    "terminal": "Livin' Merchant (QRIS Active)",
+    "keterangan": "UMKM Gultik (Non-Gultik). PIC: -. Telp: -. Sheet Status: Sudah Diakuisisi. Omset: Rp 0."
   }
 ];

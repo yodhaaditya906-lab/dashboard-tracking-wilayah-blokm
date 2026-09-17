@@ -54,6 +54,24 @@ function parseCSVLine(line) {
   return result;
 }
 
+function formatRupiahValue(val) {
+  if (!val || val.trim() === '' || val.trim() === '-' || val.trim() === '0') {
+    return 'Rp 0';
+  }
+  let cleaned = val.trim();
+  if (cleaned.toLowerCase().startsWith('rp')) {
+    return cleaned;
+  }
+  const numOnly = cleaned.replace(/[^0-9]/g, '');
+  if (numOnly.length > 0 && /^[0-9.,\s]+$/.test(cleaned)) {
+    const parsedNum = parseInt(numOnly, 10);
+    if (!isNaN(parsedNum) && parsedNum > 0) {
+      return 'Rp ' + parsedNum.toLocaleString('id-ID');
+    }
+  }
+  return 'Rp ' + cleaned;
+}
+
 async function syncGoogleSheetData() {
   const allMerchants = [];
   let counter = 1;
@@ -67,12 +85,16 @@ async function syncGoogleSheetData() {
       const header = parseCSVLine(lines[0]).map(h => h.toLowerCase().trim());
       
       const colCoord = header.findIndex(h => h.includes('kordinat') || h.includes('koordinat'));
+      const colLat = header.findIndex(h => h.includes('latitude') || h === 'lat');
+      const colLng = header.findIndex(h => h.includes('longitude') || h === 'lng' || h === 'long');
+
       const colToko = header.findIndex(h => h.includes('toko') || h.includes('usaha'));
       const colPic = header.findIndex(h => h.includes('pemilik') || h.includes('pic'));
       const colTelp = header.findIndex(h => h.includes('telpon') || h.includes('telepon') || h.includes('hp'));
       const colLvm = header.findIndex(h => h.includes('lvm') || h.includes('akuisisi'));
       const colDebitur = header.findIndex(h => h.includes('debitur') || h.includes('kredit'));
       const colGolongan = header.findIndex(h => h.includes('golongan'));
+      const colOmzet = header.findIndex(h => h.includes('omzet') || h.includes('omset') || h.includes('penjualan'));
 
       for (let i = 1; i < lines.length; i++) {
         const row = parseCSVLine(lines[i]);
@@ -81,15 +103,31 @@ async function syncGoogleSheetData() {
         const namaToko = (row[colToko] || '').trim();
         if (!namaToko || namaToko.toLowerCase().includes('nama toko')) continue;
 
-        const rawCoord = (row[colCoord] || '').trim();
-        let lat = -6.2445;
-        let lng = 106.7990;
-        if (rawCoord.includes(',')) {
-          const parts = rawCoord.split(',').map(p => parseFloat(p.trim()));
-          if (parts.length >= 2 && !isNaN(parts[0]) && !isNaN(parts[1])) {
-            lat = parts[0];
-            lng = parts[1];
+        let lat = NaN;
+        let lng = NaN;
+
+        // 1. Separate lat & lng columns (Tab 3)
+        if (colLat !== -1 && colLng !== -1 && row[colLat] && row[colLng]) {
+          lat = parseFloat(row[colLat].trim());
+          lng = parseFloat(row[colLng].trim());
+        }
+
+        // 2. Combined coordinate column (Tab 1 & 2)
+        if ((isNaN(lat) || isNaN(lng)) && colCoord !== -1 && row[colCoord]) {
+          const rawCoord = row[colCoord].trim();
+          if (rawCoord.includes(',')) {
+            const parts = rawCoord.split(',').map(p => parseFloat(p.trim()));
+            if (parts.length >= 2 && !isNaN(parts[0]) && !isNaN(parts[1])) {
+              lat = parts[0];
+              lng = parts[1];
+            }
           }
+        }
+
+        // 3. Fallback
+        if (isNaN(lat) || isNaN(lng)) {
+          lat = cfg.defaultZone === 'Blok C' ? -6.2418 : -6.2445;
+          lng = cfg.defaultZone === 'Blok C' ? 106.7960 : 106.7990;
         }
 
         const namaPic = (row[colPic] || '').trim() || '-';
@@ -97,6 +135,9 @@ async function syncGoogleSheetData() {
         const rawLvm = (row[colLvm] || '').trim();
         const rawDebitur = (row[colDebitur] || '').trim();
         const golongan = colGolongan !== -1 ? (row[colGolongan] || '').trim() : '';
+
+        const rawOmzet = colOmzet !== -1 ? (row[colOmzet] || '').trim() : '';
+        const omsetBulanan = formatRupiahValue(rawOmzet);
 
         // Status LVM Mapping
         let statusLvm = 'Belum LVM';
@@ -136,7 +177,8 @@ async function syncGoogleSheetData() {
           alamat: `Kawasan ${subZonaName}, Kebayoran Baru`,
           lat: lat,
           lng: lng,
-          omsetBulanan: "Rp 0",
+          omsetBulanan: omsetBulanan,
+          rawOmzetSheet: rawOmzet,
           volumeSettlement: "Rp 0",
           statusNasabah: statusNasabah,
           statusText: statusText,
@@ -144,7 +186,7 @@ async function syncGoogleSheetData() {
           rawLvmSheet: rawLvm,
           potensiKredit: "Rp 0",
           terminal: statusLvm === 'LVM Active' ? "Livin' Merchant (QRIS Active)" : "Prospek LVM / EDC Mandiri",
-          keterangan: `UMKM ${subZonaName}. PIC: ${namaPic}. Telp: ${telp}. Sheet Status: ${rawLvm || 'Belum'}.`
+          keterangan: `UMKM ${subZonaName}. PIC: ${namaPic}. Telp: ${telp}. Sheet Status: ${rawLvm || 'Belum'}. Omset: ${omsetBulanan}.`
         });
       }
     } catch (e) {

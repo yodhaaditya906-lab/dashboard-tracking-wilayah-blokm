@@ -780,7 +780,7 @@ document.addEventListener('DOMContentLoaded', () => {
         </div>
         <div class="card-footer-info">
           <div><i class="fa-solid fa-map-pin"></i> ${m.lat.toFixed(4)}, ${m.lng.toFixed(4)}</div>
-          <div class="potensi">${m.potensiKredit ? m.potensiKredit.split(' ')[0] + ' ' + (m.potensiKredit.split(' ')[1] || '') : 'Prospek'}</div>
+          <div class="potensi" style="font-weight: 800; color: #003D79;">${m.omsetBulanan || 'Rp 0'}</div>
         </div>
       `;
 
