@@ -10,7 +10,7 @@ window.BLOKM_BOUNDARY_LINE_GEOJSON = {
       "type": "Feature",
       "properties": {
         "id": "BLOKM_OUTER_POLYGON",
-        "name": "Batas Utama Kawasan Blok M Core",
+        "name": "Blok M (M Bloc Space)",
         "code": "Blok M Core",
         "color": "#FFB700"
       },

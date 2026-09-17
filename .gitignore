@@ -1,0 +1,4 @@
+scratch/
+*_backup.js
+*.log
+node_modules/

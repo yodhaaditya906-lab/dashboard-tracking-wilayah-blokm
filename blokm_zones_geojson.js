@@ -12,7 +12,7 @@ window.BLOKM_ZONES_GEOJSON = {
       "properties": {
         "id": "ZONE_BLOKM_OUTER",
         "code": "Blok M",
-        "name": "Batas Utama Kawasan Blok M Core",
+        "name": "Blok M (M Bloc Space)",
         "color": "#00E5FF",
         "centroid": [-6.2419, 106.8007]
       },
@@ -83,7 +83,7 @@ window.BLOKM_ZONES_GEOJSON = {
       "properties": {
         "id": "ZONE_BLOKC_OUTER",
         "code": "Blok C",
-        "name": "Batas Utama Kawasan Blok C (Kyai Maja & Barito)",
+        "name": "Blok C (Gultik Bulungan & Non-Gultik)",
         "color": "#3B82F6",
         "centroid": [-6.2435, 106.7956]
       },
@@ -198,7 +198,7 @@ window.BLOKM_ZONES_GEOJSON = {
       "properties": {
         "id": "ZONE_BLOKN_OUTER",
         "code": "Blok N",
-        "name": "Batas Utama Kawasan Blok N (Dharmawangsa & Wijaya)",
+        "name": "Blok N (Lesehan Malam & Pasar Kue Subuh)",
         "color": "#10B981",
         "centroid": [-6.2484, 106.8019]
       },
@@ -298,219 +298,6 @@ window.BLOKM_ZONES_GEOJSON = {
           [106.7981624, -6.2459165]
         ]]
       }
-    },
-
-    // SUB-ZONASI MICRO BLOK M
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "ZONE_BLOKM_SQUARE",
-        "code": "Blok M Square",
-        "mainBlock": "Blok M",
-        "name": "Sub-Zona Blok M Square (Pasar & Retail Hub)",
-        "color": "#00E5FF",
-        "centroid": [-6.2445, 106.8020]
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [106.8008, -6.2435],
-            [106.8032, -6.2435],
-            [106.8032, -6.2456],
-            [106.8008, -6.2456],
-            [106.8008, -6.2435]
-          ]
-        ]
       }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "ZONE_PLAZA_BLOKM",
-        "code": "Plaza Blok M",
-        "mainBlock": "Blok M",
-        "name": "Sub-Zona Plaza Blok M & Stasiun MRT",
-        "color": "#059669",
-        "centroid": [-6.2435, 106.7979]
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [106.7968, -6.2425],
-            [106.7988, -6.2425],
-            [106.7988, -6.2445],
-            [106.7968, -6.2445],
-            [106.7968, -6.2425]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "ZONE_PASAR_RAYA",
-        "code": "Pasar Raya",
-        "mainBlock": "Blok M",
-        "name": "Sub-Zona Pasar Raya & Sentra Batik Kuliner",
-        "color": "#8B5CF6",
-        "centroid": [-6.2425, 106.8005]
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [106.7992, -6.2415],
-            [106.8018, -6.2415],
-            [106.8018, -6.2432],
-            [106.7992, -6.2432],
-            [106.7992, -6.2415]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "ZONE_MELAWAI",
-        "code": "Melawai",
-        "mainBlock": "Blok M",
-        "name": "Sub-Zona Melawai & Little Tokyo Kuliner",
-        "color": "#EC4899",
-        "centroid": [-6.2458, 106.8008]
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [106.7995, -6.2448],
-            [106.8025, -6.2448],
-            [106.8025, -6.2472],
-            [106.7995, -6.2472],
-            [106.7995, -6.2448]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "ZONE_MBLOC",
-        "code": "M-Bloc",
-        "mainBlock": "Blok M",
-        "name": "Sub-Zona M-Bloc Space & Peruri Creative Hub",
-        "color": "#F59E0B",
-        "centroid": [-6.2415, 106.7988]
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [106.7978, -6.2405],
-            [106.7996, -6.2405],
-            [106.7996, -6.2422],
-            [106.7978, -6.2422],
-            [106.7978, -6.2405]
-          ]
-        ]
-      }
-    },
-
-    // SUB-ZONASI MICRO BLOK C
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "ZONE_MAYESTIK",
-        "code": "Pasar Mayestik",
-        "mainBlock": "Blok C",
-        "name": "Sub-Zona Pasar Mayestik & Tekstil Hub",
-        "color": "#3B82F6",
-        "centroid": [-6.2395, 106.7930]
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [106.7905, -6.2378],
-            [106.7955, -6.2378],
-            [106.7955, -6.2412],
-            [106.7905, -6.2412],
-            [106.7905, -6.2378]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "ZONE_BARITO",
-        "code": "Barito",
-        "mainBlock": "Blok C",
-        "name": "Sub-Zona Barito & Taman Langsat Park Hub",
-        "color": "#10B981",
-        "centroid": [-6.2435, 106.7935]
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [106.7905, -6.2415],
-            [106.7965, -6.2415],
-            [106.7965, -6.2450],
-            [106.7905, -6.2450],
-            [106.7905, -6.2415]
-          ]
-        ]
-      }
-    },
-
-    // SUB-ZONASI MICRO BLOK O
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "ZONE_WIJAYA",
-        "code": "Wijaya",
-        "mainBlock": "Blok O",
-        "name": "Sub-Zona Wijaya & Commercial Corridor",
-        "color": "#EC4899",
-        "centroid": [-6.2445, 106.8075]
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [106.8052, -6.2425],
-            [106.8115, -6.2425],
-            [106.8115, -6.2465],
-            [106.8052, -6.2465],
-            [106.8052, -6.2425]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "ZONE_PRAPANCA",
-        "code": "Prapanca",
-        "mainBlock": "Blok O",
-        "name": "Sub-Zona Prapanca & Office Hub",
-        "color": "#8B5CF6",
-        "centroid": [-6.2485, 106.8095]
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [106.8060, -6.2468],
-            [106.8120, -6.2468],
-            [106.8120, -6.2505],
-            [106.8060, -6.2505],
-            [106.8060, -6.2468]
-          ]
-        ]
-      }
-    }
   ]
 };
