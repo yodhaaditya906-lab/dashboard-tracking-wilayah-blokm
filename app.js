@@ -674,11 +674,11 @@ document.addEventListener('DOMContentLoaded', () => {
             📍 ${m.alamat} (${m.subZona})
           </div>
           <div style="display: flex; gap: 4px; margin-bottom: 8px; flex-wrap: wrap;">
-            <span style="font-size: 10px; font-weight: 700; color: ${isTarget ? '#DC2626' : '#059669'}; background: ${isTarget ? '#FEE2E2' : '#D1FAE5'}; padding: 3px 6px; border-radius: 4px;">
-              ${m.statusText || 'Prospek LVM'}
+            <span style="font-size: 10px; font-weight: 800; color: ${isLvmActive ? '#047857' : '#DC2626'}; background: ${isLvmActive ? '#D1FAE5' : '#FEE2E2'}; border: 1px solid ${isLvmActive ? '#6EE7B7' : '#FCA5A5'}; padding: 2px 8px; border-radius: 12px;">
+              LVM
             </span>
-            <span style="font-size: 10px; font-weight: 700; color: ${isLvmActive ? '#047857' : '#D97706'}; background: ${isLvmActive ? '#D1FAE5' : '#FEF3C7'}; padding: 3px 6px; border-radius: 4px;">
-              <i class="${isLvmActive ? 'fa-solid fa-circle-check' : 'fa-solid fa-circle-question'}"></i> ${isLvmActive ? 'LVM Active' : 'Belum LVM'}
+            <span style="font-size: 10px; font-weight: 800; color: ${!isTarget ? '#047857' : '#DC2626'}; background: ${!isTarget ? '#D1FAE5' : '#FEE2E2'}; border: 1px solid ${!isTarget ? '#6EE7B7' : '#FCA5A5'}; padding: 2px 8px; border-radius: 12px;">
+              Debitur
             </span>
           </div>
           <div style="font-size: 11px; color: #334155; margin-bottom: 8px;">
@@ -713,12 +713,12 @@ document.addEventListener('DOMContentLoaded', () => {
       card.innerHTML = `
         <div class="card-top">
           <div class="card-title">${m.namaUsaha}</div>
-          <div style="display: flex; gap: 4px; align-items: center;">
-            <span class="tag-badge ${isLvmActive ? 'debitur' : 'target-kur'}" style="font-size: 10px; padding: 2px 6px;">
-              ${isLvmActive ? '✓ LVM' : 'Belum LVM'}
+          <div style="display: flex; gap: 4px; align-items: center; flex-shrink: 0;">
+            <span class="tag-badge ${isLvmActive ? 'debitur' : 'target-kur'}">
+              LVM
             </span>
-            <span class="tag-badge ${isTarget ? 'target-kur' : 'debitur'}">
-              ${isTarget ? 'Target' : 'Debitur'}
+            <span class="tag-badge ${!isTarget ? 'debitur' : 'target-kur'}">
+              Debitur
             </span>
           </div>
         </div>
