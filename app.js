@@ -735,7 +735,7 @@ document.addEventListener('DOMContentLoaded', () => {
             </span>
           </div>
           <div style="font-size: 11px; color: #334155; margin-bottom: 8px;">
-            <strong>Koordinat GPS:</strong> ${m.lat.toFixed(5)}, ${m.lng.toFixed(5)}
+            <strong>GPS:</strong> ${m.lat.toFixed(5)}, ${m.lng.toFixed(5)} • <strong>Omset:</strong> <span style="font-weight: 800; color: #003D79;">${m.omsetBulanan || 'Rp 0'}</span>
           </div>
           <div style="display: flex; gap: 6px;">
             <button onclick="window.toggleLvmStatus('${m.id}')" style="
