@@ -4438,8 +4438,8 @@ window.MASTER_BLOKM_MERCHANTS = [
     "alamat": "Kawasan Gultik (Gultik), Kebayoran Baru",
     "lat": -6.2413107,
     "lng": 106.7959922,
-    "omsetBulanan": "Rp 0",
-    "rawOmzetSheet": "",
+    "omsetBulanan": "Rp 2.500.000",
+    "rawOmzetSheet": "2500000",
     "volumeSettlement": "Rp 0",
     "statusNasabah": "TARGET_KUR",
     "statusText": "Target Cross-Selling KUR",
@@ -4447,7 +4447,7 @@ window.MASTER_BLOKM_MERCHANTS = [
     "rawLvmSheet": "Belum Diakuisisi",
     "potensiKredit": "Rp 0",
     "terminal": "Prospek LVM / EDC Mandiri",
-    "keterangan": "UMKM Gultik (Gultik). PIC: -. Telp: -. Sheet Status: Belum Diakuisisi. Omset: Rp 0."
+    "keterangan": "UMKM Gultik (Gultik). PIC: -. Telp: -. Sheet Status: Belum Diakuisisi. Omset: Rp 2.500.000."
   },
   {
     "id": "MB-203",
