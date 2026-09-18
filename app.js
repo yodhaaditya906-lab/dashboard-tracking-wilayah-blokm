@@ -733,17 +733,7 @@ document.addEventListener('DOMContentLoaded', () => {
         pinBorder = '#FCA5A5';
       }
 
-      let iconClass = 'fa-solid fa-store';
-      const catLower = (m.kategori || '').toLowerCase();
-      if (catLower.includes('f&b') || catLower.includes('kuliner') || catLower.includes('cafe') || catLower.includes('makanan') || catLower.includes('resto') || catLower.includes('gultik')) {
-        iconClass = 'fa-solid fa-utensils';
-      } else if (catLower.includes('fashion') || catLower.includes('pakaian') || catLower.includes('baju')) {
-        iconClass = 'fa-solid fa-shirt';
-      } else if (catLower.includes('kesehatan') || catLower.includes('farmasi') || catLower.includes('optik')) {
-        iconClass = 'fa-solid fa-heart-pulse';
-      } else if (catLower.includes('retail') || catLower.includes('perhiasan')) {
-        iconClass = 'fa-solid fa-bag-shopping';
-      }
+      const iconClass = 'fa-solid fa-utensils';
 
       // A. Add Map Marker
       const markerIcon = L.divIcon({
