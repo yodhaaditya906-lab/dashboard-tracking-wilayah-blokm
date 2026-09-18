@@ -147,7 +147,7 @@ async function syncGoogleSheetData() {
 
         // Status Debitur Mapping
         let statusNasabah = 'TARGET_KUR';
-        let statusText = 'Target Cross-Selling KUR';
+        let statusText = 'Non-Debitur KUR';
         if (rawDebitur.toLowerCase().includes('eksisting') || rawDebitur.toLowerCase().includes('sudah kredit') || rawDebitur.toLowerCase().includes('debitur')) {
           statusNasabah = 'DEBITUR_EKSISTING';
           statusText = 'Debitur Eksisting Mandiri';

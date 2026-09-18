@@ -50,7 +50,7 @@
         <i class="fa-solid fa-bullseye"></i>
         <div>
           <div class="val" id="stat-target-kur" style="color: #FFB700;">0</div>
-          <div class="lbl">Target KUR/KUM</div>
+          <div class="lbl">Non-Debitur</div>
         </div>
       </div>
       <div class="stat-pill">
@@ -106,25 +106,25 @@
 
         <div class="filter-group">
           <label><i class="fa-solid fa-qrcode"></i> Status Livin' Merchant (LVM)</label>
-          <select class="form-select" id="filter-lvm">
-            <option value="ALL">Semua Status LVM</option>
-            <option value="LVM Active">Sudah LVM (Livin' Merchant)</option>
-            <option value="Belum LVM">Belum LVM (Prospek Baru)</option>
-          </select>
+          <div class="mode-switcher-grid">
+            <button class="btn-mode" id="btn-lvm-belum">Non-LVM</button>
+            <button class="btn-mode" id="btn-lvm-active">LVM</button>
+            <button class="btn-mode active" id="btn-lvm-all">Semua</button>
+          </div>
+        </div>
+
+        <div class="filter-group">
+          <label><i class="fa-solid fa-filter"></i> STATUS DEBITUR MIKRO</label>
+          <div class="mode-switcher-grid">
+            <button class="btn-mode" id="btn-mode-target">Non-Debitur</button>
+            <button class="btn-mode" id="btn-mode-debitur">Debitur</button>
+            <button class="btn-mode active" id="btn-mode-all">Semua</button>
+          </div>
         </div>
 
         <div class="filter-group">
           <label><i class="fa-solid fa-magnifying-glass"></i> Cari Nama Toko / Alamat</label>
           <input type="text" class="form-input" id="search-input" placeholder="Ketik nama merchant, misal: Bakmi GM, Fukuya...">
-        </div>
-
-        <div class="filter-group">
-          <label><i class="fa-solid fa-filter"></i> Mode Segmentasi Nasabah</label>
-          <div class="mode-switcher-grid">
-            <button class="btn-mode active" id="btn-mode-target">Target KUR</button>
-            <button class="btn-mode" id="btn-mode-debitur">Debitur</button>
-            <button class="btn-mode" id="btn-mode-all">Semua</button>
-          </div>
         </div>
       </div>
 
@@ -173,7 +173,7 @@
         <input type="text" class="form-input" id="db-search-input" placeholder="Cari dalam database..." style="max-width: 320px;">
         <div style="display: flex; gap: 8px;">
           <button class="btn-header-action" id="btn-export-excel-target" style="background: #059669; color: #FFFFFF;">
-            <i class="fa-solid fa-file-excel"></i> Export Target KUR
+            <i class="fa-solid fa-file-excel"></i> Export Non-Debitur
           </button>
           <button class="btn-header-action" id="btn-export-excel-modal">
             <i class="fa-solid fa-download"></i> Export Semua Data

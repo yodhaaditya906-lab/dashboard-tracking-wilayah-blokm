@@ -23,7 +23,9 @@ document.addEventListener('DOMContentLoaded', () => {
   // DOM Elements
   const zoneSelect = document.getElementById('filter-zone');
   const categorySelect = document.getElementById('filter-category');
-  const lvmSelect = document.getElementById('filter-lvm');
+  const btnLvmActive = document.getElementById('btn-lvm-active');
+  const btnLvmBelum = document.getElementById('btn-lvm-belum');
+  const btnLvmAll = document.getElementById('btn-lvm-all');
   const searchInput = document.getElementById('search-input');
   const cardsWrapper = document.getElementById('merchant-cards-wrapper');
   const merchantCounter = document.getElementById('merchant-counter');
@@ -185,7 +187,7 @@ document.addEventListener('DOMContentLoaded', () => {
           }
 
           let statusNasabah = 'TARGET_KUR';
-          let statusText = 'Target Cross-Selling KUR';
+          let statusText = 'Non-Debitur KUR';
           if (rawDebitur.toLowerCase().includes('eksisting') || rawDebitur.toLowerCase().includes('sudah kredit') || rawDebitur.toLowerCase().includes('debitur')) {
             statusNasabah = 'DEBITUR_EKSISTING';
             statusText = 'Debitur Eksisting Mandiri';
@@ -709,12 +711,28 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Render Each Merchant Card & Marker
     filtered.forEach(m => {
-      const isTarget = (m.statusNasabah === 'TARGET_KUR');
+      const isDebitur = (m.statusNasabah === 'DEBITUR_EKSISTING');
       const isLvmActive = (m.statusLvm === 'LVM Active' || m.statusLvm === 'Sudah LVM');
       
-      // Distinct Pin Color: Green/Gold for LVM Active, Orange/Red for Belum LVM
-      const pinColor = isLvmActive ? '#059669' : '#EA580C';
-      const pinBorder = isLvmActive ? '#F59E0B' : '#FFFFFF';
+      // Pin Color Matrix:
+      // 1. LVM & Debitur: Hijau (#059669)
+      // 2. Non-LVM & Debitur: Kuning (#EAB308)
+      // 3. LVM & Non-Debitur: Kuning (#EAB308)
+      // 4. Non-LVM & Non-Debitur: Merah (#DC2626)
+      let pinColor = '#DC2626';
+      let pinBorder = '#FCA5A5';
+
+      if (isLvmActive && isDebitur) {
+        pinColor = '#059669'; // Hijau
+        pinBorder = '#6EE7B7';
+      } else if ((!isLvmActive && isDebitur) || (isLvmActive && !isDebitur)) {
+        pinColor = '#EAB308'; // Kuning
+        pinBorder = '#FDE68A';
+      } else {
+        pinColor = '#DC2626'; // Merah
+        pinBorder = '#FCA5A5';
+      }
+
       const iconClass = isLvmActive ? 'fa-solid fa-qrcode' : (m.kategori.includes('F&B') ? 'fa-solid fa-utensils' : 'fa-solid fa-store');
 
       // A. Add Map Marker
@@ -731,7 +749,7 @@ document.addEventListener('DOMContentLoaded', () => {
             box-shadow: 0 4px 12px rgba(0, 0, 0, 0.35);
             cursor: pointer;
             transition: transform 0.2s ease;
-          " title="${m.namaUsaha} (${m.statusLvm})">
+          " title="${m.namaUsaha} (${isLvmActive ? 'LVM' : 'Non-LVM'} | ${isDebitur ? 'Debitur' : 'Non-Debitur'})">
             <i class="${iconClass}"></i>
           </div>
         `,
@@ -751,10 +769,10 @@ document.addEventListener('DOMContentLoaded', () => {
           </div>
           <div style="display: flex; gap: 4px; margin-bottom: 8px; flex-wrap: wrap;">
             <span style="font-size: 10px; font-weight: 800; color: ${isLvmActive ? '#047857' : '#DC2626'}; background: ${isLvmActive ? '#D1FAE5' : '#FEE2E2'}; border: 1px solid ${isLvmActive ? '#6EE7B7' : '#FCA5A5'}; padding: 2px 8px; border-radius: 12px;">
-              LVM
+              ${isLvmActive ? 'LVM' : 'NON-LVM'}
             </span>
-            <span style="font-size: 10px; font-weight: 800; color: ${!isTarget ? '#047857' : '#DC2626'}; background: ${!isTarget ? '#D1FAE5' : '#FEE2E2'}; border: 1px solid ${!isTarget ? '#6EE7B7' : '#FCA5A5'}; padding: 2px 8px; border-radius: 12px;">
-              Debitur
+            <span style="font-size: 10px; font-weight: 800; color: ${isDebitur ? '#047857' : '#DC2626'}; background: ${isDebitur ? '#D1FAE5' : '#FEE2E2'}; border: 1px solid ${isDebitur ? '#6EE7B7' : '#FCA5A5'}; padding: 2px 8px; border-radius: 12px;">
+              ${isDebitur ? 'DEBITUR' : 'NON-DEBITUR'}
             </span>
           </div>
           <div style="font-size: 11px; color: #334155; margin-bottom: 8px;">
@@ -791,10 +809,10 @@ document.addEventListener('DOMContentLoaded', () => {
           <div class="card-title">${m.namaUsaha}</div>
           <div style="display: flex; gap: 4px; align-items: center; flex-shrink: 0;">
             <span class="tag-badge ${isLvmActive ? 'debitur' : 'target-kur'}">
-              LVM
+              ${isLvmActive ? 'LVM' : 'NON-LVM'}
             </span>
-            <span class="tag-badge ${!isTarget ? 'debitur' : 'target-kur'}">
-              Debitur
+            <span class="tag-badge ${isDebitur ? 'debitur' : 'target-kur'}">
+              ${isDebitur ? 'DEBITUR' : 'NON-DEBITUR'}
             </span>
           </div>
         </div>
@@ -978,7 +996,7 @@ document.addEventListener('DOMContentLoaded', () => {
         <td>${m.kategori}</td>
         <td>${m.omsetBulanan || '-'}</td>
         <td>${m.volumeSettlement || '-'}</td>
-        <td><span class="tag-badge ${isTarget ? 'target-kur' : 'debitur'}">${m.statusText || 'Target KUR'}</span></td>
+        <td><span class="tag-badge ${isTarget ? 'target-kur' : 'debitur'}">${m.statusText || 'Non-Debitur'}</span></td>
         <td><strong style="color: #003D79;">${m.potensiKredit || '-'}</strong></td>
         <td>${m.terminal || 'Livin Merchant'}</td>
       `;
@@ -1015,8 +1033,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const ws = XLSX.utils.json_to_sheet(data);
     const wb = XLSX.utils.book_new();
-    XLSX.utils.book_append_sheet(wb, ws, "Target_KUR_BlokM");
-    XLSX.writeFile(wb, "Mandiri_RegionV_Target_KUR_BlokM.xlsx");
+    XLSX.utils.book_append_sheet(wb, ws, "Non_Debitur_BlokM");
+    XLSX.writeFile(wb, "Mandiri_RegionV_Non_Debitur_BlokM.xlsx");
   }
 
   function exportExcelAllMerchants() {
@@ -1063,11 +1081,17 @@ document.addEventListener('DOMContentLoaded', () => {
       });
     }
 
-    if (lvmSelect) {
-      lvmSelect.addEventListener('change', (e) => {
-        currentLvmFilter = e.target.value;
-        renderMapLayersAndList();
+    if (btnLvmActive) btnLvmActive.addEventListener('click', () => setLvmFilter('LVM Active', btnLvmActive));
+    if (btnLvmBelum) btnLvmBelum.addEventListener('click', () => setLvmFilter('Belum LVM', btnLvmBelum));
+    if (btnLvmAll) btnLvmAll.addEventListener('click', () => setLvmFilter('ALL', btnLvmAll));
+
+    function setLvmFilter(filterVal, btn) {
+      currentLvmFilter = filterVal;
+      [btnLvmActive, btnLvmBelum, btnLvmAll].forEach(b => {
+        if (b) b.classList.remove('active');
       });
+      if (btn) btn.classList.add('active');
+      renderMapLayersAndList();
     }
 
     if (searchInput) {
