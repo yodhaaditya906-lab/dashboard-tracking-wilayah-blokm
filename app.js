@@ -316,6 +316,28 @@ document.addEventListener('DOMContentLoaded', () => {
     window.refreshDashboardLvm(merchantId);
   };
 
+  window.copyGpsPoint = function(btnElement, coordsText) {
+    if (navigator.clipboard && navigator.clipboard.writeText) {
+      navigator.clipboard.writeText(coordsText);
+    } else {
+      const ta = document.createElement('textarea');
+      ta.value = coordsText;
+      document.body.appendChild(ta);
+      ta.select();
+      document.execCommand('copy');
+      document.body.removeChild(ta);
+    }
+    if (btnElement) {
+      const origHtml = btnElement.innerHTML;
+      btnElement.innerHTML = '<i class="fa-solid fa-check"></i> Tersalin!';
+      btnElement.style.background = '#047857';
+      setTimeout(() => {
+        btnElement.innerHTML = origHtml;
+        btnElement.style.background = '#059669';
+      }, 1200);
+    }
+  };
+
   // 1. Initialize Map Focused Over Kebayoran Baru (Blok M, Blok C, Blok N)
   function initMap() {
     combinedBounds = L.latLngBounds(
@@ -412,9 +434,10 @@ document.addEventListener('DOMContentLoaded', () => {
               ">
                 <i class="fa-solid fa-arrow-up-right-from-square"></i> Google Maps
               </a>
-              <button onclick="navigator.clipboard.writeText('${lat.toFixed(6)}, ${lng.toFixed(6)}'); alert('Koordinat GPS disalin: ${lat.toFixed(6)}, ${lng.toFixed(6)}');" style="
+              <button onclick="window.copyGpsPoint(this, '${lat.toFixed(6)}, ${lng.toFixed(6)}')" style="
                 flex: 1; background: #059669; color: #FFFFFF; border: none;
                 padding: 6px 8px; border-radius: 6px; font-weight: 700; font-size: 10.5px; cursor: pointer;
+                transition: background 0.2s ease;
               ">
                 <i class="fa-solid fa-copy"></i> Salin Titik
               </button>
